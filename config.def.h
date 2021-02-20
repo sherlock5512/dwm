@@ -53,7 +53,12 @@ static int floatposgrid_x                = 5;  /* float grid columns */
 static int floatposgrid_y                = 5;  /* float grid rows */
 #endif // FLOATPOS_PATCH
 #if RIODRAW_PATCH
-static const char slopstyle[]            = "-t 0 -c 0.92,0.85,0.69,0.3"; /* do NOT define -f (format) here */
+static const char slopspawnstyle[]       = "-t 0 -c 0.92,0.85,0.69,0.3 -o"; /* do NOT define -f (format) here */
+static const char slopresizestyle[]      = "-t 0 -c 0.92,0.85,0.69,0.3"; /* do NOT define -f (format) here */
+static const int riodraw_borders         = 0;  /* 0 or 1, indicates whether the area drawn using slop includes the window borders */
+#if SWALLOW_PATCH
+static const int riodraw_matchpid        = 1;  /* 0 or 1, indicates whether to match the PID of the client that was spawned with riospawn */
+#endif // SWALLOW_PATCH
 #endif // RIODRAW_PATCH
 #if BAR_STATUSPADDING_PATCH
 static const int horizpadbar             = 2;   /* horizontal padding for statusbar */
@@ -535,6 +540,7 @@ static const Layout layouts[] = {
 	{ ":::",      flextile,         { -1, -1, NO_SPLIT, GAPPLESSGRID, GAPPLESSGRID, 0, NULL } }, // gappless grid
 	{ "[\\]",     flextile,         { -1, -1, NO_SPLIT, DWINDLE, DWINDLE, 0, NULL } }, // fibonacci dwindle
 	{ "(@)",      flextile,         { -1, -1, NO_SPLIT, SPIRAL, SPIRAL, 0, NULL } }, // fibonacci spiral
+	{ "[T]",      flextile,         { -1, -1, SPLIT_VERTICAL, LEFT_TO_RIGHT, TATAMI, 0, NULL } }, // tatami mats
 	#if TILE_LAYOUT
 	{ "[]=",      tile,             {0} },
 	#endif
@@ -757,6 +763,11 @@ static Key keys[] = {
 	#endif // KEYMODES_PATCH
 	{ MODKEY,                       XK_p,          spawn,                  {.v = dmenucmd } },
 	{ MODKEY|ShiftMask,             XK_Return,     spawn,                  {.v = termcmd } },
+	#if RIODRAW_PATCH
+	{ MODKEY|ControlMask,           XK_p,          riospawnsync,           {.v = dmenucmd } },
+	{ MODKEY|ControlMask,           XK_Return,     riospawn,               {.v = termcmd } },
+	{ MODKEY,                       XK_s,          rioresize,              {0} },
+	#endif // RIODRAW_PATCH
 	{ MODKEY,                       XK_b,          togglebar,              {0} },
 	#if FOCUSMASTER_PATCH
 	{ MODKEY|ControlMask,           XK_space,      focusmaster,            {0} },
@@ -777,9 +788,6 @@ static Key keys[] = {
 	#if SWAPFOCUS_PATCH && PERTAG_PATCH
 	{ MODKEY,                       XK_s,          swapfocus,              {.i = -1 } },
 	#endif // SWAPFOCUS_PATCH
-	#if RIODRAW_PATCH
-	{ MODKEY|ControlMask,           XK_s,          riodraw,                {0} },
-	#endif // RIODRAW_PATCH
 	#if SWITCHCOL_PATCH
 	{ MODKEY,                       XK_v,          switchcol,              {0} },
 	#endif // SWITCHCOL_PATCH
@@ -1171,14 +1179,20 @@ static Button buttons[] = {
 	#else
 	{ ClkStatusText,        0,                   Button2,        spawn,          {.v = termcmd } },
 	#endif // BAR_STATUSCMD_PATCH
-	{ ClkClientWin,         MODKEY,              Button1,        movemouse,      {0} },
 	#if PLACEMOUSE_PATCH
 	/* placemouse options, choose which feels more natural:
 	 *    0 - tiled position is relative to mouse cursor
 	 *    1 - tiled postiion is relative to window center
 	 *    2 - mouse pointer warps to window center
+	 *
+	 * The moveorplace uses movemouse or placemouse depending on the floating state
+	 * of the selected client. Set up individual keybindings for the two if you want
+	 * to control these separately (i.e. to retain the feature to move a tiled window
+	 * into a floating position).
 	 */
-	{ ClkClientWin,         MODKEY|ControlMask,  Button1,        placemouse,     {.i = 1} },
+	{ ClkClientWin,         MODKEY,              Button1,        moveorplace,    {.i = 1} },
+	#else
+	{ ClkClientWin,         MODKEY,              Button1,        movemouse,      {0} },
 	#endif // PLACEMOUSE_PATCH
 	{ ClkClientWin,         MODKEY,              Button2,        togglefloating, {0} },
 	{ ClkClientWin,         MODKEY,              Button3,        resizemouse,    {0} },
@@ -1451,7 +1465,7 @@ static IPCCommand ipccommands[] = {
 	IPCCOMMAND( moveresize, 1, {ARG_TYPE_STR} ),
 	#endif // MOVERESIZE_PATCH
 	#if RIODRAW_PATCH
-	IPCCOMMAND( riodraw, 1, {ARG_TYPE_NONE} ),
+	IPCCOMMAND( rioresize, 1, {ARG_TYPE_NONE} ),
 	#endif // RIODRAW_PATCH
 	#if PUSH_PATCH || PUSH_NO_MASTER_PATCH
 	IPCCOMMAND( pushdown, 1, {ARG_TYPE_NONE} ),
