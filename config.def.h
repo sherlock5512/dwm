@@ -322,17 +322,13 @@ static const char *const autostart[] = {
 #if SCRATCHPADS_PATCH
 const char *spcmd1[] = {"st", "-n", "spterm", "-g", "120x34",                       NULL };
 const char *spcmd2[] = {"st", "-n", "spfm",   "-g", "144x41", "-e", "ranger",       NULL };
-const char *spcmd3[] = {"st", "-n", "spmocp", "-g", "140x20", "-e", "mocp",         NULL };
-const char *spcmd4[] = {"st", "-n", "stMENU",                 "-e", "Launcher.sh",  NULL };
-const char *spcmd5[] = {"st", "-n", "stMAIL", "-g", "200x50", "-e", "neomutt",      NULL };
+const char *spcmd3[] = {"st", "-n", "stMAIL", "-g", "200x50", "-e", "neomutt",      NULL };
 
 static Sp scratchpads[] = {
   /* name          cmd  */
   {"spterm",      spcmd1},
   {"spranger",    spcmd2},
-  {"spmocp",      spcmd3},
-  {"MENU",        spcmd4},
-  {"mail",        spcmd5},
+  {"mail",        spcmd3},
 };
 #endif // SCRATCHPADS_PATCH
 
@@ -424,9 +420,7 @@ static const Rule rules[] = {
 #if SCRATCHPADS_PATCH
   RULE(.instance = "spterm",		.tags = SPTAG(0) FLOATING TERMINAL)
   RULE(.instance = "spfm",		.tags = SPTAG(1) FLOATING)
-  RULE(.instance = "spmocp",		.tags = SPTAG(2) FLOATING)
-  RULE(.instance = "stMENU",		.tags = SPTAG(3) FLOATING)
-  RULE(.instance = "stMAIL",		.tags = SPTAG(4) FLOATING)
+  RULE(.instance = "stMAIL",		.tags = SPTAG(2) FLOATING)
 #endif // SCRATCHPADS_PATCH
 
   RULE(.title = "FLOATER",		.tags = ~0 FLOATING)
@@ -768,9 +762,10 @@ static const char *dmenucmd[] = {
 };
 static const char *termcmd[]  = { "st", NULL };
 
-static const char	*lockcmd[]		= { "slockWrap", NULL};
-static const char	*rangercmd[]	= {"st", "-e", "ranger", NULL};
-static const char	*switchcmd[]	= { "rofi", "-show", "window", "-icon-theme", "Breeze", "-show-icons", NULL};
+static const char	*lockcmd[]    = { "slockWrap", NULL};
+static const char	*rangercmd[]  = {"st", "-e", "ranger", NULL};
+static const char	*switchcmd[]  = { "rofi", "-show", "window", "-icon-theme", "Breeze", "-show-icons", NULL};
+static const char *tasktuicmd[] = {"st", "-e", "taskwarrior-tui", NULL};
 
 #if BAR_STATUSCMD_PATCH && !BAR_DWMBLOCKS_PATCH
 /* commands spawned when clicking statusbar, the mouse button pressed is exported as BUTTON */
@@ -805,7 +800,7 @@ static Key keys[] = {
 #endif // FOCUSMASTER_PATCH
 #if STACKER_PATCH
   STACKKEYS(MODKEY,                              focus)
-    STACKKEYS(MODKEY|ShiftMask,                    push)
+  STACKKEYS(MODKEY|ShiftMask,                    push)
 #else
     { MODKEY,                       XK_j,          focusstack,             {.i = +1 } },
     { MODKEY,                       XK_k,          focusstack,             {.i = -1 } },
@@ -963,9 +958,7 @@ static Key keys[] = {
 #if SCRATCHPADS_PATCH
     { MODKEY,                       XK_grave,      togglescratch,          {.ui = 0 } },
     { MODKEY|ControlMask,           XK_grave,      togglescratch,          {.ui = 1 } },
-    { MODKEY|ShiftMask,             XK_grave,      togglescratch,          {.ui = 2 } },
-    { MODKEY|ControlMask,           XK_p,          togglescratch,          {.ui = 3 } },
-    { MODKEY|ShiftMask,             XK_m,          togglescratch,          {.ui = 4 } },
+    { MODKEY|ShiftMask,             XK_m,          togglescratch,          {.ui = 2 } },
 #endif // SCRATCHPADS_PATCH
 #if UNFLOATVISIBLE_PATCH
     { MODKEY|Mod4Mask,              XK_space,      unfloatvisible,         {0} },
@@ -1142,8 +1135,8 @@ static Key keys[] = {
     { MODKEY,                       XK_F2,         mpdchange,              {.i = +1} },
     { MODKEY,                       XK_Escape,     mpdcontrol,             {0} },
 #endif // MPDCONTROL_PATCH 
-    { Mod4Mask,                     XK_l,         spawn,                  {.v = lockcmd } },
-    { Mod4Mask,                     XK_period,    spawn,                  SHCMD("dmenuunicode") },
+    { Mod4Mask,                     XK_l,         spawn,                   {.v = lockcmd } },
+    { Mod4Mask,                     XK_period,    spawn,                   SHCMD("dmenuunicode") },
     { MODKEY,                       XK_r,         spawn,                   {.v = rangercmd}},
     { Mod4Mask,                     XK_v,         spawn,                   SHCMD("videoDownload") },
     { MODKEY,                       XK_slash,     spawn,                   SHCMD("dmenuman") },
@@ -1152,6 +1145,7 @@ static Key keys[] = {
     { ShiftMask,                    XK_Print,     spawn,                   SHCMD("PrtScrn Sel")},
     { MODKEY,                       XK_Print,     spawn,                   SHCMD("PrtScrn CurWinNow")},
     { ControlMask,                  XK_Print,     spawn,                   SHCMD("PrtScrn CurWin")},
+    { Mod4Mask,                     XK_t,         spawn,                   {.v = tasktuicmd}},
     TAGKEYS(                        XK_1,                                  0)
     TAGKEYS(                        XK_2,                                  1)
     TAGKEYS(                        XK_3,                                  2)
@@ -1171,6 +1165,7 @@ static Key keys[] = {
     { 0,  XF86XK_MonBrightnessDown, spawn,    SHCMD("xbacklight -dec 5")},
     { 0,  XF86XK_MonBrightnessUp,   spawn,    SHCMD("xbacklight -inc 5")},
     { 0,  XF86XK_Display,           spawn,    SHCMD("displayselect") },
+    { 0,  XF86XK_LaunchA,           spawn,    SHCMD("sysact")},
      /*TODO: ADD MUSIC SUPPORT (USE SCRIPT TO ALLOW FOR ALL EVENTUALITIES (MAYBE ALSO MPRIS))*/
 };
 

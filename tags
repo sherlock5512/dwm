@@ -4,32 +4,32 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
-ALTERNATIVE_TAGS	patch/bar_tagicons.h	/^	ALTERNATIVE_TAGS,$/;"	e	enum:__anon21
-ALT_TAGS_DECORATION	patch/bar_tagicons.h	/^	ALT_TAGS_DECORATION,$/;"	e	enum:__anon21
-ALWAYSFULLSCREEN_PATCH	patches.def.h	335;"	d
-ALWAYSFULLSCREEN_PATCH	patches.h	335;"	d
+ALTERNATIVE_TAGS	patch/bar_tagicons.h	/^	ALTERNATIVE_TAGS,$/;"	e	enum:__anon30
+ALT_TAGS_DECORATION	patch/bar_tagicons.h	/^	ALT_TAGS_DECORATION,$/;"	e	enum:__anon30
+ALWAYSFULLSCREEN_PATCH	patches.def.h	353;"	d
+ALWAYSFULLSCREEN_PATCH	patches.h	353;"	d
 ARG_TYPE_FLOAT	patch/ipc/ipc.h	/^  ARG_TYPE_FLOAT = 3,$/;"	e	enum:ArgType
 ARG_TYPE_NONE	patch/ipc/ipc.h	/^  ARG_TYPE_NONE = 0,$/;"	e	enum:ArgType
 ARG_TYPE_PTR	patch/ipc/ipc.h	/^  ARG_TYPE_PTR = 4,$/;"	e	enum:ArgType
 ARG_TYPE_SINT	patch/ipc/ipc.h	/^  ARG_TYPE_SINT = 2,$/;"	e	enum:ArgType
 ARG_TYPE_STR	patch/ipc/ipc.h	/^  ARG_TYPE_STR = 5$/;"	e	enum:ArgType
 ARG_TYPE_UINT	patch/ipc/ipc.h	/^  ARG_TYPE_UINT = 1,$/;"	e	enum:ArgType
-ASPECTRESIZE_PATCH	patches.def.h	329;"	d
-ASPECTRESIZE_PATCH	patches.h	329;"	d
-ATTACHABOVE_PATCH	patches.def.h	342;"	d
-ATTACHABOVE_PATCH	patches.h	342;"	d
-ATTACHASIDE_PATCH	patches.def.h	348;"	d
-ATTACHASIDE_PATCH	patches.h	348;"	d
-ATTACHBELOW_PATCH	patches.def.h	354;"	d
-ATTACHBELOW_PATCH	patches.h	354;"	d
-ATTACHBOTTOM_PATCH	patches.def.h	359;"	d
-ATTACHBOTTOM_PATCH	patches.h	359;"	d
-AUTORESIZE_PATCH	patches.def.h	373;"	d
-AUTORESIZE_PATCH	patches.h	373;"	d
-AUTOSTART_PATCH	patches.def.h	367;"	d
-AUTOSTART_PATCH	patches.h	367;"	d
-AXIS_LAST	patch/layout_flextile-deluxe.h	/^	AXIS_LAST,$/;"	e	enum:__anon28
-Arg	dwm.c	/^} Arg;$/;"	t	typeref:union:__anon7	file:
+ASPECTRESIZE_PATCH	patches.def.h	347;"	d
+ASPECTRESIZE_PATCH	patches.h	347;"	d
+ATTACHABOVE_PATCH	patches.def.h	360;"	d
+ATTACHABOVE_PATCH	patches.h	360;"	d
+ATTACHASIDE_PATCH	patches.def.h	366;"	d
+ATTACHASIDE_PATCH	patches.h	366;"	d
+ATTACHBELOW_PATCH	patches.def.h	372;"	d
+ATTACHBELOW_PATCH	patches.h	372;"	d
+ATTACHBOTTOM_PATCH	patches.def.h	377;"	d
+ATTACHBOTTOM_PATCH	patches.h	377;"	d
+AUTORESIZE_PATCH	patches.def.h	391;"	d
+AUTORESIZE_PATCH	patches.h	391;"	d
+AUTOSTART_PATCH	patches.def.h	385;"	d
+AUTOSTART_PATCH	patches.h	385;"	d
+AXIS_LAST	patch/layout_flextile-deluxe.h	/^	AXIS_LAST,$/;"	e	enum:__anon24
+Arg	dwm.c	/^} Arg;$/;"	t	typeref:union:__anon10	file:
 ArgFunction	patch/ipc/ipc.h	/^typedef union ArgFunction {$/;"	u
 ArgFunction	patch/ipc/ipc.h	/^} ArgFunction;$/;"	t	typeref:union:ArgFunction
 ArgType	patch/ipc/ipc.h	/^typedef enum ArgType {$/;"	g
@@ -40,311 +40,318 @@ BARTAB_FLOATWEIGHT	patch/bar_tabgroups.c	15;"	d	file:
 BARTAB_HIDDENWEIGHT	patch/bar_tabgroups.c	12;"	d	file:
 BARTAB_SHOWFLOATING	patch/bar_tabgroups.c	6;"	d	file:
 BARTAB_STACKWEIGHT	patch/bar_tabgroups.c	9;"	d	file:
-BAR_ACTIVETAGINDICATORBAR_ALT1_PATCH	patches.def.h	166;"	d
-BAR_ACTIVETAGINDICATORBAR_ALT1_PATCH	patches.h	166;"	d
-BAR_ACTIVETAGINDICATORBAR_PATCH	patches.def.h	160;"	d
-BAR_ACTIVETAGINDICATORBAR_PATCH	patches.h	160;"	d
-BAR_ALIGN_CENTER	dwm.c	/^	BAR_ALIGN_CENTER,$/;"	e	enum:__anon6	file:
-BAR_ALIGN_LAST	dwm.c	/^	BAR_ALIGN_LAST$/;"	e	enum:__anon6	file:
-BAR_ALIGN_LEFT	dwm.c	/^	BAR_ALIGN_LEFT,$/;"	e	enum:__anon6	file:
-BAR_ALIGN_LEFT_CENTER	dwm.c	/^	BAR_ALIGN_LEFT_CENTER,$/;"	e	enum:__anon6	file:
-BAR_ALIGN_LEFT_LEFT	dwm.c	/^	BAR_ALIGN_LEFT_LEFT,$/;"	e	enum:__anon6	file:
-BAR_ALIGN_LEFT_RIGHT	dwm.c	/^	BAR_ALIGN_LEFT_RIGHT,$/;"	e	enum:__anon6	file:
-BAR_ALIGN_NONE	dwm.c	/^	BAR_ALIGN_NONE,$/;"	e	enum:__anon6	file:
-BAR_ALIGN_RIGHT	dwm.c	/^	BAR_ALIGN_RIGHT,$/;"	e	enum:__anon6	file:
-BAR_ALIGN_RIGHT_CENTER	dwm.c	/^	BAR_ALIGN_RIGHT_CENTER,$/;"	e	enum:__anon6	file:
-BAR_ALIGN_RIGHT_LEFT	dwm.c	/^	BAR_ALIGN_RIGHT_LEFT,$/;"	e	enum:__anon6	file:
-BAR_ALIGN_RIGHT_RIGHT	dwm.c	/^	BAR_ALIGN_RIGHT_RIGHT,$/;"	e	enum:__anon6	file:
-BAR_ALPHA_PATCH	patches.def.h	173;"	d
-BAR_ALPHA_PATCH	patches.h	173;"	d
-BAR_ALTERNATIVE_TAGS_PATCH	patches.def.h	179;"	d
-BAR_ALTERNATIVE_TAGS_PATCH	patches.h	179;"	d
-BAR_ALTTAGSDECORATION_PATCH	patches.def.h	185;"	d
-BAR_ALTTAGSDECORATION_PATCH	patches.h	185;"	d
-BAR_ANYBAR_PATCH	patches.def.h	196;"	d
-BAR_ANYBAR_PATCH	patches.h	196;"	d
+BAR_ACTIVETAGINDICATORBAR_ALT1_PATCH	patches.def.h	175;"	d
+BAR_ACTIVETAGINDICATORBAR_ALT1_PATCH	patches.h	175;"	d
+BAR_ACTIVETAGINDICATORBAR_PATCH	patches.def.h	169;"	d
+BAR_ACTIVETAGINDICATORBAR_PATCH	patches.h	169;"	d
+BAR_ALIGN_CENTER	dwm.c	/^	BAR_ALIGN_CENTER,$/;"	e	enum:__anon9	file:
+BAR_ALIGN_LAST	dwm.c	/^	BAR_ALIGN_LAST$/;"	e	enum:__anon9	file:
+BAR_ALIGN_LEFT	dwm.c	/^	BAR_ALIGN_LEFT,$/;"	e	enum:__anon9	file:
+BAR_ALIGN_LEFT_CENTER	dwm.c	/^	BAR_ALIGN_LEFT_CENTER,$/;"	e	enum:__anon9	file:
+BAR_ALIGN_LEFT_LEFT	dwm.c	/^	BAR_ALIGN_LEFT_LEFT,$/;"	e	enum:__anon9	file:
+BAR_ALIGN_LEFT_RIGHT	dwm.c	/^	BAR_ALIGN_LEFT_RIGHT,$/;"	e	enum:__anon9	file:
+BAR_ALIGN_NONE	dwm.c	/^	BAR_ALIGN_NONE,$/;"	e	enum:__anon9	file:
+BAR_ALIGN_RIGHT	dwm.c	/^	BAR_ALIGN_RIGHT,$/;"	e	enum:__anon9	file:
+BAR_ALIGN_RIGHT_CENTER	dwm.c	/^	BAR_ALIGN_RIGHT_CENTER,$/;"	e	enum:__anon9	file:
+BAR_ALIGN_RIGHT_LEFT	dwm.c	/^	BAR_ALIGN_RIGHT_LEFT,$/;"	e	enum:__anon9	file:
+BAR_ALIGN_RIGHT_RIGHT	dwm.c	/^	BAR_ALIGN_RIGHT_RIGHT,$/;"	e	enum:__anon9	file:
+BAR_ALPHA_PATCH	patches.def.h	182;"	d
+BAR_ALPHA_PATCH	patches.h	182;"	d
+BAR_ALTERNATIVE_TAGS_PATCH	patches.def.h	188;"	d
+BAR_ALTERNATIVE_TAGS_PATCH	patches.h	188;"	d
+BAR_ALTTAGSDECORATION_PATCH	patches.def.h	194;"	d
+BAR_ALTTAGSDECORATION_PATCH	patches.h	194;"	d
+BAR_ANYBAR_PATCH	patches.def.h	205;"	d
+BAR_ANYBAR_PATCH	patches.h	205;"	d
 BAR_AWESOMEBAR_PATCH	patches.def.h	22;"	d
 BAR_AWESOMEBAR_PATCH	patches.h	22;"	d
-BAR_BORDER_PATCH	patches.def.h	201;"	d
-BAR_BORDER_PATCH	patches.h	201;"	d
-BAR_CENTEREDWINDOWNAME_PATCH	patches.def.h	208;"	d
-BAR_CENTEREDWINDOWNAME_PATCH	patches.h	208;"	d
-BAR_CLIENTINDICATOR_PATCH	patches.def.h	215;"	d
-BAR_CLIENTINDICATOR_PATCH	patches.h	215;"	d
-BAR_COLOR_EMOJI_PATCH	patches.def.h	223;"	d
-BAR_COLOR_EMOJI_PATCH	patches.h	223;"	d
-BAR_DMENUMATCHTOP_PATCH	patches.def.h	229;"	d
-BAR_DMENUMATCHTOP_PATCH	patches.h	229;"	d
+BAR_BORDER_PATCH	patches.def.h	210;"	d
+BAR_BORDER_PATCH	patches.h	210;"	d
+BAR_CENTEREDWINDOWNAME_PATCH	patches.def.h	217;"	d
+BAR_CENTEREDWINDOWNAME_PATCH	patches.h	217;"	d
+BAR_CLIENTINDICATOR_PATCH	patches.def.h	224;"	d
+BAR_CLIENTINDICATOR_PATCH	patches.h	224;"	d
+BAR_COLOR_EMOJI_PATCH	patches.def.h	232;"	d
+BAR_COLOR_EMOJI_PATCH	patches.h	232;"	d
+BAR_DMENUMATCHTOP_PATCH	patches.def.h	238;"	d
+BAR_DMENUMATCHTOP_PATCH	patches.h	238;"	d
 BAR_DWMBLOCKS_PATCH	patches.def.h	29;"	d
 BAR_DWMBLOCKS_PATCH	patches.h	29;"	d
-BAR_EWMHTAGS_PATCH	patches.def.h	243;"	d
-BAR_EWMHTAGS_PATCH	patches.h	243;"	d
-BAR_EXTRASTATUS_PATCH	patches.def.h	236;"	d
-BAR_EXTRASTATUS_PATCH	patches.h	236;"	d
+BAR_EWMHTAGS_PATCH	patches.def.h	261;"	d
+BAR_EWMHTAGS_PATCH	patches.h	261;"	d
+BAR_EXTRASTATUS_PATCH	patches.def.h	245;"	d
+BAR_EXTRASTATUS_PATCH	patches.h	245;"	d
 BAR_FANCYBAR_PATCH	patches.def.h	37;"	d
 BAR_FANCYBAR_PATCH	patches.h	37;"	d
 BAR_FLEXWINTITLE_PATCH	patches.def.h	43;"	d
 BAR_FLEXWINTITLE_PATCH	patches.h	43;"	d
-BAR_HEIGHT_PATCH	patches.def.h	248;"	d
-BAR_HEIGHT_PATCH	patches.h	248;"	d
-BAR_HIDEVACANTTAGS_PATCH	patches.def.h	253;"	d
-BAR_HIDEVACANTTAGS_PATCH	patches.h	253;"	d
-BAR_HOLDBAR_PATCH	patches.def.h	259;"	d
-BAR_HOLDBAR_PATCH	patches.h	259;"	d
-BAR_IGNORE_XFT_ERRORS_WHEN_DRAWING_TEXT_PATCH	patches.def.h	266;"	d
-BAR_IGNORE_XFT_ERRORS_WHEN_DRAWING_TEXT_PATCH	patches.h	266;"	d
-BAR_LTSYMBOL_PATCH	patches.def.h	46;"	d
-BAR_LTSYMBOL_PATCH	patches.h	46;"	d
-BAR_PADDING_PATCH	patches.def.h	271;"	d
-BAR_PADDING_PATCH	patches.h	271;"	d
-BAR_PANGO_PATCH	patches.def.h	292;"	d
-BAR_PANGO_PATCH	patches.h	292;"	d
-BAR_POWERLINE_STATUS_PATCH	patches.def.h	64;"	d
-BAR_POWERLINE_STATUS_PATCH	patches.h	64;"	d
-BAR_POWERLINE_TAGS_PATCH	patches.def.h	69;"	d
-BAR_POWERLINE_TAGS_PATCH	patches.h	69;"	d
-BAR_POWERLINE_TAGS_SLASH_PATCH	patches.def.h	72;"	d
-BAR_POWERLINE_TAGS_SLASH_PATCH	patches.h	72;"	d
-BAR_STATUS2D_NO_ALPHA_PATCH	patches.def.h	106;"	d
-BAR_STATUS2D_NO_ALPHA_PATCH	patches.h	106;"	d
-BAR_STATUS2D_PATCH	patches.def.h	103;"	d
-BAR_STATUS2D_PATCH	patches.h	103;"	d
-BAR_STATUS2D_XRDB_TERMCOLORS_PATCH	patches.def.h	114;"	d
-BAR_STATUS2D_XRDB_TERMCOLORS_PATCH	patches.h	114;"	d
-BAR_STATUSBUTTON_PATCH	patches.def.h	90;"	d
-BAR_STATUSBUTTON_PATCH	patches.h	90;"	d
-BAR_STATUSCMD_PATCH	patches.def.h	96;"	d
-BAR_STATUSCMD_PATCH	patches.h	96;"	d
-BAR_STATUSCOLORS_PATCH	patches.def.h	299;"	d
-BAR_STATUSCOLORS_PATCH	patches.h	299;"	d
-BAR_STATUSPADDING_PATCH	patches.def.h	304;"	d
-BAR_STATUSPADDING_PATCH	patches.h	304;"	d
-BAR_STATUS_PATCH	patches.def.h	85;"	d
-BAR_STATUS_PATCH	patches.h	85;"	d
-BAR_SYSTRAY_PATCH	patches.def.h	119;"	d
-BAR_SYSTRAY_PATCH	patches.h	119;"	d
-BAR_TABGROUPS_PATCH	patches.def.h	77;"	d
-BAR_TABGROUPS_PATCH	patches.h	77;"	d
-BAR_TAGGRID_PATCH	patches.def.h	82;"	d
-BAR_TAGGRID_PATCH	patches.h	82;"	d
-BAR_TAGS_PATCH	patches.def.h	122;"	d
-BAR_TAGS_PATCH	patches.h	122;"	d
-BAR_TITLE_LEFT_PAD_PATCH	patches.def.h	149;"	d
-BAR_TITLE_LEFT_PAD_PATCH	patches.h	149;"	d
-BAR_TITLE_RIGHT_PAD_PATCH	patches.def.h	148;"	d
-BAR_TITLE_RIGHT_PAD_PATCH	patches.h	148;"	d
-BAR_VTCOLORS_PATCH	patches.def.h	311;"	d
-BAR_VTCOLORS_PATCH	patches.h	311;"	d
-BAR_WINTITLEACTIONS_PATCH	patches.def.h	320;"	d
-BAR_WINTITLEACTIONS_PATCH	patches.h	320;"	d
-BAR_WINTITLE_FLOATING_PATCH	patches.def.h	133;"	d
-BAR_WINTITLE_FLOATING_PATCH	patches.h	133;"	d
-BAR_WINTITLE_HIDDEN_PATCH	patches.def.h	141;"	d
-BAR_WINTITLE_HIDDEN_PATCH	patches.h	141;"	d
-BAR_WINTITLE_PATCH	patches.def.h	125;"	d
-BAR_WINTITLE_PATCH	patches.h	125;"	d
+BAR_HEIGHT_PATCH	patches.def.h	266;"	d
+BAR_HEIGHT_PATCH	patches.h	266;"	d
+BAR_HIDEVACANTTAGS_PATCH	patches.def.h	271;"	d
+BAR_HIDEVACANTTAGS_PATCH	patches.h	271;"	d
+BAR_HOLDBAR_PATCH	patches.def.h	277;"	d
+BAR_HOLDBAR_PATCH	patches.h	277;"	d
+BAR_IGNORE_XFT_ERRORS_WHEN_DRAWING_TEXT_PATCH	patches.def.h	284;"	d
+BAR_IGNORE_XFT_ERRORS_WHEN_DRAWING_TEXT_PATCH	patches.h	284;"	d
+BAR_LAYOUTMENU_PATCH	patches.def.h	52;"	d
+BAR_LAYOUTMENU_PATCH	patches.h	52;"	d
+BAR_LTSYMBOL_PATCH	patches.def.h	55;"	d
+BAR_LTSYMBOL_PATCH	patches.h	55;"	d
+BAR_PADDING_PATCH	patches.def.h	289;"	d
+BAR_PADDING_PATCH	patches.h	289;"	d
+BAR_PANGO_PATCH	patches.def.h	310;"	d
+BAR_PANGO_PATCH	patches.h	310;"	d
+BAR_POWERLINE_STATUS_PATCH	patches.def.h	73;"	d
+BAR_POWERLINE_STATUS_PATCH	patches.h	73;"	d
+BAR_POWERLINE_TAGS_PATCH	patches.def.h	78;"	d
+BAR_POWERLINE_TAGS_PATCH	patches.h	78;"	d
+BAR_POWERLINE_TAGS_SLASH_PATCH	patches.def.h	81;"	d
+BAR_POWERLINE_TAGS_SLASH_PATCH	patches.h	81;"	d
+BAR_STATUS2D_NO_ALPHA_PATCH	patches.def.h	115;"	d
+BAR_STATUS2D_NO_ALPHA_PATCH	patches.h	115;"	d
+BAR_STATUS2D_PATCH	patches.def.h	112;"	d
+BAR_STATUS2D_PATCH	patches.h	112;"	d
+BAR_STATUS2D_XRDB_TERMCOLORS_PATCH	patches.def.h	123;"	d
+BAR_STATUS2D_XRDB_TERMCOLORS_PATCH	patches.h	123;"	d
+BAR_STATUSBUTTON_PATCH	patches.def.h	99;"	d
+BAR_STATUSBUTTON_PATCH	patches.h	99;"	d
+BAR_STATUSCMD_PATCH	patches.def.h	105;"	d
+BAR_STATUSCMD_PATCH	patches.h	105;"	d
+BAR_STATUSCOLORS_PATCH	patches.def.h	317;"	d
+BAR_STATUSCOLORS_PATCH	patches.h	317;"	d
+BAR_STATUSPADDING_PATCH	patches.def.h	322;"	d
+BAR_STATUSPADDING_PATCH	patches.h	322;"	d
+BAR_STATUS_PATCH	patches.def.h	94;"	d
+BAR_STATUS_PATCH	patches.h	94;"	d
+BAR_SYSTRAY_PATCH	patches.def.h	128;"	d
+BAR_SYSTRAY_PATCH	patches.h	128;"	d
+BAR_TABGROUPS_PATCH	patches.def.h	86;"	d
+BAR_TABGROUPS_PATCH	patches.h	86;"	d
+BAR_TAGGRID_PATCH	patches.def.h	91;"	d
+BAR_TAGGRID_PATCH	patches.h	91;"	d
+BAR_TAGS_PATCH	patches.def.h	131;"	d
+BAR_TAGS_PATCH	patches.h	131;"	d
+BAR_TITLE_LEFT_PAD_PATCH	patches.def.h	158;"	d
+BAR_TITLE_LEFT_PAD_PATCH	patches.h	158;"	d
+BAR_TITLE_RIGHT_PAD_PATCH	patches.def.h	157;"	d
+BAR_TITLE_RIGHT_PAD_PATCH	patches.h	157;"	d
+BAR_VTCOLORS_PATCH	patches.def.h	329;"	d
+BAR_VTCOLORS_PATCH	patches.h	329;"	d
+BAR_WINTITLEACTIONS_PATCH	patches.def.h	338;"	d
+BAR_WINTITLEACTIONS_PATCH	patches.h	338;"	d
+BAR_WINTITLE_FLOATING_PATCH	patches.def.h	142;"	d
+BAR_WINTITLE_FLOATING_PATCH	patches.h	142;"	d
+BAR_WINTITLE_HIDDEN_PATCH	patches.def.h	150;"	d
+BAR_WINTITLE_HIDDEN_PATCH	patches.h	150;"	d
+BAR_WINTITLE_PATCH	patches.def.h	134;"	d
+BAR_WINTITLE_PATCH	patches.h	134;"	d
 BETWEEN	util.h	9;"	d
-BSTACKHORIZ_LAYOUT	patches.def.h	1056;"	d
-BSTACKHORIZ_LAYOUT	patches.h	1056;"	d
-BSTACK_LAYOUT	patches.def.h	1051;"	d
-BSTACK_LAYOUT	patches.h	1051;"	d
+BSTACKHORIZ_LAYOUT	patches.def.h	1111;"	d
+BSTACKHORIZ_LAYOUT	patches.h	1111;"	d
+BSTACK_LAYOUT	patches.def.h	1106;"	d
+BSTACK_LAYOUT	patches.h	1106;"	d
 BUTTONMASK	dwm.c	72;"	d	file:
 Bar	dwm.c	/^struct Bar {$/;"	s	file:
 Bar	dwm.c	/^typedef struct Bar Bar;$/;"	t	typeref:struct:Bar	file:
-BarArg	dwm.c	/^} BarArg;$/;"	t	typeref:struct:__anon8	file:
-BarRule	dwm.c	/^} BarRule;$/;"	t	typeref:struct:__anon9	file:
-Button	dwm.c	/^} Button;$/;"	t	typeref:struct:__anon10	file:
+BarArg	dwm.c	/^} BarArg;$/;"	t	typeref:struct:__anon11	file:
+BarRule	dwm.c	/^} BarRule;$/;"	t	typeref:struct:__anon12	file:
+Button	dwm.c	/^} Button;$/;"	t	typeref:struct:__anon13	file:
 Button6	dwm.c	66;"	d	file:
 Button7	dwm.c	67;"	d	file:
 Button8	dwm.c	68;"	d	file:
 Button9	dwm.c	69;"	d	file:
 CC	config.mk	/^CC = cc$/;"	m
-CENTERED	dwm.c	483;"	d	file:
-CENTERED	dwm.c	485;"	d	file:
-CENTEREDFLOATINGMASTER_LAYOUT	patches.def.h	1066;"	d
-CENTEREDFLOATINGMASTER_LAYOUT	patches.h	1066;"	d
-CENTEREDMASTER_LAYOUT	patches.def.h	1061;"	d
-CENTEREDMASTER_LAYOUT	patches.h	1061;"	d
-CENTER_PATCH	patches.def.h	379;"	d
-CENTER_PATCH	patches.h	379;"	d
-CENTER_TRANSIENT_WINDOWS_BY_PARENT_PATCH	patches.def.h	396;"	d
-CENTER_TRANSIENT_WINDOWS_BY_PARENT_PATCH	patches.h	396;"	d
-CENTER_TRANSIENT_WINDOWS_PATCH	patches.def.h	391;"	d
-CENTER_TRANSIENT_WINDOWS_PATCH	patches.h	391;"	d
-CFACTS_PATCH	patches.def.h	402;"	d
-CFACTS_PATCH	patches.h	402;"	d
+CENTERED	dwm.c	490;"	d	file:
+CENTERED	dwm.c	492;"	d	file:
+CENTEREDFLOATINGMASTER_LAYOUT	patches.def.h	1121;"	d
+CENTEREDFLOATINGMASTER_LAYOUT	patches.h	1121;"	d
+CENTEREDMASTER_LAYOUT	patches.def.h	1116;"	d
+CENTEREDMASTER_LAYOUT	patches.h	1116;"	d
+CENTER_PATCH	patches.def.h	397;"	d
+CENTER_PATCH	patches.h	397;"	d
+CENTER_TRANSIENT_WINDOWS_BY_PARENT_PATCH	patches.def.h	414;"	d
+CENTER_TRANSIENT_WINDOWS_BY_PARENT_PATCH	patches.h	414;"	d
+CENTER_TRANSIENT_WINDOWS_PATCH	patches.def.h	409;"	d
+CENTER_TRANSIENT_WINDOWS_PATCH	patches.h	409;"	d
+CFACTS_PATCH	patches.def.h	420;"	d
+CFACTS_PATCH	patches.h	420;"	d
 CFLAGS	config.mk	/^CFLAGS   = -std=c99 -pedantic -Wall -Wno-deprecated-declarations -Os ${INCS} ${CPPFLAGS}$/;"	m
 CLEANMASK	dwm.c	73;"	d	file:
-CMDCUSTOMIZE_PATCH	patches.def.h	407;"	d
-CMDCUSTOMIZE_PATCH	patches.h	407;"	d
-COLUMNS_LAYOUT	patches.def.h	1072;"	d
-COLUMNS_LAYOUT	patches.h	1072;"	d
-COMBO_PATCH	patches.def.h	414;"	d
-COMBO_PATCH	patches.h	414;"	d
+CMDCUSTOMIZE_PATCH	patches.def.h	425;"	d
+CMDCUSTOMIZE_PATCH	patches.h	425;"	d
+COLUMNS_LAYOUT	patches.def.h	1127;"	d
+COLUMNS_LAYOUT	patches.h	1127;"	d
+COMBO_PATCH	patches.def.h	432;"	d
+COMBO_PATCH	patches.h	432;"	d
 COMMANDMODE	patch/keymodes.h	1;"	d
-COOL_AUTOSTART_PATCH	patches.def.h	420;"	d
-COOL_AUTOSTART_PATCH	patches.h	420;"	d
+COOL_AUTOSTART_PATCH	patches.def.h	438;"	d
+COOL_AUTOSTART_PATCH	patches.h	438;"	d
 CPPFLAGS	config.mk	/^CPPFLAGS = -D_DEFAULT_SOURCE -D_BSD_SOURCE -D_POSIX_C_SOURCE=200809L -DVERSION=\\"${VERSION}\\" ${XINERAMAFLAGS}$/;"	m
-CYCLELAYOUTS_PATCH	patches.def.h	425;"	d
-CYCLELAYOUTS_PATCH	patches.h	425;"	d
+CYCLELAYOUTS_PATCH	patches.def.h	443;"	d
+CYCLELAYOUTS_PATCH	patches.h	443;"	d
 Client	dwm.c	/^struct Client {$/;"	s	file:
 Client	dwm.c	/^typedef struct Client Client;$/;"	t	typeref:struct:Client	file:
 ClientState	dwm.c	/^struct ClientState {$/;"	s	file:
 ClientState	dwm.c	/^typedef struct ClientState ClientState;$/;"	t	typeref:struct:ClientState	file:
-ClkButton	dwm.c	/^	ClkButton,$/;"	e	enum:__anon5	file:
-ClkClientWin	dwm.c	/^	ClkClientWin,$/;"	e	enum:__anon5	file:
-ClkLast	dwm.c	/^	ClkLast$/;"	e	enum:__anon5	file:
-ClkLtSymbol	dwm.c	/^	ClkLtSymbol,$/;"	e	enum:__anon5	file:
-ClkRootWin	dwm.c	/^	ClkRootWin,$/;"	e	enum:__anon5	file:
-ClkStatusText	dwm.c	/^	ClkStatusText,$/;"	e	enum:__anon5	file:
-ClkTagBar	dwm.c	/^	ClkTagBar,$/;"	e	enum:__anon5	file:
-ClkWinTitle	dwm.c	/^	ClkWinTitle,$/;"	e	enum:__anon5	file:
+ClkButton	dwm.c	/^	ClkButton,$/;"	e	enum:__anon8	file:
+ClkClientWin	dwm.c	/^	ClkClientWin,$/;"	e	enum:__anon8	file:
+ClkLast	dwm.c	/^	ClkLast$/;"	e	enum:__anon8	file:
+ClkLtSymbol	dwm.c	/^	ClkLtSymbol,$/;"	e	enum:__anon8	file:
+ClkRootWin	dwm.c	/^	ClkRootWin,$/;"	e	enum:__anon8	file:
+ClkStatusText	dwm.c	/^	ClkStatusText,$/;"	e	enum:__anon8	file:
+ClkTagBar	dwm.c	/^	ClkTagBar,$/;"	e	enum:__anon8	file:
+ClkWinTitle	dwm.c	/^	ClkWinTitle,$/;"	e	enum:__anon8	file:
 Clr	drw.h	/^typedef XftColor Clr;$/;"	t
-ColBg	drw.h	/^enum { ColFg, ColBg, ColBorder, ColFloat, ColCount }; \/* Clr scheme index *\/$/;"	e	enum:__anon33
-ColBorder	drw.h	/^enum { ColFg, ColBg, ColBorder, ColFloat, ColCount }; \/* Clr scheme index *\/$/;"	e	enum:__anon33
-ColCount	drw.h	/^enum { ColFg, ColBg, ColBorder, ColFloat, ColCount }; \/* Clr scheme index *\/$/;"	e	enum:__anon33
-ColFg	drw.h	/^enum { ColFg, ColBg, ColBorder, ColFloat, ColCount }; \/* Clr scheme index *\/$/;"	e	enum:__anon33
-ColFloat	drw.h	/^enum { ColFg, ColBg, ColBorder, ColFloat, ColCount }; \/* Clr scheme index *\/$/;"	e	enum:__anon33
-Command	patch/keymodes.h	/^} Command;$/;"	t	typeref:struct:__anon18
-Cur	drw.h	/^} Cur;$/;"	t	typeref:struct:__anon32
-CurIronCross	dwm.c	/^	CurIronCross,$/;"	e	enum:__anon1	file:
-CurLast	dwm.c	/^	CurLast$/;"	e	enum:__anon1	file:
-CurMove	dwm.c	/^	CurMove,$/;"	e	enum:__anon1	file:
-CurNormal	dwm.c	/^	CurNormal,$/;"	e	enum:__anon1	file:
-CurResize	dwm.c	/^	CurResize,$/;"	e	enum:__anon1	file:
-CurResizeBL	dwm.c	/^	CurResizeBL,$/;"	e	enum:__anon1	file:
-CurResizeBR	dwm.c	/^	CurResizeBR,$/;"	e	enum:__anon1	file:
-CurResizeHorzArrow	dwm.c	/^	CurResizeHorzArrow,$/;"	e	enum:__anon1	file:
-CurResizeTL	dwm.c	/^	CurResizeTL,$/;"	e	enum:__anon1	file:
-CurResizeTR	dwm.c	/^	CurResizeTR,$/;"	e	enum:__anon1	file:
-CurResizeVertArrow	dwm.c	/^	CurResizeVertArrow,$/;"	e	enum:__anon1	file:
+ColBg	drw.h	/^enum { ColFg, ColBg, ColBorder, ColFloat, ColCount }; \/* Clr scheme index *\/$/;"	e	enum:__anon2
+ColBorder	drw.h	/^enum { ColFg, ColBg, ColBorder, ColFloat, ColCount }; \/* Clr scheme index *\/$/;"	e	enum:__anon2
+ColCount	drw.h	/^enum { ColFg, ColBg, ColBorder, ColFloat, ColCount }; \/* Clr scheme index *\/$/;"	e	enum:__anon2
+ColFg	drw.h	/^enum { ColFg, ColBg, ColBorder, ColFloat, ColCount }; \/* Clr scheme index *\/$/;"	e	enum:__anon2
+ColFloat	drw.h	/^enum { ColFg, ColBg, ColBorder, ColFloat, ColCount }; \/* Clr scheme index *\/$/;"	e	enum:__anon2
+Command	patch/keymodes.h	/^} Command;$/;"	t	typeref:struct:__anon31
+Cur	drw.h	/^} Cur;$/;"	t	typeref:struct:__anon1
+CurIronCross	dwm.c	/^	CurIronCross,$/;"	e	enum:__anon4	file:
+CurLast	dwm.c	/^	CurLast$/;"	e	enum:__anon4	file:
+CurMove	dwm.c	/^	CurMove,$/;"	e	enum:__anon4	file:
+CurNormal	dwm.c	/^	CurNormal,$/;"	e	enum:__anon4	file:
+CurResize	dwm.c	/^	CurResize,$/;"	e	enum:__anon4	file:
+CurResizeBL	dwm.c	/^	CurResizeBL,$/;"	e	enum:__anon4	file:
+CurResizeBR	dwm.c	/^	CurResizeBR,$/;"	e	enum:__anon4	file:
+CurResizeHorzArrow	dwm.c	/^	CurResizeHorzArrow,$/;"	e	enum:__anon4	file:
+CurResizeTL	dwm.c	/^	CurResizeTL,$/;"	e	enum:__anon4	file:
+CurResizeTR	dwm.c	/^	CurResizeTR,$/;"	e	enum:__anon4	file:
+CurResizeVertArrow	dwm.c	/^	CurResizeVertArrow,$/;"	e	enum:__anon4	file:
 DEBUG	util.h	12;"	d
 DEBUG	util.h	14;"	d
-DECK_LAYOUT	patches.def.h	1077;"	d
-DECK_LAYOUT	patches.h	1077;"	d
-DECORATION_HINTS_PATCH	patches.def.h	434;"	d
-DECORATION_HINTS_PATCH	patches.h	434;"	d
+DECK_LAYOUT	patches.def.h	1132;"	d
+DECK_LAYOUT	patches.h	1132;"	d
+DECORATION_HINTS_PATCH	patches.def.h	452;"	d
+DECORATION_HINTS_PATCH	patches.h	452;"	d
 DEFAULT_SOCKET_PATH	patch/ipc/dwm-msg.c	/^const char *DEFAULT_SOCKET_PATH = "\/tmp\/dwm.sock";$/;"	v
-DEFAULT_TAGS	patch/bar_tagicons.h	/^	DEFAULT_TAGS,$/;"	e	enum:__anon21
-DRAGCFACT_PATCH	patches.def.h	439;"	d
-DRAGCFACT_PATCH	patches.h	439;"	d
-DRAGMFACT_PATCH	patches.def.h	446;"	d
-DRAGMFACT_PATCH	patches.h	446;"	d
-DWINDLE	patch/layout_flextile-deluxe.h	/^	DWINDLE,           \/\/ clients are arranged in fibonacci dwindle mode$/;"	e	enum:__anon28
-DWMC_PATCH	patches.def.h	454;"	d
-DWMC_PATCH	patches.h	454;"	d
-Drw	drw.h	/^} Drw;$/;"	t	typeref:struct:__anon34
-EMPTYVIEW_PATCH	patches.def.h	461;"	d
-EMPTYVIEW_PATCH	patches.h	461;"	d
+DEFAULT_TAGS	patch/bar_tagicons.h	/^	DEFAULT_TAGS,$/;"	e	enum:__anon30
+DRAGCFACT_PATCH	patches.def.h	457;"	d
+DRAGCFACT_PATCH	patches.h	457;"	d
+DRAGMFACT_PATCH	patches.def.h	464;"	d
+DRAGMFACT_PATCH	patches.h	464;"	d
+DWINDLE	patch/layout_flextile-deluxe.h	/^	DWINDLE,           \/\/ clients are arranged in fibonacci dwindle mode$/;"	e	enum:__anon24
+DWMC_PATCH	patches.def.h	472;"	d
+DWMC_PATCH	patches.h	472;"	d
+Drw	drw.h	/^} Drw;$/;"	t	typeref:struct:__anon3
+EMPTYVIEW_PATCH	patches.def.h	479;"	d
+EMPTYVIEW_PATCH	patches.h	479;"	d
 EXPANDALL	patch/exresize.c	9;"	d	file:
 EXPAND_DOWN	patch/exresize.c	4;"	d	file:
 EXPAND_LEFT	patch/exresize.c	1;"	d	file:
 EXPAND_RIGHT	patch/exresize.c	2;"	d	file:
 EXPAND_UP	patch/exresize.c	3;"	d	file:
-EXRESIZE_PATCH	patches.def.h	468;"	d
-EXRESIZE_PATCH	patches.h	468;"	d
-EX_C	patch/exresize.h	/^enum { EX_NW, EX_N, EX_NE, EX_W, EX_C, EX_E, EX_SW, EX_S, EX_SE };$/;"	e	enum:__anon30
-EX_E	patch/exresize.h	/^enum { EX_NW, EX_N, EX_NE, EX_W, EX_C, EX_E, EX_SW, EX_S, EX_SE };$/;"	e	enum:__anon30
-EX_N	patch/exresize.h	/^enum { EX_NW, EX_N, EX_NE, EX_W, EX_C, EX_E, EX_SW, EX_S, EX_SE };$/;"	e	enum:__anon30
-EX_NE	patch/exresize.h	/^enum { EX_NW, EX_N, EX_NE, EX_W, EX_C, EX_E, EX_SW, EX_S, EX_SE };$/;"	e	enum:__anon30
-EX_NW	patch/exresize.h	/^enum { EX_NW, EX_N, EX_NE, EX_W, EX_C, EX_E, EX_SW, EX_S, EX_SE };$/;"	e	enum:__anon30
-EX_S	patch/exresize.h	/^enum { EX_NW, EX_N, EX_NE, EX_W, EX_C, EX_E, EX_SW, EX_S, EX_SE };$/;"	e	enum:__anon30
-EX_SE	patch/exresize.h	/^enum { EX_NW, EX_N, EX_NE, EX_W, EX_C, EX_E, EX_SW, EX_S, EX_SE };$/;"	e	enum:__anon30
-EX_SW	patch/exresize.h	/^enum { EX_NW, EX_N, EX_NE, EX_W, EX_C, EX_E, EX_SW, EX_S, EX_SE };$/;"	e	enum:__anon30
-EX_W	patch/exresize.h	/^enum { EX_NW, EX_N, EX_NE, EX_W, EX_C, EX_E, EX_SW, EX_S, EX_SE };$/;"	e	enum:__anon30
-FAKEFULLSCREEN	dwm.c	493;"	d	file:
-FAKEFULLSCREEN	dwm.c	495;"	d	file:
-FAKEFULLSCREEN_CLIENT_PATCH	patches.def.h	485;"	d
-FAKEFULLSCREEN_CLIENT_PATCH	patches.h	485;"	d
-FAKEFULLSCREEN_PATCH	patches.def.h	476;"	d
-FAKEFULLSCREEN_PATCH	patches.h	476;"	d
-FIBONACCI_DWINDLE_LAYOUT	patches.def.h	1082;"	d
-FIBONACCI_DWINDLE_LAYOUT	patches.h	1082;"	d
-FIBONACCI_SPIRAL_LAYOUT	patches.def.h	1087;"	d
-FIBONACCI_SPIRAL_LAYOUT	patches.h	1087;"	d
+EXRESIZE_PATCH	patches.def.h	486;"	d
+EXRESIZE_PATCH	patches.h	486;"	d
+EX_C	patch/exresize.h	/^enum { EX_NW, EX_N, EX_NE, EX_W, EX_C, EX_E, EX_SW, EX_S, EX_SE };$/;"	e	enum:__anon34
+EX_E	patch/exresize.h	/^enum { EX_NW, EX_N, EX_NE, EX_W, EX_C, EX_E, EX_SW, EX_S, EX_SE };$/;"	e	enum:__anon34
+EX_N	patch/exresize.h	/^enum { EX_NW, EX_N, EX_NE, EX_W, EX_C, EX_E, EX_SW, EX_S, EX_SE };$/;"	e	enum:__anon34
+EX_NE	patch/exresize.h	/^enum { EX_NW, EX_N, EX_NE, EX_W, EX_C, EX_E, EX_SW, EX_S, EX_SE };$/;"	e	enum:__anon34
+EX_NW	patch/exresize.h	/^enum { EX_NW, EX_N, EX_NE, EX_W, EX_C, EX_E, EX_SW, EX_S, EX_SE };$/;"	e	enum:__anon34
+EX_S	patch/exresize.h	/^enum { EX_NW, EX_N, EX_NE, EX_W, EX_C, EX_E, EX_SW, EX_S, EX_SE };$/;"	e	enum:__anon34
+EX_SE	patch/exresize.h	/^enum { EX_NW, EX_N, EX_NE, EX_W, EX_C, EX_E, EX_SW, EX_S, EX_SE };$/;"	e	enum:__anon34
+EX_SW	patch/exresize.h	/^enum { EX_NW, EX_N, EX_NE, EX_W, EX_C, EX_E, EX_SW, EX_S, EX_SE };$/;"	e	enum:__anon34
+EX_W	patch/exresize.h	/^enum { EX_NW, EX_N, EX_NE, EX_W, EX_C, EX_E, EX_SW, EX_S, EX_SE };$/;"	e	enum:__anon34
+FAKEFULLSCREEN	dwm.c	500;"	d	file:
+FAKEFULLSCREEN	dwm.c	502;"	d	file:
+FAKEFULLSCREEN_CLIENT_PATCH	patches.def.h	503;"	d
+FAKEFULLSCREEN_CLIENT_PATCH	patches.h	503;"	d
+FAKEFULLSCREEN_PATCH	patches.def.h	494;"	d
+FAKEFULLSCREEN_PATCH	patches.h	494;"	d
+FIBONACCI_DWINDLE_LAYOUT	patches.def.h	1137;"	d
+FIBONACCI_DWINDLE_LAYOUT	patches.h	1137;"	d
+FIBONACCI_SPIRAL_LAYOUT	patches.def.h	1142;"	d
+FIBONACCI_SPIRAL_LAYOUT	patches.h	1142;"	d
 FLEXTILE_DELUXE_LAYOUT	dwm.c	50;"	d	file:
-FLEXTILE_DELUXE_LAYOUT	patches.def.h	1093;"	d
-FLEXTILE_DELUXE_LAYOUT	patches.h	1093;"	d
+FLEXTILE_DELUXE_LAYOUT	patches.def.h	1148;"	d
+FLEXTILE_DELUXE_LAYOUT	patches.h	1148;"	d
 FLEXWINTITLE_BORDERS	patch/bar_flexwintitle.c	3;"	d	file:
 FLEXWINTITLE_FLOATWEIGHT	patch/bar_flexwintitle.c	18;"	d	file:
 FLEXWINTITLE_HIDDENWEIGHT	patch/bar_flexwintitle.c	15;"	d	file:
 FLEXWINTITLE_MASTERWEIGHT	patch/bar_flexwintitle.c	9;"	d	file:
 FLEXWINTITLE_SHOWFLOATING	patch/bar_flexwintitle.c	6;"	d	file:
 FLEXWINTITLE_STACKWEIGHT	patch/bar_flexwintitle.c	12;"	d	file:
-FLOATING	dwm.c	481;"	d	file:
-FLOATING_MASTER	patch/layout_flextile-deluxe.h	/^	FLOATING_MASTER,                   \/\/ (fake) floating master$/;"	e	enum:__anon27
-FLOATING_MASTER_FIXED	patch/layout_flextile-deluxe.h	/^	FLOATING_MASTER_FIXED,             \/\/ (fake) fixed floating master$/;"	e	enum:__anon27
-FLOATPOS_PATCH	patches.def.h	493;"	d
-FLOATPOS_PATCH	patches.h	493;"	d
-FLOATPOS_RESPECT_GAPS_PATCH	patches.def.h	496;"	d
-FLOATPOS_RESPECT_GAPS_PATCH	patches.h	496;"	d
-FOCUSADJACENTTAG_PATCH	patches.def.h	503;"	d
-FOCUSADJACENTTAG_PATCH	patches.h	503;"	d
-FOCUSMASTER_PATCH	patches.def.h	508;"	d
-FOCUSMASTER_PATCH	patches.h	508;"	d
-FOCUSONCLICK_PATCH	patches.def.h	513;"	d
-FOCUSONCLICK_PATCH	patches.h	513;"	d
-FOCUSONNETACTIVE_PATCH	patches.def.h	526;"	d
-FOCUSONNETACTIVE_PATCH	patches.h	526;"	d
-FOCUSURGENT_PATCH	patches.def.h	520;"	d
-FOCUSURGENT_PATCH	patches.h	520;"	d
+FLOATING	dwm.c	488;"	d	file:
+FLOATING_MASTER	patch/layout_flextile-deluxe.h	/^	FLOATING_MASTER,                   \/\/ (fake) floating master$/;"	e	enum:__anon23
+FLOATING_MASTER_FIXED	patch/layout_flextile-deluxe.h	/^	FLOATING_MASTER_FIXED,             \/\/ (fake) fixed floating master$/;"	e	enum:__anon23
+FLOATPOS_PATCH	patches.def.h	511;"	d
+FLOATPOS_PATCH	patches.h	511;"	d
+FLOATPOS_RESPECT_GAPS_PATCH	patches.def.h	514;"	d
+FLOATPOS_RESPECT_GAPS_PATCH	patches.h	514;"	d
+FOCUSADJACENTTAG_PATCH	patches.def.h	521;"	d
+FOCUSADJACENTTAG_PATCH	patches.h	521;"	d
+FOCUSDIR_PATCH	patches.def.h	526;"	d
+FOCUSDIR_PATCH	patches.h	526;"	d
+FOCUSMASTER_PATCH	patches.def.h	531;"	d
+FOCUSMASTER_PATCH	patches.h	531;"	d
+FOCUSONCLICK_PATCH	patches.def.h	536;"	d
+FOCUSONCLICK_PATCH	patches.h	536;"	d
+FOCUSONNETACTIVE_PATCH	patches.def.h	549;"	d
+FOCUSONNETACTIVE_PATCH	patches.h	549;"	d
+FOCUSURGENT_PATCH	patches.def.h	543;"	d
+FOCUSURGENT_PATCH	patches.h	543;"	d
 FORCE_EXPANDALL	patch/exresize.c	11;"	d	file:
-FORCE_VSPLIT	config.def.h	234;"	d
-FORCE_VSPLIT	config.h	234;"	d
+FORCE_VSPLIT	config.def.h	550;"	d
+FORCE_VSPLIT	config.h	550;"	d
 FREETYPEINC	config.mk	/^FREETYPEINC = \/usr\/include\/freetype2$/;"	m
 FREETYPELIBS	config.mk	/^FREETYPELIBS = -lfontconfig -lXft$/;"	m
-FSIGNAL_PATCH	patches.def.h	533;"	d
-FSIGNAL_PATCH	patches.h	533;"	d
-FULLSCREEN_PATCH	patches.def.h	539;"	d
-FULLSCREEN_PATCH	patches.h	539;"	d
+FSIGNAL_PATCH	patches.def.h	556;"	d
+FSIGNAL_PATCH	patches.h	556;"	d
+FULLSCREEN_PATCH	patches.def.h	562;"	d
+FULLSCREEN_PATCH	patches.h	562;"	d
 Fnt	drw.h	/^typedef struct Fnt {$/;"	s
 Fnt	drw.h	/^} Fnt;$/;"	t	typeref:struct:Fnt
-GAPPLESSGRID	patch/layout_flextile-deluxe.h	/^	GAPPLESSGRID,      \/\/ clients are arranged in a gappless grid (original formula)$/;"	e	enum:__anon28
-GAPPLESSGRID_ALT1	patch/layout_flextile-deluxe.h	/^	GAPPLESSGRID_ALT1, \/\/ clients are arranged in a gappless grid (alt. 1, fills rows first)$/;"	e	enum:__anon28
-GAPPLESSGRID_ALT2	patch/layout_flextile-deluxe.h	/^	GAPPLESSGRID_ALT2, \/\/ clients are arranged in a gappless grid (alt. 2, fills columns first)$/;"	e	enum:__anon28
-GAPPLESSGRID_LAYOUT	patches.def.h	1098;"	d
-GAPPLESSGRID_LAYOUT	patches.h	1098;"	d
+GAPPLESSGRID	patch/layout_flextile-deluxe.h	/^	GAPPLESSGRID,      \/\/ clients are arranged in a gappless grid (original formula)$/;"	e	enum:__anon24
+GAPPLESSGRID_ALT1	patch/layout_flextile-deluxe.h	/^	GAPPLESSGRID_ALT1, \/\/ clients are arranged in a gappless grid (alt. 1, fills rows first)$/;"	e	enum:__anon24
+GAPPLESSGRID_ALT2	patch/layout_flextile-deluxe.h	/^	GAPPLESSGRID_ALT2, \/\/ clients are arranged in a gappless grid (alt. 2, fills columns first)$/;"	e	enum:__anon24
+GAPPLESSGRID_LAYOUT	patches.def.h	1153;"	d
+GAPPLESSGRID_LAYOUT	patches.h	1153;"	d
 GETINC	patch/stacker.h	1;"	d
-GRIDMODE	patch/layout_flextile-deluxe.h	/^	GRIDMODE,          \/\/ clients are arranged in a grid$/;"	e	enum:__anon28
-GRIDMODE_LAYOUT	patches.def.h	1103;"	d
-GRIDMODE_LAYOUT	patches.h	1103;"	d
-GRP_FLOAT	patch/bar_flexwintitle.c	/^enum { GRP_NOSELECTION, GRP_MASTER, GRP_STACK1, GRP_STACK2, GRP_FLOAT, GRP_HIDDEN };$/;"	e	enum:__anon24	file:
-GRP_HIDDEN	patch/bar_flexwintitle.c	/^enum { GRP_NOSELECTION, GRP_MASTER, GRP_STACK1, GRP_STACK2, GRP_FLOAT, GRP_HIDDEN };$/;"	e	enum:__anon24	file:
-GRP_MASTER	patch/bar_flexwintitle.c	/^enum { GRP_NOSELECTION, GRP_MASTER, GRP_STACK1, GRP_STACK2, GRP_FLOAT, GRP_HIDDEN };$/;"	e	enum:__anon24	file:
-GRP_NOSELECTION	patch/bar_flexwintitle.c	/^enum { GRP_NOSELECTION, GRP_MASTER, GRP_STACK1, GRP_STACK2, GRP_FLOAT, GRP_HIDDEN };$/;"	e	enum:__anon24	file:
-GRP_STACK1	patch/bar_flexwintitle.c	/^enum { GRP_NOSELECTION, GRP_MASTER, GRP_STACK1, GRP_STACK2, GRP_FLOAT, GRP_HIDDEN };$/;"	e	enum:__anon24	file:
-GRP_STACK2	patch/bar_flexwintitle.c	/^enum { GRP_NOSELECTION, GRP_MASTER, GRP_STACK1, GRP_STACK2, GRP_FLOAT, GRP_HIDDEN };$/;"	e	enum:__anon24	file:
+GRIDMODE	patch/layout_flextile-deluxe.h	/^	GRIDMODE,          \/\/ clients are arranged in a grid$/;"	e	enum:__anon24
+GRIDMODE_LAYOUT	patches.def.h	1158;"	d
+GRIDMODE_LAYOUT	patches.h	1158;"	d
+GRP_FLOAT	patch/bar_flexwintitle.c	/^enum { GRP_NOSELECTION, GRP_MASTER, GRP_STACK1, GRP_STACK2, GRP_FLOAT, GRP_HIDDEN };$/;"	e	enum:__anon21	file:
+GRP_HIDDEN	patch/bar_flexwintitle.c	/^enum { GRP_NOSELECTION, GRP_MASTER, GRP_STACK1, GRP_STACK2, GRP_FLOAT, GRP_HIDDEN };$/;"	e	enum:__anon21	file:
+GRP_MASTER	patch/bar_flexwintitle.c	/^enum { GRP_NOSELECTION, GRP_MASTER, GRP_STACK1, GRP_STACK2, GRP_FLOAT, GRP_HIDDEN };$/;"	e	enum:__anon21	file:
+GRP_NOSELECTION	patch/bar_flexwintitle.c	/^enum { GRP_NOSELECTION, GRP_MASTER, GRP_STACK1, GRP_STACK2, GRP_FLOAT, GRP_HIDDEN };$/;"	e	enum:__anon21	file:
+GRP_STACK1	patch/bar_flexwintitle.c	/^enum { GRP_NOSELECTION, GRP_MASTER, GRP_STACK1, GRP_STACK2, GRP_FLOAT, GRP_HIDDEN };$/;"	e	enum:__anon21	file:
+GRP_STACK2	patch/bar_flexwintitle.c	/^enum { GRP_NOSELECTION, GRP_MASTER, GRP_STACK1, GRP_STACK2, GRP_FLOAT, GRP_HIDDEN };$/;"	e	enum:__anon21	file:
 HEIGHT	dwm.c	95;"	d	file:
 HIDDEN	dwm.c	107;"	d	file:
 HIDDEN	patch/bar_flexwintitle.c	213;"	d	file:
 HIDDEN	patch/bar_tabgroups.c	83;"	d	file:
-HORIZGRID	patch/layout_flextile-deluxe.h	/^	HORIZGRID,         \/\/ clients are arranged in a horizontal grid$/;"	e	enum:__anon28
-HORIZGRID_LAYOUT	patches.def.h	1108;"	d
-HORIZGRID_LAYOUT	patches.h	1108;"	d
+HOLDKEY	config.def.h	744;"	d
+HOLDKEY	config.h	744;"	d
+HORIZGRID	patch/layout_flextile-deluxe.h	/^	HORIZGRID,         \/\/ clients are arranged in a horizontal grid$/;"	e	enum:__anon24
+HORIZGRID_LAYOUT	patches.def.h	1163;"	d
+HORIZGRID_LAYOUT	patches.h	1163;"	d
 INC	patch/stacker.h	2;"	d
 INCS	config.mk	/^INCS = -I${X11INC} -I${FREETYPEINC} ${YAJLINC} ${PANGOINC}$/;"	m
-INDICATOR_BOTTOM_BAR	patch/bar_indicators.h	/^	INDICATOR_BOTTOM_BAR,$/;"	e	enum:__anon17
-INDICATOR_BOTTOM_BAR_SLIM	patch/bar_indicators.h	/^	INDICATOR_BOTTOM_BAR_SLIM,$/;"	e	enum:__anon17
-INDICATOR_BOX	patch/bar_indicators.h	/^	INDICATOR_BOX,$/;"	e	enum:__anon17
-INDICATOR_BOX_FULL	patch/bar_indicators.h	/^	INDICATOR_BOX_FULL,$/;"	e	enum:__anon17
-INDICATOR_BOX_WIDER	patch/bar_indicators.h	/^	INDICATOR_BOX_WIDER,$/;"	e	enum:__anon17
-INDICATOR_CLIENT_DOTS	patch/bar_indicators.h	/^	INDICATOR_CLIENT_DOTS,$/;"	e	enum:__anon17
-INDICATOR_NONE	patch/bar_indicators.h	/^	INDICATOR_NONE,$/;"	e	enum:__anon17
-INDICATOR_PLUS	patch/bar_indicators.h	/^	INDICATOR_PLUS,$/;"	e	enum:__anon17
-INDICATOR_PLUS_AND_LARGER_SQUARE	patch/bar_indicators.h	/^	INDICATOR_PLUS_AND_LARGER_SQUARE,$/;"	e	enum:__anon17
-INDICATOR_PLUS_AND_SQUARE	patch/bar_indicators.h	/^	INDICATOR_PLUS_AND_SQUARE,$/;"	e	enum:__anon17
-INDICATOR_RIGHT_TAGS	patch/bar_indicators.h	/^	INDICATOR_RIGHT_TAGS,$/;"	e	enum:__anon17
-INDICATOR_TOP_BAR	patch/bar_indicators.h	/^	INDICATOR_TOP_BAR,$/;"	e	enum:__anon17
-INDICATOR_TOP_BAR_SLIM	patch/bar_indicators.h	/^	INDICATOR_TOP_BAR_SLIM,$/;"	e	enum:__anon17
-INDICATOR_TOP_LEFT_LARGER_SQUARE	patch/bar_indicators.h	/^	INDICATOR_TOP_LEFT_LARGER_SQUARE,$/;"	e	enum:__anon17
-INDICATOR_TOP_LEFT_SQUARE	patch/bar_indicators.h	/^	INDICATOR_TOP_LEFT_SQUARE,$/;"	e	enum:__anon17
-INPLACEROTATE_PATCH	patches.def.h	545;"	d
-INPLACEROTATE_PATCH	patches.h	545;"	d
+INDICATOR_BOTTOM_BAR	patch/bar_indicators.h	/^	INDICATOR_BOTTOM_BAR,$/;"	e	enum:__anon26
+INDICATOR_BOTTOM_BAR_SLIM	patch/bar_indicators.h	/^	INDICATOR_BOTTOM_BAR_SLIM,$/;"	e	enum:__anon26
+INDICATOR_BOX	patch/bar_indicators.h	/^	INDICATOR_BOX,$/;"	e	enum:__anon26
+INDICATOR_BOX_FULL	patch/bar_indicators.h	/^	INDICATOR_BOX_FULL,$/;"	e	enum:__anon26
+INDICATOR_BOX_WIDER	patch/bar_indicators.h	/^	INDICATOR_BOX_WIDER,$/;"	e	enum:__anon26
+INDICATOR_CLIENT_DOTS	patch/bar_indicators.h	/^	INDICATOR_CLIENT_DOTS,$/;"	e	enum:__anon26
+INDICATOR_NONE	patch/bar_indicators.h	/^	INDICATOR_NONE,$/;"	e	enum:__anon26
+INDICATOR_PLUS	patch/bar_indicators.h	/^	INDICATOR_PLUS,$/;"	e	enum:__anon26
+INDICATOR_PLUS_AND_LARGER_SQUARE	patch/bar_indicators.h	/^	INDICATOR_PLUS_AND_LARGER_SQUARE,$/;"	e	enum:__anon26
+INDICATOR_PLUS_AND_SQUARE	patch/bar_indicators.h	/^	INDICATOR_PLUS_AND_SQUARE,$/;"	e	enum:__anon26
+INDICATOR_RIGHT_TAGS	patch/bar_indicators.h	/^	INDICATOR_RIGHT_TAGS,$/;"	e	enum:__anon26
+INDICATOR_TOP_BAR	patch/bar_indicators.h	/^	INDICATOR_TOP_BAR,$/;"	e	enum:__anon26
+INDICATOR_TOP_BAR_SLIM	patch/bar_indicators.h	/^	INDICATOR_TOP_BAR_SLIM,$/;"	e	enum:__anon26
+INDICATOR_TOP_LEFT_LARGER_SQUARE	patch/bar_indicators.h	/^	INDICATOR_TOP_LEFT_LARGER_SQUARE,$/;"	e	enum:__anon26
+INDICATOR_TOP_LEFT_SQUARE	patch/bar_indicators.h	/^	INDICATOR_TOP_LEFT_SQUARE,$/;"	e	enum:__anon26
+INPLACEROTATE_PATCH	patches.def.h	568;"	d
+INPLACEROTATE_PATCH	patches.h	568;"	d
 INSERTMODE	patch/keymodes.h	2;"	d
-INSETS_PATCH	patches.def.h	551;"	d
-INSETS_PATCH	patches.h	551;"	d
+INSETS_PATCH	patches.def.h	574;"	d
+INSETS_PATCH	patches.h	574;"	d
 INTERSECT	dwm.c	75;"	d	file:
 INTERSECT	dwm.c	78;"	d	file:
+INTERSECTC	patch/placemouse.h	1;"	d
 IPCCOMMAND	patch/ipc/ipc.h	15;"	d
 IPCClient	patch/ipc/IPCClient.h	/^struct IPCClient {$/;"	s
 IPCClient	patch/ipc/IPCClient.h	/^typedef struct IPCClient IPCClient;$/;"	t	typeref:struct:IPCClient
@@ -383,8 +390,8 @@ IPC_MAGIC_ARR	patch/ipc/dwm-msg.c	16;"	d	file:
 IPC_MAGIC_ARR	patch/ipc/ipc.h	12;"	d
 IPC_MAGIC_LEN	patch/ipc/dwm-msg.c	18;"	d	file:
 IPC_MAGIC_LEN	patch/ipc/ipc.h	13;"	d
-IPC_PATCH	patches.def.h	565;"	d
-IPC_PATCH	patches.h	565;"	d
+IPC_PATCH	patches.def.h	588;"	d
+IPC_PATCH	patches.h	588;"	d
 IPC_SOCKET_BACKLOG	patch/ipc/ipc.c	/^static const int IPC_SOCKET_BACKLOG = 5;$/;"	v	file:
 IPC_TYPE_EVENT	patch/ipc/dwm-msg.c	/^  IPC_TYPE_EVENT = 6$/;"	e	enum:IPCMessageType	file:
 IPC_TYPE_EVENT	patch/ipc/ipc.h	/^  IPC_TYPE_EVENT = 6$/;"	e	enum:IPCMessageType
@@ -401,8 +408,8 @@ IPC_TYPE_RUN_COMMAND	patch/ipc/ipc.h	/^  IPC_TYPE_RUN_COMMAND = 0,$/;"	e	enum:IP
 IPC_TYPE_SUBSCRIBE	patch/ipc/dwm-msg.c	/^  IPC_TYPE_SUBSCRIBE = 5,$/;"	e	enum:IPCMessageType	file:
 IPC_TYPE_SUBSCRIBE	patch/ipc/ipc.h	/^  IPC_TYPE_SUBSCRIBE = 5,$/;"	e	enum:IPCMessageType
 ISINC	patch/stacker.h	3;"	d
-ISPERMANENT_PATCH	patches.def.h	570;"	d
-ISPERMANENT_PATCH	patches.h	570;"	d
+ISPERMANENT_PATCH	patches.def.h	593;"	d
+ISPERMANENT_PATCH	patches.h	593;"	d
 ISVISIBLE	dwm.c	83;"	d	file:
 ISVISIBLE	dwm.c	86;"	d	file:
 ISVISIBLE	dwm.c	88;"	d	file:
@@ -411,327 +418,367 @@ ISVISIBLEONTAG	dwm.c	82;"	d	file:
 ISVISIBLEONTAG	dwm.c	85;"	d	file:
 IS_FORCED	patch/exresize.c	7;"	d	file:
 IS_SET	patch/exresize.c	6;"	d	file:
-Inset	dwm.c	/^} Inset;$/;"	t	typeref:struct:__anon14	file:
-KEYMODES_PATCH	patches.def.h	576;"	d
-KEYMODES_PATCH	patches.h	576;"	d
-KILLUNSEL_PATCH	patches.def.h	581;"	d
-KILLUNSEL_PATCH	patches.h	581;"	d
-Key	dwm.c	/^} Key;$/;"	t	typeref:struct:__anon11	file:
-LAYOUT	patch/layout_flextile-deluxe.h	/^	LAYOUT,       \/\/ controls overall layout arrangement \/ split$/;"	e	enum:__anon26
-LAYOUT_LAST	patch/layout_flextile-deluxe.h	/^	LAYOUT_LAST,$/;"	e	enum:__anon27
+Inset	dwm.c	/^} Inset;$/;"	t	typeref:struct:__anon17	file:
+KEYMODES_PATCH	patches.def.h	599;"	d
+KEYMODES_PATCH	patches.h	599;"	d
+KILLUNSEL_PATCH	patches.def.h	604;"	d
+KILLUNSEL_PATCH	patches.h	604;"	d
+Key	dwm.c	/^} Key;$/;"	t	typeref:struct:__anon14	file:
+LAYOUT	patch/layout_flextile-deluxe.h	/^	LAYOUT,       \/\/ controls overall layout arrangement \/ split$/;"	e	enum:__anon22
+LAYOUT_LAST	patch/layout_flextile-deluxe.h	/^	LAYOUT_LAST,$/;"	e	enum:__anon23
 LDFLAGS	config.mk	/^LDFLAGS  = ${LIBS}$/;"	m
-LEFT_TO_RIGHT	patch/layout_flextile-deluxe.h	/^	LEFT_TO_RIGHT,     \/\/ clients are arranged horizontally$/;"	e	enum:__anon28
+LEFT_TO_RIGHT	patch/layout_flextile-deluxe.h	/^	LEFT_TO_RIGHT,     \/\/ clients are arranged horizontally$/;"	e	enum:__anon24
 LENGTH	dwm.c	92;"	d	file:
 LIBS	config.mk	/^LIBS = -L${X11LIB} -lX11 ${XINERAMALIBS} ${FREETYPELIBS}  ${XRENDER} ${MPDCLIENT} ${XEXTLIB} ${XCBLIBS} ${KVMLIB} ${PANGOLIB} ${YAJLLIBS}$/;"	m
-LOSEFULLSCREEN_PATCH	patches.def.h	590;"	d
-LOSEFULLSCREEN_PATCH	patches.h	590;"	d
-LTAXIS_LAST	patch/layout_flextile-deluxe.h	/^	LTAXIS_LAST,$/;"	e	enum:__anon26
-Layout	dwm.c	/^} Layout;$/;"	t	typeref:struct:__anon13	file:
-LayoutArranger	patch/layout_flextile-deluxe.c	/^} LayoutArranger;$/;"	t	typeref:struct:__anon19	file:
-LayoutPreset	dwm.c	/^} LayoutPreset;$/;"	t	typeref:struct:__anon12	file:
+LOSEFULLSCREEN_PATCH	patches.def.h	613;"	d
+LOSEFULLSCREEN_PATCH	patches.h	613;"	d
+LTAXIS_LAST	patch/layout_flextile-deluxe.h	/^	LTAXIS_LAST,$/;"	e	enum:__anon22
+Layout	dwm.c	/^} Layout;$/;"	t	typeref:struct:__anon16	file:
+LayoutArranger	patch/layout_flextile-deluxe.c	/^} LayoutArranger;$/;"	t	typeref:struct:__anon28	file:
+LayoutPreset	dwm.c	/^} LayoutPreset;$/;"	t	typeref:struct:__anon15	file:
 MANPREFIX	config.mk	/^MANPREFIX = ${PREFIX}\/share\/man$/;"	m
-MASTER	patch/layout_flextile-deluxe.h	/^	MASTER,       \/\/ indicates the tile arrangement for the master area$/;"	e	enum:__anon26
+MASTER	patch/layout_flextile-deluxe.h	/^	MASTER,       \/\/ indicates the tile arrangement for the master area$/;"	e	enum:__anon22
 MAX	util.h	4;"	d
-MAXIMIZE_PATCH	patches.def.h	596;"	d
-MAXIMIZE_PATCH	patches.h	596;"	d
+MAXIMIZE_PATCH	patches.def.h	619;"	d
+MAXIMIZE_PATCH	patches.h	619;"	d
 MAX_MESSAGE_SIZE	patch/ipc/ipc.c	/^static const uint32_t MAX_MESSAGE_SIZE = 1000000;$/;"	v	file:
-MDPCONTROL_PATCH	patches.def.h	605;"	d
-MDPCONTROL_PATCH	patches.h	605;"	d
 MIN	util.h	7;"	d
 MOD	patch/stacker.h	5;"	d
-MODKEY	config.def.h	254;"	d
-MODKEY	config.h	254;"	d
-MONITOR_RULES_PATCH	patches.def.h	613;"	d
-MONITOR_RULES_PATCH	patches.h	613;"	d
-MONOCLE	patch/layout_flextile-deluxe.h	/^	MONOCLE,           \/\/ clients are arranged in deck \/ monocle mode$/;"	e	enum:__anon28
-MONOCLESYMBOL_PATCH	patches.def.h	619;"	d
-MONOCLESYMBOL_PATCH	patches.h	619;"	d
-MONOCLE_LAYOUT	patches.def.h	1123;"	d
-MONOCLE_LAYOUT	patches.h	1123;"	d
+MODKEY	config.def.h	669;"	d
+MODKEY	config.h	669;"	d
+MONITOR_RULES_PATCH	patches.def.h	636;"	d
+MONITOR_RULES_PATCH	patches.h	636;"	d
+MONOCLE	patch/layout_flextile-deluxe.h	/^	MONOCLE,           \/\/ clients are arranged in deck \/ monocle mode$/;"	e	enum:__anon24
+MONOCLESYMBOL_PATCH	patches.def.h	642;"	d
+MONOCLESYMBOL_PATCH	patches.h	642;"	d
+MONOCLE_LAYOUT	patches.def.h	1178;"	d
+MONOCLE_LAYOUT	patches.h	1178;"	d
 MOUSEMASK	dwm.c	93;"	d	file:
-MOVEPLACE_PATCH	patches.def.h	626;"	d
-MOVEPLACE_PATCH	patches.h	626;"	d
-MOVERESIZE_PATCH	patches.def.h	631;"	d
-MOVERESIZE_PATCH	patches.h	631;"	d
-MOVESTACK_PATCH	patches.def.h	636;"	d
-MOVESTACK_PATCH	patches.h	636;"	d
-MPDHOST	patch/mdpcontrol.c	8;"	d	file:
-MPDPORT	patch/mdpcontrol.c	9;"	d	file:
+MOVEPLACE_PATCH	patches.def.h	649;"	d
+MOVEPLACE_PATCH	patches.h	649;"	d
+MOVERESIZE_PATCH	patches.def.h	654;"	d
+MOVERESIZE_PATCH	patches.h	654;"	d
+MOVESTACK_PATCH	patches.def.h	659;"	d
+MOVESTACK_PATCH	patches.h	659;"	d
+MPDCONTROL_PATCH	patches.def.h	628;"	d
+MPDCONTROL_PATCH	patches.h	628;"	d
+MPDHOST	patch/mpdcontrol.c	8;"	d	file:
+MPDPORT	patch/mpdcontrol.c	9;"	d	file:
 MWM_DECOR_ALL	patch/decorationhints.h	4;"	d
 MWM_DECOR_BORDER	patch/decorationhints.h	5;"	d
 MWM_DECOR_TITLE	patch/decorationhints.h	6;"	d
 MWM_HINTS_DECORATIONS	patch/decorationhints.h	3;"	d
 MWM_HINTS_DECORATIONS_FIELD	patch/decorationhints.h	2;"	d
 MWM_HINTS_FLAGS_FIELD	patch/decorationhints.h	1;"	d
-Manager	patch/bar_systray.h	/^enum { Manager, Xembed, XembedInfo, XLast }; \/* Xembed atoms *\/$/;"	e	enum:__anon31
+Manager	patch/bar_systray.h	/^enum { Manager, Xembed, XembedInfo, XLast }; \/* Xembed atoms *\/$/;"	e	enum:__anon32
 Monitor	dwm.c	/^struct Monitor {$/;"	s	file:
 Monitor	dwm.c	/^typedef struct Monitor Monitor;$/;"	t	typeref:struct:Monitor	file:
-MonitorRule	dwm.c	/^} MonitorRule;$/;"	t	typeref:struct:__anon16	file:
-NOBORDER_PATCH	patches.def.h	641;"	d
-NOBORDER_PATCH	patches.h	641;"	d
-NODMENU_PATCH	patches.def.h	647;"	d
-NODMENU_PATCH	patches.h	647;"	d
-NOSWALLOW	dwm.c	498;"	d	file:
-NOSWALLOW	dwm.c	501;"	d	file:
-NO_MOD_BUTTONS_PATCH	patches.def.h	661;"	d
-NO_MOD_BUTTONS_PATCH	patches.h	661;"	d
-NO_SPLIT	patch/layout_flextile-deluxe.h	/^	NO_SPLIT,$/;"	e	enum:__anon27
-NO_TRANSPARENT_BORDERS_PATCH	patches.def.h	669;"	d
-NO_TRANSPARENT_BORDERS_PATCH	patches.h	669;"	d
-NROWGRID_LAYOUT	patches.def.h	1113;"	d
-NROWGRID_LAYOUT	patches.h	1113;"	d
+MonitorRule	dwm.c	/^} MonitorRule;$/;"	t	typeref:struct:__anon19	file:
+NET_CLIENT_LIST_STACKING_PATCH	patches.def.h	665;"	d
+NET_CLIENT_LIST_STACKING_PATCH	patches.h	665;"	d
+NOBORDER_PATCH	patches.def.h	670;"	d
+NOBORDER_PATCH	patches.h	670;"	d
+NODMENU_PATCH	patches.def.h	676;"	d
+NODMENU_PATCH	patches.h	676;"	d
+NOSWALLOW	dwm.c	505;"	d	file:
+NOSWALLOW	dwm.c	508;"	d	file:
+NO_MOD_BUTTONS_PATCH	patches.def.h	690;"	d
+NO_MOD_BUTTONS_PATCH	patches.h	690;"	d
+NO_SPLIT	patch/layout_flextile-deluxe.h	/^	NO_SPLIT,$/;"	e	enum:__anon23
+NO_TRANSPARENT_BORDERS_PATCH	patches.def.h	698;"	d
+NO_TRANSPARENT_BORDERS_PATCH	patches.h	698;"	d
+NROWGRID_LAYOUT	patches.def.h	1168;"	d
+NROWGRID_LAYOUT	patches.h	1168;"	d
 NUMTAGS	dwm.c	70;"	d	file:
-NetActiveWindow	dwm.c	/^	NetWMFullscreen, NetActiveWindow, NetWMWindowType,$/;"	e	enum:__anon3	file:
-NetClientList	dwm.c	/^	NetClientList, NetLast$/;"	e	enum:__anon3	file:
-NetCurrentDesktop	dwm.c	/^	NetDesktopNames, NetDesktopViewport, NetNumberOfDesktops, NetCurrentDesktop,$/;"	e	enum:__anon3	file:
-NetDesktopNames	dwm.c	/^	NetDesktopNames, NetDesktopViewport, NetNumberOfDesktops, NetCurrentDesktop,$/;"	e	enum:__anon3	file:
-NetDesktopViewport	dwm.c	/^	NetDesktopNames, NetDesktopViewport, NetNumberOfDesktops, NetCurrentDesktop,$/;"	e	enum:__anon3	file:
-NetLast	dwm.c	/^	NetClientList, NetLast$/;"	e	enum:__anon3	file:
-NetNumberOfDesktops	dwm.c	/^	NetDesktopNames, NetDesktopViewport, NetNumberOfDesktops, NetCurrentDesktop,$/;"	e	enum:__anon3	file:
-NetSupported	dwm.c	/^	NetSupported, NetWMName, NetWMState, NetWMCheck,$/;"	e	enum:__anon3	file:
-NetSystemTray	dwm.c	/^	NetSystemTray, NetSystemTrayOP, NetSystemTrayOrientation,$/;"	e	enum:__anon3	file:
-NetSystemTrayOP	dwm.c	/^	NetSystemTray, NetSystemTrayOP, NetSystemTrayOrientation,$/;"	e	enum:__anon3	file:
-NetSystemTrayOrientation	dwm.c	/^	NetSystemTray, NetSystemTrayOP, NetSystemTrayOrientation,$/;"	e	enum:__anon3	file:
-NetSystemTrayOrientationHorz	dwm.c	/^	NetSystemTrayVisual, NetWMWindowTypeDock, NetSystemTrayOrientationHorz,$/;"	e	enum:__anon3	file:
-NetSystemTrayVisual	dwm.c	/^	NetSystemTrayVisual, NetWMWindowTypeDock, NetSystemTrayOrientationHorz,$/;"	e	enum:__anon3	file:
-NetWMCheck	dwm.c	/^	NetSupported, NetWMName, NetWMState, NetWMCheck,$/;"	e	enum:__anon3	file:
-NetWMFullscreen	dwm.c	/^	NetWMFullscreen, NetActiveWindow, NetWMWindowType,$/;"	e	enum:__anon3	file:
-NetWMName	dwm.c	/^	NetSupported, NetWMName, NetWMState, NetWMCheck,$/;"	e	enum:__anon3	file:
-NetWMState	dwm.c	/^	NetSupported, NetWMName, NetWMState, NetWMCheck,$/;"	e	enum:__anon3	file:
-NetWMWindowType	dwm.c	/^	NetWMFullscreen, NetActiveWindow, NetWMWindowType,$/;"	e	enum:__anon3	file:
-NetWMWindowTypeDock	dwm.c	/^	NetSystemTrayVisual, NetWMWindowTypeDock, NetSystemTrayOrientationHorz,$/;"	e	enum:__anon3	file:
+NetActiveWindow	dwm.c	/^	NetWMFullscreen, NetActiveWindow, NetWMWindowType,$/;"	e	enum:__anon6	file:
+NetClientList	dwm.c	/^	NetClientList,$/;"	e	enum:__anon6	file:
+NetClientListStacking	dwm.c	/^	NetClientListStacking,$/;"	e	enum:__anon6	file:
+NetCurrentDesktop	dwm.c	/^	NetDesktopNames, NetDesktopViewport, NetNumberOfDesktops, NetCurrentDesktop,$/;"	e	enum:__anon6	file:
+NetDesktopNames	dwm.c	/^	NetDesktopNames, NetDesktopViewport, NetNumberOfDesktops, NetCurrentDesktop,$/;"	e	enum:__anon6	file:
+NetDesktopViewport	dwm.c	/^	NetDesktopNames, NetDesktopViewport, NetNumberOfDesktops, NetCurrentDesktop,$/;"	e	enum:__anon6	file:
+NetLast	dwm.c	/^	NetLast$/;"	e	enum:__anon6	file:
+NetNumberOfDesktops	dwm.c	/^	NetDesktopNames, NetDesktopViewport, NetNumberOfDesktops, NetCurrentDesktop,$/;"	e	enum:__anon6	file:
+NetSupported	dwm.c	/^	NetSupported, NetWMName, NetWMState, NetWMCheck,$/;"	e	enum:__anon6	file:
+NetSystemTray	dwm.c	/^	NetSystemTray, NetSystemTrayOP, NetSystemTrayOrientation,$/;"	e	enum:__anon6	file:
+NetSystemTrayOP	dwm.c	/^	NetSystemTray, NetSystemTrayOP, NetSystemTrayOrientation,$/;"	e	enum:__anon6	file:
+NetSystemTrayOrientation	dwm.c	/^	NetSystemTray, NetSystemTrayOP, NetSystemTrayOrientation,$/;"	e	enum:__anon6	file:
+NetSystemTrayOrientationHorz	dwm.c	/^	NetSystemTrayVisual, NetWMWindowTypeDock, NetSystemTrayOrientationHorz,$/;"	e	enum:__anon6	file:
+NetSystemTrayVisual	dwm.c	/^	NetSystemTrayVisual, NetWMWindowTypeDock, NetSystemTrayOrientationHorz,$/;"	e	enum:__anon6	file:
+NetWMCheck	dwm.c	/^	NetSupported, NetWMName, NetWMState, NetWMCheck,$/;"	e	enum:__anon6	file:
+NetWMFullscreen	dwm.c	/^	NetWMFullscreen, NetActiveWindow, NetWMWindowType,$/;"	e	enum:__anon6	file:
+NetWMName	dwm.c	/^	NetSupported, NetWMName, NetWMState, NetWMCheck,$/;"	e	enum:__anon6	file:
+NetWMState	dwm.c	/^	NetSupported, NetWMName, NetWMState, NetWMCheck,$/;"	e	enum:__anon6	file:
+NetWMWindowType	dwm.c	/^	NetWMFullscreen, NetActiveWindow, NetWMWindowType,$/;"	e	enum:__anon6	file:
+NetWMWindowTypeDock	dwm.c	/^	NetSystemTrayVisual, NetWMWindowTypeDock, NetSystemTrayOrientationHorz,$/;"	e	enum:__anon6	file:
 NumTags	dwm.c	/^struct NumTags { char limitexceeded[NUMTAGS > 30 ? -1 : 1]; };$/;"	s	file:
 NumTags	dwm.c	/^struct NumTags { char limitexceeded[NUMTAGS > 31 ? -1 : 1]; };$/;"	s	file:
 OBJ	Makefile	/^OBJ = ${SRC:.c=.o}$/;"	m
-ONLYQUITONEMPTY_PATCH	patches.def.h	678;"	d
-ONLYQUITONEMPTY_PATCH	patches.h	678;"	d
-ONLY_ONE_RULE_MATCH_PATCH	patches.def.h	672;"	d
-ONLY_ONE_RULE_MATCH_PATCH	patches.h	672;"	d
+ONLYQUITONEMPTY_PATCH	patches.def.h	716;"	d
+ONLYQUITONEMPTY_PATCH	patches.h	716;"	d
+ONLY_ONE_RULE_MATCH_PATCH	patches.def.h	710;"	d
+ONLY_ONE_RULE_MATCH_PATCH	patches.h	710;"	d
+ON_EMPTY_KEYS_PATCH	patches.def.h	707;"	d
+ON_EMPTY_KEYS_PATCH	patches.h	707;"	d
 OPAQUE	patch/bar_alpha.h	1;"	d
-PERMANENT	dwm.c	488;"	d	file:
-PERMANENT	dwm.c	490;"	d	file:
-PERTAGBAR_PATCH	patches.def.h	689;"	d
-PERTAGBAR_PATCH	patches.h	689;"	d
-PERTAG_PATCH	patches.def.h	684;"	d
-PERTAG_PATCH	patches.h	684;"	d
+PERMANENT	dwm.c	495;"	d	file:
+PERMANENT	dwm.c	497;"	d	file:
+PERTAGBAR_PATCH	patches.def.h	727;"	d
+PERTAGBAR_PATCH	patches.h	727;"	d
+PERTAG_PATCH	patches.def.h	722;"	d
+PERTAG_PATCH	patches.h	722;"	d
+PLACEMOUSE_PATCH	patches.def.h	732;"	d
+PLACEMOUSE_PATCH	patches.h	732;"	d
 PREFIX	config.mk	/^PREFIX = \/usr\/local$/;"	m
 PREVSEL	patch/stacker.h	4;"	d
-PUSH_NO_MASTER_PATCH	patches.def.h	702;"	d
-PUSH_NO_MASTER_PATCH	patches.h	702;"	d
-PUSH_PATCH	patches.def.h	694;"	d
-PUSH_PATCH	patches.h	694;"	d
+PUSH_NO_MASTER_PATCH	patches.def.h	745;"	d
+PUSH_NO_MASTER_PATCH	patches.h	745;"	d
+PUSH_PATCH	patches.def.h	737;"	d
+PUSH_PATCH	patches.h	737;"	d
 Pertag	dwm.c	/^typedef struct Pertag Pertag;$/;"	t	typeref:struct:Pertag	file:
 Pertag	patch/pertag.c	/^struct Pertag {$/;"	s	file:
-REORGANIZETAGS_PATCH	patches.def.h	714;"	d
-REORGANIZETAGS_PATCH	patches.h	714;"	d
-RESETLAYOUT_PATCH	patches.def.h	719;"	d
-RESETLAYOUT_PATCH	patches.h	719;"	d
-RESIZECORNERS_PATCH	patches.def.h	725;"	d
-RESIZECORNERS_PATCH	patches.h	725;"	d
-RESIZEPOINT_PATCH	patches.def.h	731;"	d
-RESIZEPOINT_PATCH	patches.h	731;"	d
-RESTARTSIG_PATCH	patches.def.h	737;"	d
-RESTARTSIG_PATCH	patches.h	737;"	d
+REORGANIZETAGS_PATCH	patches.def.h	757;"	d
+REORGANIZETAGS_PATCH	patches.h	757;"	d
+RESIZECORNERS_PATCH	patches.def.h	763;"	d
+RESIZECORNERS_PATCH	patches.h	763;"	d
+RESIZEPOINT_PATCH	patches.def.h	769;"	d
+RESIZEPOINT_PATCH	patches.h	769;"	d
+RESTARTSIG_PATCH	patches.def.h	775;"	d
+RESTARTSIG_PATCH	patches.h	775;"	d
 RIGHTOF	patch/sortscreens.h	1;"	d
-ROTATESTACK_PATCH	patches.def.h	742;"	d
-ROTATESTACK_PATCH	patches.h	742;"	d
-ROUNDED_CORNERS_PATCH	patches.def.h	749;"	d
-ROUNDED_CORNERS_PATCH	patches.h	749;"	d
-RULE	dwm.c	478;"	d	file:
-Rule	dwm.c	/^} Rule;$/;"	t	typeref:struct:__anon15	file:
-SAVEFLOATS_PATCH	patches.def.h	756;"	d
-SAVEFLOATS_PATCH	patches.h	756;"	d
+RIODRAW_PATCH	patches.def.h	782;"	d
+RIODRAW_PATCH	patches.h	782;"	d
+ROTATESTACK_PATCH	patches.def.h	787;"	d
+ROTATESTACK_PATCH	patches.h	787;"	d
+ROUNDED_CORNERS_PATCH	patches.def.h	794;"	d
+ROUNDED_CORNERS_PATCH	patches.h	794;"	d
+RULE	dwm.c	485;"	d	file:
+Rule	dwm.c	/^} Rule;$/;"	t	typeref:struct:__anon18	file:
+SAVEFLOATS_PATCH	patches.def.h	801;"	d
+SAVEFLOATS_PATCH	patches.h	801;"	d
 SCHEMEFOR	patch/bar_flexwintitle.c	21;"	d	file:
-SCRATCHPADS_KEEP_POSITION_AND_SIZE_PATCH	patches.def.h	767;"	d
-SCRATCHPADS_KEEP_POSITION_AND_SIZE_PATCH	patches.h	767;"	d
-SCRATCHPADS_PATCH	patches.def.h	764;"	d
-SCRATCHPADS_PATCH	patches.h	764;"	d
-SCRATCHPAD_ALT_1_PATCH	patches.def.h	773;"	d
-SCRATCHPAD_ALT_1_PATCH	patches.h	773;"	d
+SCRATCHPADS_KEEP_POSITION_AND_SIZE_PATCH	patches.def.h	817;"	d
+SCRATCHPADS_KEEP_POSITION_AND_SIZE_PATCH	patches.h	817;"	d
+SCRATCHPADS_PATCH	patches.def.h	814;"	d
+SCRATCHPADS_PATCH	patches.h	814;"	d
+SCRATCHPAD_ALT_1_PATCH	patches.def.h	823;"	d
+SCRATCHPAD_ALT_1_PATCH	patches.h	823;"	d
 SCRATCHPAD_MASK	patch/scratchpad_alt_1.h	1;"	d
-SELECTIVEFAKEFULLSCREEN_PATCH	patches.def.h	780;"	d
-SELECTIVEFAKEFULLSCREEN_PATCH	patches.h	780;"	d
-SELFRESTART_PATCH	patches.def.h	785;"	d
-SELFRESTART_PATCH	patches.h	785;"	d
-SENDMON_KEEPFOCUS_PATCH	patches.def.h	790;"	d
-SENDMON_KEEPFOCUS_PATCH	patches.h	790;"	d
-SETBORDERPX_PATCH	patches.def.h	795;"	d
-SETBORDERPX_PATCH	patches.h	795;"	d
-SHCMD	config.def.h	264;"	d
-SHCMD	config.h	264;"	d
-SHIFTVIEW_CLIENTS_PATCH	patches.def.h	805;"	d
-SHIFTVIEW_CLIENTS_PATCH	patches.h	805;"	d
-SHIFTVIEW_PATCH	patches.def.h	800;"	d
-SHIFTVIEW_PATCH	patches.h	800;"	d
-SIZEHINTS_PATCH	patches.def.h	815;"	d
-SIZEHINTS_PATCH	patches.h	815;"	d
-SIZEHINTS_RULED_PATCH	patches.def.h	822;"	d
-SIZEHINTS_RULED_PATCH	patches.h	822;"	d
-SORTSCREENS_PATCH	patches.def.h	830;"	d
-SORTSCREENS_PATCH	patches.h	830;"	d
-SPAWNCMD_PATCH	patches.def.h	835;"	d
-SPAWNCMD_PATCH	patches.h	835;"	d
+SELECTIVEFAKEFULLSCREEN_PATCH	patches.def.h	830;"	d
+SELECTIVEFAKEFULLSCREEN_PATCH	patches.h	830;"	d
+SELFRESTART_PATCH	patches.def.h	835;"	d
+SELFRESTART_PATCH	patches.h	835;"	d
+SENDMON_KEEPFOCUS_PATCH	patches.def.h	840;"	d
+SENDMON_KEEPFOCUS_PATCH	patches.h	840;"	d
+SETBORDERPX_PATCH	patches.def.h	845;"	d
+SETBORDERPX_PATCH	patches.h	845;"	d
+SHCMD	config.def.h	748;"	d
+SHCMD	config.h	748;"	d
+SHIFTVIEW_CLIENTS_PATCH	patches.def.h	855;"	d
+SHIFTVIEW_CLIENTS_PATCH	patches.h	855;"	d
+SHIFTVIEW_PATCH	patches.def.h	850;"	d
+SHIFTVIEW_PATCH	patches.h	850;"	d
+SIZEHINTS_PATCH	patches.def.h	865;"	d
+SIZEHINTS_PATCH	patches.h	865;"	d
+SIZEHINTS_RULED_PATCH	patches.def.h	872;"	d
+SIZEHINTS_RULED_PATCH	patches.h	872;"	d
+SORTSCREENS_PATCH	patches.def.h	880;"	d
+SORTSCREENS_PATCH	patches.h	880;"	d
+SPAWNCMD_PATCH	patches.def.h	885;"	d
+SPAWNCMD_PATCH	patches.h	885;"	d
 SPAWN_CWD_DELIM	dwm.c	62;"	d	file:
-SPIRAL	patch/layout_flextile-deluxe.h	/^	SPIRAL,            \/\/ clients are arranged in fibonacci spiral mode$/;"	e	enum:__anon28
-SPLIT_CENTERED_HORIZONTAL	patch/layout_flextile-deluxe.h	/^	SPLIT_CENTERED_HORIZONTAL,         \/\/ centered master horizontal split$/;"	e	enum:__anon27
-SPLIT_CENTERED_HORIZONTAL_FIXED	patch/layout_flextile-deluxe.h	/^	SPLIT_CENTERED_HORIZONTAL_FIXED,   \/\/ centered master horizontal fixed split$/;"	e	enum:__anon27
-SPLIT_CENTERED_VERTICAL	patch/layout_flextile-deluxe.h	/^	SPLIT_CENTERED_VERTICAL,           \/\/ centered master vertical split$/;"	e	enum:__anon27
-SPLIT_CENTERED_VERTICAL_FIXED	patch/layout_flextile-deluxe.h	/^	SPLIT_CENTERED_VERTICAL_FIXED,     \/\/ centered master vertical fixed split$/;"	e	enum:__anon27
-SPLIT_HORIZONTAL	patch/layout_flextile-deluxe.h	/^	SPLIT_HORIZONTAL,                  \/\/ master stack horizontal split$/;"	e	enum:__anon27
-SPLIT_HORIZONTAL_DUAL_STACK	patch/layout_flextile-deluxe.h	/^	SPLIT_HORIZONTAL_DUAL_STACK,       \/\/ master stack vertical split with dual stack$/;"	e	enum:__anon27
-SPLIT_HORIZONTAL_DUAL_STACK_FIXED	patch/layout_flextile-deluxe.h	/^	SPLIT_HORIZONTAL_DUAL_STACK_FIXED, \/\/ master stack vertical split with fixed dual stack$/;"	e	enum:__anon27
-SPLIT_HORIZONTAL_FIXED	patch/layout_flextile-deluxe.h	/^	SPLIT_HORIZONTAL_FIXED,            \/\/ master stack horizontal fixed split$/;"	e	enum:__anon27
-SPLIT_VERTICAL	patch/layout_flextile-deluxe.h	/^	SPLIT_VERTICAL,                    \/\/ master stack vertical split$/;"	e	enum:__anon27
-SPLIT_VERTICAL_DUAL_STACK	patch/layout_flextile-deluxe.h	/^	SPLIT_VERTICAL_DUAL_STACK,         \/\/ master stack vertical split with dual stack$/;"	e	enum:__anon27
-SPLIT_VERTICAL_DUAL_STACK_FIXED	patch/layout_flextile-deluxe.h	/^	SPLIT_VERTICAL_DUAL_STACK_FIXED,   \/\/ master stack vertical split with fixed dual stack$/;"	e	enum:__anon27
-SPLIT_VERTICAL_FIXED	patch/layout_flextile-deluxe.h	/^	SPLIT_VERTICAL_FIXED,              \/\/ master stack vertical fixed split$/;"	e	enum:__anon27
+SPIRAL	patch/layout_flextile-deluxe.h	/^	SPIRAL,            \/\/ clients are arranged in fibonacci spiral mode$/;"	e	enum:__anon24
+SPLIT_CENTERED_HORIZONTAL	patch/layout_flextile-deluxe.h	/^	SPLIT_CENTERED_HORIZONTAL,         \/\/ centered master horizontal split$/;"	e	enum:__anon23
+SPLIT_CENTERED_HORIZONTAL_FIXED	patch/layout_flextile-deluxe.h	/^	SPLIT_CENTERED_HORIZONTAL_FIXED,   \/\/ centered master horizontal fixed split$/;"	e	enum:__anon23
+SPLIT_CENTERED_VERTICAL	patch/layout_flextile-deluxe.h	/^	SPLIT_CENTERED_VERTICAL,           \/\/ centered master vertical split$/;"	e	enum:__anon23
+SPLIT_CENTERED_VERTICAL_FIXED	patch/layout_flextile-deluxe.h	/^	SPLIT_CENTERED_VERTICAL_FIXED,     \/\/ centered master vertical fixed split$/;"	e	enum:__anon23
+SPLIT_HORIZONTAL	patch/layout_flextile-deluxe.h	/^	SPLIT_HORIZONTAL,                  \/\/ master stack horizontal split$/;"	e	enum:__anon23
+SPLIT_HORIZONTAL_DUAL_STACK	patch/layout_flextile-deluxe.h	/^	SPLIT_HORIZONTAL_DUAL_STACK,       \/\/ master stack vertical split with dual stack$/;"	e	enum:__anon23
+SPLIT_HORIZONTAL_DUAL_STACK_FIXED	patch/layout_flextile-deluxe.h	/^	SPLIT_HORIZONTAL_DUAL_STACK_FIXED, \/\/ master stack vertical split with fixed dual stack$/;"	e	enum:__anon23
+SPLIT_HORIZONTAL_FIXED	patch/layout_flextile-deluxe.h	/^	SPLIT_HORIZONTAL_FIXED,            \/\/ master stack horizontal fixed split$/;"	e	enum:__anon23
+SPLIT_VERTICAL	patch/layout_flextile-deluxe.h	/^	SPLIT_VERTICAL,                    \/\/ master stack vertical split$/;"	e	enum:__anon23
+SPLIT_VERTICAL_DUAL_STACK	patch/layout_flextile-deluxe.h	/^	SPLIT_VERTICAL_DUAL_STACK,         \/\/ master stack vertical split with dual stack$/;"	e	enum:__anon23
+SPLIT_VERTICAL_DUAL_STACK_FIXED	patch/layout_flextile-deluxe.h	/^	SPLIT_VERTICAL_DUAL_STACK_FIXED,   \/\/ master stack vertical split with fixed dual stack$/;"	e	enum:__anon23
+SPLIT_VERTICAL_FIXED	patch/layout_flextile-deluxe.h	/^	SPLIT_VERTICAL_FIXED,              \/\/ master stack vertical fixed split$/;"	e	enum:__anon23
 SPTAG	dwm.c	100;"	d	file:
 SPTAGMASK	dwm.c	101;"	d	file:
 SRC	Makefile	/^SRC = drw.c dwm.c util.c$/;"	m
-STACK	patch/layout_flextile-deluxe.h	/^	STACK,        \/\/ indicates the tile arrangement for the stack area$/;"	e	enum:__anon26
-STACK2	patch/layout_flextile-deluxe.h	/^	STACK2,       \/\/ indicates the tile arrangement for the secondary stack area$/;"	e	enum:__anon26
-STACKER_PATCH	patches.def.h	845;"	d
-STACKER_PATCH	patches.h	845;"	d
-STEAM_PATCH	patches.def.h	856;"	d
-STEAM_PATCH	patches.h	856;"	d
-STICKY_PATCH	patches.def.h	861;"	d
-STICKY_PATCH	patches.h	861;"	d
-SWALLOW_PATCH	patches.def.h	869;"	d
-SWALLOW_PATCH	patches.h	869;"	d
-SWAPFOCUS_PATCH	patches.def.h	880;"	d
-SWAPFOCUS_PATCH	patches.h	880;"	d
-SWAPTAGS_PATCH	patches.def.h	886;"	d
-SWAPTAGS_PATCH	patches.h	886;"	d
-SWITCHCOL_PATCH	patches.def.h	891;"	d
-SWITCHCOL_PATCH	patches.h	891;"	d
-SWITCHTAG	dwm.c	505;"	d	file:
-SWITCHTAG	dwm.c	507;"	d	file:
-SWITCHTAG_PATCH	patches.def.h	909;"	d
-SWITCHTAG_PATCH	patches.h	909;"	d
+STACK	patch/layout_flextile-deluxe.h	/^	STACK,        \/\/ indicates the tile arrangement for the stack area$/;"	e	enum:__anon22
+STACK2	patch/layout_flextile-deluxe.h	/^	STACK2,       \/\/ indicates the tile arrangement for the secondary stack area$/;"	e	enum:__anon22
+STACKER_PATCH	patches.def.h	895;"	d
+STACKER_PATCH	patches.h	895;"	d
+STACKKEYS	config.def.h	733;"	d
+STACKKEYS	config.h	733;"	d
+STEAM_PATCH	patches.def.h	906;"	d
+STEAM_PATCH	patches.h	906;"	d
+STICKY_PATCH	patches.def.h	911;"	d
+STICKY_PATCH	patches.h	911;"	d
+SWALLOW_PATCH	patches.def.h	928;"	d
+SWALLOW_PATCH	patches.h	928;"	d
+SWAPFOCUS_PATCH	patches.def.h	935;"	d
+SWAPFOCUS_PATCH	patches.h	935;"	d
+SWAPTAGS_PATCH	patches.def.h	941;"	d
+SWAPTAGS_PATCH	patches.h	941;"	d
+SWITCHCOL_PATCH	patches.def.h	946;"	d
+SWITCHCOL_PATCH	patches.h	946;"	d
+SWITCHTAG	dwm.c	512;"	d	file:
+SWITCHTAG	dwm.c	514;"	d	file:
+SWITCHTAG_DOWN	config.def.h	375;"	d
+SWITCHTAG_DOWN	config.h	375;"	d
+SWITCHTAG_LEFT	config.def.h	376;"	d
+SWITCHTAG_LEFT	config.h	376;"	d
+SWITCHTAG_PATCH	patches.def.h	964;"	d
+SWITCHTAG_PATCH	patches.h	964;"	d
+SWITCHTAG_RIGHT	config.def.h	377;"	d
+SWITCHTAG_RIGHT	config.h	377;"	d
+SWITCHTAG_TAG	config.def.h	379;"	d
+SWITCHTAG_TAG	config.h	379;"	d
+SWITCHTAG_TOGGLETAG	config.def.h	378;"	d
+SWITCHTAG_TOGGLETAG	config.h	378;"	d
+SWITCHTAG_TOGGLEVIEW	config.def.h	381;"	d
+SWITCHTAG_TOGGLEVIEW	config.h	381;"	d
+SWITCHTAG_UP	config.def.h	374;"	d
+SWITCHTAG_UP	config.h	374;"	d
+SWITCHTAG_VIEW	config.def.h	380;"	d
+SWITCHTAG_VIEW	config.h	380;"	d
 SYSTEM_TRAY_REQUEST_DOCK	patch/bar_systray.h	1;"	d
-SchemeFlexActDWDL	dwm.c	/^	SchemeFlexActDWDL,$/;"	e	enum:__anon2	file:
-SchemeFlexActFloat	dwm.c	/^	SchemeFlexActFloat,$/;"	e	enum:__anon2	file:
-SchemeFlexActGRD1	dwm.c	/^	SchemeFlexActGRD1,$/;"	e	enum:__anon2	file:
-SchemeFlexActGRD2	dwm.c	/^	SchemeFlexActGRD2,$/;"	e	enum:__anon2	file:
-SchemeFlexActGRDM	dwm.c	/^	SchemeFlexActGRDM,$/;"	e	enum:__anon2	file:
-SchemeFlexActGRID	dwm.c	/^	SchemeFlexActGRID,$/;"	e	enum:__anon2	file:
-SchemeFlexActHGRD	dwm.c	/^	SchemeFlexActHGRD,$/;"	e	enum:__anon2	file:
-SchemeFlexActLTR	dwm.c	/^	SchemeFlexActLTR,$/;"	e	enum:__anon2	file:
-SchemeFlexActMONO	dwm.c	/^	SchemeFlexActMONO,$/;"	e	enum:__anon2	file:
-SchemeFlexActSPRL	dwm.c	/^	SchemeFlexActSPRL,$/;"	e	enum:__anon2	file:
-SchemeFlexActTTB	dwm.c	/^	SchemeFlexActTTB,$/;"	e	enum:__anon2	file:
-SchemeFlexInaDWDL	dwm.c	/^	SchemeFlexInaDWDL,$/;"	e	enum:__anon2	file:
-SchemeFlexInaFloat	dwm.c	/^	SchemeFlexInaFloat,$/;"	e	enum:__anon2	file:
-SchemeFlexInaGRD1	dwm.c	/^	SchemeFlexInaGRD1,$/;"	e	enum:__anon2	file:
-SchemeFlexInaGRD2	dwm.c	/^	SchemeFlexInaGRD2,$/;"	e	enum:__anon2	file:
-SchemeFlexInaGRDM	dwm.c	/^	SchemeFlexInaGRDM,$/;"	e	enum:__anon2	file:
-SchemeFlexInaGRID	dwm.c	/^	SchemeFlexInaGRID,$/;"	e	enum:__anon2	file:
-SchemeFlexInaHGRD	dwm.c	/^	SchemeFlexInaHGRD,$/;"	e	enum:__anon2	file:
-SchemeFlexInaLTR	dwm.c	/^	SchemeFlexInaLTR,$/;"	e	enum:__anon2	file:
-SchemeFlexInaMONO	dwm.c	/^	SchemeFlexInaMONO,$/;"	e	enum:__anon2	file:
-SchemeFlexInaSPRL	dwm.c	/^	SchemeFlexInaSPRL,$/;"	e	enum:__anon2	file:
-SchemeFlexInaTTB	dwm.c	/^	SchemeFlexInaTTB,$/;"	e	enum:__anon2	file:
-SchemeFlexSelDWDL	dwm.c	/^	SchemeFlexSelDWDL,$/;"	e	enum:__anon2	file:
-SchemeFlexSelFloat	dwm.c	/^	SchemeFlexSelFloat,$/;"	e	enum:__anon2	file:
-SchemeFlexSelGRD1	dwm.c	/^	SchemeFlexSelGRD1,$/;"	e	enum:__anon2	file:
-SchemeFlexSelGRD2	dwm.c	/^	SchemeFlexSelGRD2,$/;"	e	enum:__anon2	file:
-SchemeFlexSelGRDM	dwm.c	/^	SchemeFlexSelGRDM,$/;"	e	enum:__anon2	file:
-SchemeFlexSelGRID	dwm.c	/^	SchemeFlexSelGRID,$/;"	e	enum:__anon2	file:
-SchemeFlexSelHGRD	dwm.c	/^	SchemeFlexSelHGRD,$/;"	e	enum:__anon2	file:
-SchemeFlexSelLTR	dwm.c	/^	SchemeFlexSelLTR,$/;"	e	enum:__anon2	file:
-SchemeFlexSelMONO	dwm.c	/^	SchemeFlexSelMONO,$/;"	e	enum:__anon2	file:
-SchemeFlexSelSPRL	dwm.c	/^	SchemeFlexSelSPRL,$/;"	e	enum:__anon2	file:
-SchemeFlexSelTTB	dwm.c	/^	SchemeFlexSelTTB,$/;"	e	enum:__anon2	file:
-SchemeHid	dwm.c	/^	SchemeHid,$/;"	e	enum:__anon2	file:
-SchemeNorm	dwm.c	/^	SchemeNorm,$/;"	e	enum:__anon2	file:
-SchemeSel	dwm.c	/^	SchemeSel,$/;"	e	enum:__anon2	file:
-SchemeTagsNorm	dwm.c	/^	SchemeTagsNorm,$/;"	e	enum:__anon2	file:
-SchemeTagsSel	dwm.c	/^	SchemeTagsSel,$/;"	e	enum:__anon2	file:
-SchemeTitleNorm	dwm.c	/^	SchemeTitleNorm,$/;"	e	enum:__anon2	file:
-SchemeTitleSel	dwm.c	/^	SchemeTitleSel,$/;"	e	enum:__anon2	file:
-SchemeUrg	dwm.c	/^	SchemeUrg,$/;"	e	enum:__anon2	file:
-Signal	patch/dwmc.h	/^} Signal;$/;"	t	typeref:struct:__anon25
-Signal	patch/fsignal.h	/^} Signal;$/;"	t	typeref:struct:__anon29
-Sp	patch/scratchpad.h	/^} Sp;$/;"	t	typeref:struct:__anon23
+SchemeFlexActDWDL	dwm.c	/^	SchemeFlexActDWDL,$/;"	e	enum:__anon5	file:
+SchemeFlexActFloat	dwm.c	/^	SchemeFlexActFloat,$/;"	e	enum:__anon5	file:
+SchemeFlexActGRD1	dwm.c	/^	SchemeFlexActGRD1,$/;"	e	enum:__anon5	file:
+SchemeFlexActGRD2	dwm.c	/^	SchemeFlexActGRD2,$/;"	e	enum:__anon5	file:
+SchemeFlexActGRDM	dwm.c	/^	SchemeFlexActGRDM,$/;"	e	enum:__anon5	file:
+SchemeFlexActGRID	dwm.c	/^	SchemeFlexActGRID,$/;"	e	enum:__anon5	file:
+SchemeFlexActHGRD	dwm.c	/^	SchemeFlexActHGRD,$/;"	e	enum:__anon5	file:
+SchemeFlexActLTR	dwm.c	/^	SchemeFlexActLTR,$/;"	e	enum:__anon5	file:
+SchemeFlexActMONO	dwm.c	/^	SchemeFlexActMONO,$/;"	e	enum:__anon5	file:
+SchemeFlexActSPRL	dwm.c	/^	SchemeFlexActSPRL,$/;"	e	enum:__anon5	file:
+SchemeFlexActTTB	dwm.c	/^	SchemeFlexActTTB,$/;"	e	enum:__anon5	file:
+SchemeFlexInaDWDL	dwm.c	/^	SchemeFlexInaDWDL,$/;"	e	enum:__anon5	file:
+SchemeFlexInaFloat	dwm.c	/^	SchemeFlexInaFloat,$/;"	e	enum:__anon5	file:
+SchemeFlexInaGRD1	dwm.c	/^	SchemeFlexInaGRD1,$/;"	e	enum:__anon5	file:
+SchemeFlexInaGRD2	dwm.c	/^	SchemeFlexInaGRD2,$/;"	e	enum:__anon5	file:
+SchemeFlexInaGRDM	dwm.c	/^	SchemeFlexInaGRDM,$/;"	e	enum:__anon5	file:
+SchemeFlexInaGRID	dwm.c	/^	SchemeFlexInaGRID,$/;"	e	enum:__anon5	file:
+SchemeFlexInaHGRD	dwm.c	/^	SchemeFlexInaHGRD,$/;"	e	enum:__anon5	file:
+SchemeFlexInaLTR	dwm.c	/^	SchemeFlexInaLTR,$/;"	e	enum:__anon5	file:
+SchemeFlexInaMONO	dwm.c	/^	SchemeFlexInaMONO,$/;"	e	enum:__anon5	file:
+SchemeFlexInaSPRL	dwm.c	/^	SchemeFlexInaSPRL,$/;"	e	enum:__anon5	file:
+SchemeFlexInaTTB	dwm.c	/^	SchemeFlexInaTTB,$/;"	e	enum:__anon5	file:
+SchemeFlexSelDWDL	dwm.c	/^	SchemeFlexSelDWDL,$/;"	e	enum:__anon5	file:
+SchemeFlexSelFloat	dwm.c	/^	SchemeFlexSelFloat,$/;"	e	enum:__anon5	file:
+SchemeFlexSelGRD1	dwm.c	/^	SchemeFlexSelGRD1,$/;"	e	enum:__anon5	file:
+SchemeFlexSelGRD2	dwm.c	/^	SchemeFlexSelGRD2,$/;"	e	enum:__anon5	file:
+SchemeFlexSelGRDM	dwm.c	/^	SchemeFlexSelGRDM,$/;"	e	enum:__anon5	file:
+SchemeFlexSelGRID	dwm.c	/^	SchemeFlexSelGRID,$/;"	e	enum:__anon5	file:
+SchemeFlexSelHGRD	dwm.c	/^	SchemeFlexSelHGRD,$/;"	e	enum:__anon5	file:
+SchemeFlexSelLTR	dwm.c	/^	SchemeFlexSelLTR,$/;"	e	enum:__anon5	file:
+SchemeFlexSelMONO	dwm.c	/^	SchemeFlexSelMONO,$/;"	e	enum:__anon5	file:
+SchemeFlexSelSPRL	dwm.c	/^	SchemeFlexSelSPRL,$/;"	e	enum:__anon5	file:
+SchemeFlexSelTTB	dwm.c	/^	SchemeFlexSelTTB,$/;"	e	enum:__anon5	file:
+SchemeHid	dwm.c	/^	SchemeHid,$/;"	e	enum:__anon5	file:
+SchemeNorm	dwm.c	/^	SchemeNorm,$/;"	e	enum:__anon5	file:
+SchemeSel	dwm.c	/^	SchemeSel,$/;"	e	enum:__anon5	file:
+SchemeTagsNorm	dwm.c	/^	SchemeTagsNorm,$/;"	e	enum:__anon5	file:
+SchemeTagsSel	dwm.c	/^	SchemeTagsSel,$/;"	e	enum:__anon5	file:
+SchemeTitleNorm	dwm.c	/^	SchemeTitleNorm,$/;"	e	enum:__anon5	file:
+SchemeTitleSel	dwm.c	/^	SchemeTitleSel,$/;"	e	enum:__anon5	file:
+SchemeUrg	dwm.c	/^	SchemeUrg,$/;"	e	enum:__anon5	file:
+Signal	patch/dwmc.h	/^} Signal;$/;"	t	typeref:struct:__anon27
+Signal	patch/fsignal.h	/^} Signal;$/;"	t	typeref:struct:__anon25
+Sp	patch/scratchpad.h	/^} Sp;$/;"	t	typeref:struct:__anon20
 Systray	patch/bar_systray.h	/^struct Systray {$/;"	s
 Systray	patch/bar_systray.h	/^typedef struct Systray Systray;$/;"	t	typeref:struct:Systray
-TAGALLMON_PATCH	patches.def.h	919;"	d
-TAGALLMON_PATCH	patches.h	919;"	d
-TAGALL_PATCH	patches.def.h	914;"	d
-TAGALL_PATCH	patches.h	914;"	d
-TAGINTOSTACK_ALLMASTER_PATCH	patches.def.h	927;"	d
-TAGINTOSTACK_ALLMASTER_PATCH	patches.h	927;"	d
-TAGINTOSTACK_ONEMASTER_PATCH	patches.def.h	934;"	d
-TAGINTOSTACK_ONEMASTER_PATCH	patches.h	934;"	d
-TAGKEYS	config.def.h	255;"	d
-TAGKEYS	config.h	255;"	d
+TAGALLMON_PATCH	patches.def.h	974;"	d
+TAGALLMON_PATCH	patches.h	974;"	d
+TAGALL_PATCH	patches.def.h	969;"	d
+TAGALL_PATCH	patches.h	969;"	d
+TAGINTOSTACK_ALLMASTER_PATCH	patches.def.h	982;"	d
+TAGINTOSTACK_ALLMASTER_PATCH	patches.h	982;"	d
+TAGINTOSTACK_ONEMASTER_PATCH	patches.def.h	989;"	d
+TAGINTOSTACK_ONEMASTER_PATCH	patches.h	989;"	d
+TAGKEYS	config.def.h	671;"	d
+TAGKEYS	config.def.h	680;"	d
+TAGKEYS	config.def.h	687;"	d
+TAGKEYS	config.def.h	695;"	d
+TAGKEYS	config.def.h	701;"	d
+TAGKEYS	config.def.h	710;"	d
+TAGKEYS	config.def.h	717;"	d
+TAGKEYS	config.def.h	725;"	d
+TAGKEYS	config.h	671;"	d
+TAGKEYS	config.h	680;"	d
+TAGKEYS	config.h	687;"	d
+TAGKEYS	config.h	695;"	d
+TAGKEYS	config.h	701;"	d
+TAGKEYS	config.h	710;"	d
+TAGKEYS	config.h	717;"	d
+TAGKEYS	config.h	725;"	d
 TAGMASK	dwm.c	103;"	d	file:
 TAGMASK	dwm.c	99;"	d	file:
-TAGMONFIXFS_PATCH	patches.def.h	943;"	d
-TAGMONFIXFS_PATCH	patches.h	943;"	d
-TAGOTHERMONITOR_PATCH	patches.def.h	949;"	d
-TAGOTHERMONITOR_PATCH	patches.h	949;"	d
+TAGMONFIXFS_PATCH	patches.def.h	998;"	d
+TAGMONFIXFS_PATCH	patches.h	998;"	d
+TAGOTHERMONITOR_PATCH	patches.def.h	1004;"	d
+TAGOTHERMONITOR_PATCH	patches.h	1004;"	d
 TAGSINDICATOR	patch/bar_indicators.c	3;"	d	file:
 TAGSPX	patch/bar_indicators.c	6;"	d	file:
 TAGSROWS	patch/bar_indicators.c	9;"	d	file:
-TAGSWAPMON_PATCH	patches.def.h	955;"	d
-TAGSWAPMON_PATCH	patches.h	955;"	d
-TERMINAL	dwm.c	499;"	d	file:
-TERMINAL	dwm.c	502;"	d	file:
+TAGSWAPMON_PATCH	patches.def.h	1010;"	d
+TAGSWAPMON_PATCH	patches.h	1010;"	d
+TATAMI	patch/layout_flextile-deluxe.h	/^	TATAMI,            \/\/ clients are arranged as tatami mats$/;"	e	enum:__anon24
+TERMINAL	dwm.c	506;"	d	file:
+TERMINAL	dwm.c	509;"	d	file:
 TEXTW	dwm.c	106;"	d	file:
 TEXTWM	dwm.c	105;"	d	file:
-TILE_LAYOUT	patches.def.h	1118;"	d
-TILE_LAYOUT	patches.h	1118;"	d
-TOGGLEFULLSCREEN_PATCH	patches.def.h	960;"	d
-TOGGLEFULLSCREEN_PATCH	patches.h	960;"	d
-TOP_TO_BOTTOM	patch/layout_flextile-deluxe.h	/^	TOP_TO_BOTTOM,     \/\/ clients are arranged vertically$/;"	e	enum:__anon28
+TILE_LAYOUT	patches.def.h	1173;"	d
+TILE_LAYOUT	patches.h	1173;"	d
+TOGGLEFULLSCREEN_PATCH	patches.def.h	1015;"	d
+TOGGLEFULLSCREEN_PATCH	patches.h	1015;"	d
+TOP_TO_BOTTOM	patch/layout_flextile-deluxe.h	/^	TOP_TO_BOTTOM,     \/\/ clients are arranged vertically$/;"	e	enum:__anon24
 TOTALTAGS	dwm.c	98;"	d	file:
-TRANSFER_ALL_PATCH	patches.def.h	972;"	d
-TRANSFER_ALL_PATCH	patches.h	972;"	d
-TRANSFER_PATCH	patches.def.h	966;"	d
-TRANSFER_PATCH	patches.h	966;"	d
+TRANSFER_ALL_PATCH	patches.def.h	1027;"	d
+TRANSFER_ALL_PATCH	patches.h	1027;"	d
+TRANSFER_PATCH	patches.def.h	1021;"	d
+TRANSFER_PATCH	patches.h	1021;"	d
 TRUNC	patch/stacker.h	6;"	d
 TagState	dwm.c	/^struct TagState {$/;"	s	file:
 TagState	dwm.c	/^typedef struct TagState TagState;$/;"	t	typeref:struct:TagState	file:
-TileArranger	patch/layout_flextile-deluxe.c	/^} TileArranger;$/;"	t	typeref:struct:__anon20	file:
+TileArranger	patch/layout_flextile-deluxe.c	/^} TileArranger;$/;"	t	typeref:struct:__anon29	file:
 UNEXPAND	patch/exresize.c	10;"	d	file:
-UNFLOATVISIBLE_PATCH	patches.def.h	978;"	d
-UNFLOATVISIBLE_PATCH	patches.h	978;"	d
+UNFLOATVISIBLE_PATCH	patches.def.h	1033;"	d
+UNFLOATVISIBLE_PATCH	patches.h	1033;"	d
 UTF_INVALID	drw.c	13;"	d	file:
 UTF_SIZ	drw.c	14;"	d	file:
-VANITYGAPS_MONOCLE_PATCH	patches.def.h	991;"	d
-VANITYGAPS_MONOCLE_PATCH	patches.h	991;"	d
-VANITYGAPS_PATCH	patches.def.h	985;"	d
-VANITYGAPS_PATCH	patches.h	985;"	d
+VANITYGAPS_MONOCLE_PATCH	patches.def.h	1046;"	d
+VANITYGAPS_MONOCLE_PATCH	patches.h	1046;"	d
+VANITYGAPS_PATCH	patches.def.h	1040;"	d
+VANITYGAPS_PATCH	patches.h	1040;"	d
 VERSION	config.mk	/^VERSION = 6.2$/;"	m
 VERSION_MAJOR	patch/bar_systray.h	14;"	d
 VERSION_MINOR	patch/bar_systray.h	15;"	d
-VIEWONTAG_PATCH	patches.def.h	996;"	d
-VIEWONTAG_PATCH	patches.h	996;"	d
-VIEW_SAME_TAG_GIVES_PREVIOUS_TAG_PATCH	patches.def.h	1004;"	d
-VIEW_SAME_TAG_GIVES_PREVIOUS_TAG_PATCH	patches.h	1004;"	d
-WARP_PATCH	patches.def.h	1010;"	d
-WARP_PATCH	patches.h	1010;"	d
+VIEWONTAG_PATCH	patches.def.h	1051;"	d
+VIEWONTAG_PATCH	patches.h	1051;"	d
+VIEW_SAME_TAG_GIVES_PREVIOUS_TAG_PATCH	patches.def.h	1059;"	d
+VIEW_SAME_TAG_GIVES_PREVIOUS_TAG_PATCH	patches.h	1059;"	d
+WARP_PATCH	patches.def.h	1065;"	d
+WARP_PATCH	patches.h	1065;"	d
 WIDTH	dwm.c	94;"	d	file:
-WINDOWROLERULE_PATCH	patches.def.h	1019;"	d
-WINDOWROLERULE_PATCH	patches.h	1019;"	d
-WINVIEW_PATCH	patches.def.h	1025;"	d
-WINVIEW_PATCH	patches.h	1025;"	d
-WIN_C	patch/moveplace.h	/^enum { WIN_NW, WIN_N, WIN_NE, WIN_W, WIN_C, WIN_E, WIN_SW, WIN_S, WIN_SE };$/;"	e	enum:__anon22
-WIN_E	patch/moveplace.h	/^enum { WIN_NW, WIN_N, WIN_NE, WIN_W, WIN_C, WIN_E, WIN_SW, WIN_S, WIN_SE };$/;"	e	enum:__anon22
-WIN_N	patch/moveplace.h	/^enum { WIN_NW, WIN_N, WIN_NE, WIN_W, WIN_C, WIN_E, WIN_SW, WIN_S, WIN_SE };$/;"	e	enum:__anon22
-WIN_NE	patch/moveplace.h	/^enum { WIN_NW, WIN_N, WIN_NE, WIN_W, WIN_C, WIN_E, WIN_SW, WIN_S, WIN_SE };$/;"	e	enum:__anon22
-WIN_NW	patch/moveplace.h	/^enum { WIN_NW, WIN_N, WIN_NE, WIN_W, WIN_C, WIN_E, WIN_SW, WIN_S, WIN_SE };$/;"	e	enum:__anon22
-WIN_S	patch/moveplace.h	/^enum { WIN_NW, WIN_N, WIN_NE, WIN_W, WIN_C, WIN_E, WIN_SW, WIN_S, WIN_SE };$/;"	e	enum:__anon22
-WIN_SE	patch/moveplace.h	/^enum { WIN_NW, WIN_N, WIN_NE, WIN_W, WIN_C, WIN_E, WIN_SW, WIN_S, WIN_SE };$/;"	e	enum:__anon22
-WIN_SW	patch/moveplace.h	/^enum { WIN_NW, WIN_N, WIN_NE, WIN_W, WIN_C, WIN_E, WIN_SW, WIN_S, WIN_SE };$/;"	e	enum:__anon22
-WIN_W	patch/moveplace.h	/^enum { WIN_NW, WIN_N, WIN_NE, WIN_W, WIN_C, WIN_E, WIN_SW, WIN_S, WIN_SE };$/;"	e	enum:__anon22
-WMDelete	dwm.c	/^	WMDelete,$/;"	e	enum:__anon4	file:
-WMLast	dwm.c	/^	WMLast$/;"	e	enum:__anon4	file:
-WMProtocols	dwm.c	/^	WMProtocols,$/;"	e	enum:__anon4	file:
-WMState	dwm.c	/^	WMState,$/;"	e	enum:__anon4	file:
-WMTakeFocus	dwm.c	/^	WMTakeFocus,$/;"	e	enum:__anon4	file:
-WMWindowRole	dwm.c	/^	WMWindowRole,$/;"	e	enum:__anon4	file:
+WINDOWROLERULE_PATCH	patches.def.h	1074;"	d
+WINDOWROLERULE_PATCH	patches.h	1074;"	d
+WINVIEW_PATCH	patches.def.h	1080;"	d
+WINVIEW_PATCH	patches.h	1080;"	d
+WIN_C	patch/moveplace.h	/^enum { WIN_NW, WIN_N, WIN_NE, WIN_W, WIN_C, WIN_E, WIN_SW, WIN_S, WIN_SE };$/;"	e	enum:__anon33
+WIN_E	patch/moveplace.h	/^enum { WIN_NW, WIN_N, WIN_NE, WIN_W, WIN_C, WIN_E, WIN_SW, WIN_S, WIN_SE };$/;"	e	enum:__anon33
+WIN_N	patch/moveplace.h	/^enum { WIN_NW, WIN_N, WIN_NE, WIN_W, WIN_C, WIN_E, WIN_SW, WIN_S, WIN_SE };$/;"	e	enum:__anon33
+WIN_NE	patch/moveplace.h	/^enum { WIN_NW, WIN_N, WIN_NE, WIN_W, WIN_C, WIN_E, WIN_SW, WIN_S, WIN_SE };$/;"	e	enum:__anon33
+WIN_NW	patch/moveplace.h	/^enum { WIN_NW, WIN_N, WIN_NE, WIN_W, WIN_C, WIN_E, WIN_SW, WIN_S, WIN_SE };$/;"	e	enum:__anon33
+WIN_S	patch/moveplace.h	/^enum { WIN_NW, WIN_N, WIN_NE, WIN_W, WIN_C, WIN_E, WIN_SW, WIN_S, WIN_SE };$/;"	e	enum:__anon33
+WIN_SE	patch/moveplace.h	/^enum { WIN_NW, WIN_N, WIN_NE, WIN_W, WIN_C, WIN_E, WIN_SW, WIN_S, WIN_SE };$/;"	e	enum:__anon33
+WIN_SW	patch/moveplace.h	/^enum { WIN_NW, WIN_N, WIN_NE, WIN_W, WIN_C, WIN_E, WIN_SW, WIN_S, WIN_SE };$/;"	e	enum:__anon33
+WIN_W	patch/moveplace.h	/^enum { WIN_NW, WIN_N, WIN_NE, WIN_W, WIN_C, WIN_E, WIN_SW, WIN_S, WIN_SE };$/;"	e	enum:__anon33
+WMDelete	dwm.c	/^	WMDelete,$/;"	e	enum:__anon7	file:
+WMLast	dwm.c	/^	WMLast$/;"	e	enum:__anon7	file:
+WMProtocols	dwm.c	/^	WMProtocols,$/;"	e	enum:__anon7	file:
+WMState	dwm.c	/^	WMState,$/;"	e	enum:__anon7	file:
+WMTakeFocus	dwm.c	/^	WMTakeFocus,$/;"	e	enum:__anon7	file:
+WMWindowRole	dwm.c	/^	WMWindowRole,$/;"	e	enum:__anon7	file:
 WTYPE	dwm.c	96;"	d	file:
 Window	patch/ipc/dwm-msg.c	/^typedef unsigned long Window;$/;"	t	file:
 X11INC	config.mk	/^X11INC = \/usr\/X11R6\/include$/;"	m
@@ -747,13 +794,13 @@ XEMBED_WINDOW_ACTIVATE	patch/bar_systray.h	6;"	d
 XEMBED_WINDOW_DEACTIVATE	patch/bar_systray.h	12;"	d
 XINERAMAFLAGS	config.mk	/^XINERAMAFLAGS = -DXINERAMA$/;"	m
 XINERAMALIBS	config.mk	/^XINERAMALIBS  = -lXinerama$/;"	m
-XLast	patch/bar_systray.h	/^enum { Manager, Xembed, XembedInfo, XLast }; \/* Xembed atoms *\/$/;"	e	enum:__anon31
+XLast	patch/bar_systray.h	/^enum { Manager, Xembed, XembedInfo, XLast }; \/* Xembed atoms *\/$/;"	e	enum:__anon32
 XRDB_LOAD_COLOR	patch/xrdb.h	3;"	d
-XRDB_PATCH	patches.def.h	1031;"	d
-XRDB_PATCH	patches.h	1031;"	d
+XRDB_PATCH	patches.def.h	1086;"	d
+XRDB_PATCH	patches.h	1086;"	d
 XRENDER	config.mk	/^XRENDER = -lXrender$/;"	m
-Xembed	patch/bar_systray.h	/^enum { Manager, Xembed, XembedInfo, XLast }; \/* Xembed atoms *\/$/;"	e	enum:__anon31
-XembedInfo	patch/bar_systray.h	/^enum { Manager, Xembed, XembedInfo, XLast }; \/* Xembed atoms *\/$/;"	e	enum:__anon31
+Xembed	patch/bar_systray.h	/^enum { Manager, Xembed, XembedInfo, XLast }; \/* Xembed atoms *\/$/;"	e	enum:__anon32
+XembedInfo	patch/bar_systray.h	/^enum { Manager, Xembed, XembedInfo, XLast }; \/* Xembed atoms *\/$/;"	e	enum:__anon32
 YAJL_DUMPS_H_	patch/ipc/yajl_dumps.h	2;"	d
 YARR	patch/ipc/dwm-msg.c	32;"	d	file:
 YARR	patch/ipc/yajl_dumps.h	12;"	d
@@ -769,30 +816,56 @@ YNULL	patch/ipc/dwm-msg.c	31;"	d	file:
 YNULL	patch/ipc/yajl_dumps.h	11;"	d
 YSTR	patch/ipc/dwm-msg.c	27;"	d	file:
 YSTR	patch/ipc/yajl_dumps.h	7;"	d
-ZOOMFLOATING_PATCH	patches.def.h	1036;"	d
-ZOOMFLOATING_PATCH	patches.h	1036;"	d
-ZOOMSWAP_PATCH	patches.def.h	1042;"	d
-ZOOMSWAP_PATCH	patches.h	1042;"	d
+ZOOMFLOATING_PATCH	patches.def.h	1091;"	d
+ZOOMFLOATING_PATCH	patches.h	1091;"	d
+ZOOMSWAP_PATCH	patches.def.h	1097;"	d
+ZOOMSWAP_PATCH	patches.h	1097;"	d
 _NET_SYSTEM_TRAY_ORIENTATION_HORZ	patch/bar_systray.h	2;"	d
-alignment	dwm.c	/^	int alignment; \/\/ see bar alignment enum$/;"	m	struct:__anon9	file:
-alphas	config.def.h	/^static const unsigned int alphas[][3]	= {$/;"	v
-alphas	config.h	/^static const unsigned int alphas[][3]	= {$/;"	v
+actDWDLbgcolor	config.def.h	/^static char actDWDLbgcolor[]             = "#004444";$/;"	v
+actDWDLbgcolor	config.h	/^static char actDWDLbgcolor[]             = "#004444";$/;"	v
+actGRD1bgcolor	config.def.h	/^static char actGRD1bgcolor[]             = "#004400";$/;"	v
+actGRD1bgcolor	config.h	/^static char actGRD1bgcolor[]             = "#004400";$/;"	v
+actGRD2bgcolor	config.def.h	/^static char actGRD2bgcolor[]             = "#004400";$/;"	v
+actGRD2bgcolor	config.h	/^static char actGRD2bgcolor[]             = "#004400";$/;"	v
+actGRDMbgcolor	config.def.h	/^static char actGRDMbgcolor[]             = "#507711";$/;"	v
+actGRDMbgcolor	config.h	/^static char actGRDMbgcolor[]             = "#507711";$/;"	v
+actGRIDbgcolor	config.def.h	/^static char actGRIDbgcolor[]             = "#004400";$/;"	v
+actGRIDbgcolor	config.h	/^static char actGRIDbgcolor[]             = "#004400";$/;"	v
+actHGRDbgcolor	config.def.h	/^static char actHGRDbgcolor[]             = "#b97711";$/;"	v
+actHGRDbgcolor	config.h	/^static char actHGRDbgcolor[]             = "#b97711";$/;"	v
+actLTRbgcolor	config.def.h	/^static char actLTRbgcolor[]              = "#440044";$/;"	v
+actLTRbgcolor	config.h	/^static char actLTRbgcolor[]              = "#440044";$/;"	v
+actMONObgcolor	config.def.h	/^static char actMONObgcolor[]             = "#000044";$/;"	v
+actMONObgcolor	config.h	/^static char actMONObgcolor[]             = "#000044";$/;"	v
+actSPRLbgcolor	config.def.h	/^static char actSPRLbgcolor[]             = "#444400";$/;"	v
+actSPRLbgcolor	config.h	/^static char actSPRLbgcolor[]             = "#444400";$/;"	v
+actTTBbgcolor	config.def.h	/^static char actTTBbgcolor[]              = "#440000";$/;"	v
+actTTBbgcolor	config.h	/^static char actTTBbgcolor[]              = "#440000";$/;"	v
+actfloatbgcolor	config.def.h	/^static char actfloatbgcolor[]            = "#116688";$/;"	v
+actfloatbgcolor	config.h	/^static char actfloatbgcolor[]            = "#116688";$/;"	v
+alignment	dwm.c	/^	int alignment; \/\/ see bar alignment enum$/;"	m	struct:__anon12	file:
+alphas	config.def.h	/^static const unsigned int alphas[][3] = {$/;"	v
+alphas	config.h	/^static const unsigned int alphas[][3] = {$/;"	v
+altbarclass	config.def.h	/^static const char *altbarclass           = "Polybar"; \/* Alternate bar class name *\/$/;"	v
+altbarclass	config.h	/^static const char *altbarclass           = "Polybar"; \/* Alternate bar class name *\/$/;"	v
+altbarcmd	config.def.h	/^static const char *altbarcmd             = "$HOME\/bar.sh"; \/* Alternate bar launch command *\/$/;"	v
+altbarcmd	config.h	/^static const char *altbarcmd             = "$HOME\/bar.sh"; \/* Alternate bar launch command *\/$/;"	v
 alttag	dwm.c	/^	unsigned int alttag;$/;"	m	struct:Monitor	file:
 applyrules	dwm.c	/^applyrules(Client *c)$/;"	f
 applysizehints	dwm.c	/^applysizehints(Client *c, int *x, int *y, int *w, int *h, int interact)$/;"	f
-arg	dwm.c	/^	const Arg arg;$/;"	m	struct:__anon10	file:
-arg	dwm.c	/^	const Arg arg;$/;"	m	struct:__anon11	file:
-arg	patch/fsignal.h	/^	const Arg arg;$/;"	m	struct:__anon29
-arg	patch/keymodes.h	/^	const Arg arg;$/;"	m	struct:__anon18
+arg	dwm.c	/^	const Arg arg;$/;"	m	struct:__anon13	file:
+arg	dwm.c	/^	const Arg arg;$/;"	m	struct:__anon14	file:
+arg	patch/fsignal.h	/^	const Arg arg;$/;"	m	struct:__anon25
+arg	patch/keymodes.h	/^	const Arg arg;$/;"	m	struct:__anon31
 arg_types	patch/ipc/ipc.h	/^  ArgType *arg_types;$/;"	m	struct:IPCCommand
 arg_types	patch/ipc/ipc.h	/^  ArgType *arg_types;$/;"	m	struct:IPCParsedCommand
 argc	patch/ipc/ipc.h	/^  unsigned int argc;$/;"	m	struct:IPCCommand
 argc	patch/ipc/ipc.h	/^  unsigned int argc;$/;"	m	struct:IPCParsedCommand
 args	patch/ipc/ipc.h	/^  Arg *args;$/;"	m	struct:IPCParsedCommand
-arrange	dwm.c	/^	void (*arrange)(Monitor *);$/;"	m	struct:__anon13	file:
+arrange	dwm.c	/^	void (*arrange)(Monitor *);$/;"	m	struct:__anon16	file:
 arrange	dwm.c	/^arrange(Monitor *m)$/;"	f
-arrange	patch/layout_flextile-deluxe.c	/^	void (*arrange)(Monitor *, int, int, int, int, int, int, int);$/;"	m	struct:__anon19	file:
-arrange	patch/layout_flextile-deluxe.c	/^	void (*arrange)(Monitor *, int, int, int, int, int, int, int, int, int);$/;"	m	struct:__anon20	file:
+arrange	patch/layout_flextile-deluxe.c	/^	void (*arrange)(Monitor *, int, int, int, int, int, int, int);$/;"	m	struct:__anon28	file:
+arrange	patch/layout_flextile-deluxe.c	/^	void (*arrange)(Monitor *, int, int, int, int, int, int, int, int, int);$/;"	m	struct:__anon29	file:
 arrange_dwindle	patch/layout_flextile-deluxe.c	/^arrange_dwindle(Monitor *m, int x, int y, int h, int w, int ih, int iv, int n, int an, int ai)$/;"	f	file:
 arrange_fibonacci	patch/layout_flextile-deluxe.c	/^arrange_fibonacci(Monitor *m, int x, int y, int h, int w, int ih, int iv, int n, int an, int ai, int s)$/;"	f	file:
 arrange_gapplessgrid	patch/layout_flextile-deluxe.c	/^arrange_gapplessgrid(Monitor *m, int x, int y, int h, int w, int ih, int iv, int n, int an, int ai)$/;"	f	file:
@@ -803,6 +876,7 @@ arrange_horizgrid	patch/layout_flextile-deluxe.c	/^arrange_horizgrid(Monitor *m,
 arrange_left_to_right	patch/layout_flextile-deluxe.c	/^arrange_left_to_right(Monitor *m, int x, int y, int h, int w, int ih, int iv, int n, int an, int ai)$/;"	f	file:
 arrange_monocle	patch/layout_flextile-deluxe.c	/^arrange_monocle(Monitor *m, int x, int y, int h, int w, int ih, int iv, int n, int an, int ai)$/;"	f	file:
 arrange_spiral	patch/layout_flextile-deluxe.c	/^arrange_spiral(Monitor *m, int x, int y, int h, int w, int ih, int iv, int n, int an, int ai)$/;"	f	file:
+arrange_tatami	patch/layout_flextile-deluxe.c	/^arrange_tatami(Monitor *m, int x, int y, int h, int w, int ih, int iv, int n, int an, int ai)$/;"	f	file:
 arrange_top_to_bottom	patch/layout_flextile-deluxe.c	/^arrange_top_to_bottom(Monitor *m, int x, int y, int h, int w, int ih, int iv, int n, int an, int ai)$/;"	f	file:
 arrangemon	dwm.c	/^arrangemon(Monitor *m)$/;"	f
 array_param	patch/ipc/ipc.h	/^  void (*array_param)(const Arg *, int);$/;"	m	union:ArgFunction
@@ -810,31 +884,40 @@ aspectresize	patch/aspectresize.c	/^aspectresize(const Arg *arg)$/;"	f
 attach	dwm.c	/^attach(Client *c)$/;"	f
 attachstack	dwm.c	/^attachstack(Client *c)$/;"	f
 attachx	patch/attachx.c	/^attachx(Client *c)$/;"	f
+autostart	config.def.h	/^static const char *const autostart[] = {$/;"	v
+autostart	config.h	/^static const char *const autostart[] = {$/;"	v
 autostart_exec	patch/cool_autostart.c	/^autostart_exec()$/;"	f	file:
 autostart_len	patch/cool_autostart.c	/^static size_t autostart_len;$/;"	v	file:
 autostart_pids	patch/cool_autostart.c	/^static pid_t *autostart_pids;$/;"	v	file:
-autostartblocksh	config.def.h	/^static const char		autostartblocksh[]	= "autostart_blocking.sh";$/;"	v
-autostartblocksh	config.h	/^static const char		autostartblocksh[]	= "autostart_blocking.sh";$/;"	v
-autostartsh	config.def.h	/^static const char		autostartsh[]		= "autostart.sh";$/;"	v
-autostartsh	config.h	/^static const char		autostartsh[]		= "autostart.sh";$/;"	v
+autostartblocksh	config.def.h	/^static const char autostartblocksh[]     = "autostart_blocking.sh";$/;"	v
+autostartblocksh	config.h	/^static const char autostartblocksh[]     = "autostart_blocking.sh";$/;"	v
+autostartsh	config.def.h	/^static const char autostartsh[]          = "autostart.sh";$/;"	v
+autostartsh	config.h	/^static const char autostartsh[]          = "autostart.sh";$/;"	v
 bar	dwm.c	/^	Bar *bar;$/;"	m	struct:Monitor	file:
-bar	dwm.c	/^	int bar;$/;"	m	struct:__anon9	file:
+bar	dwm.c	/^	int bar;$/;"	m	struct:__anon12	file:
 bar	patch/bar_systray.h	/^	Bar *bar;$/;"	m	struct:Systray
-baralpha	config.def.h	/^static const unsigned int 	baralpha	= 0xD0; \/* 208 *\/$/;"	v
-baralpha	config.h	/^static const unsigned int 	baralpha	= 0xD0; \/* 208 *\/$/;"	v
+bar_height	config.def.h	/^static const int bar_height              = 0;   \/* 0 means derive from font, >= 1 explicit height *\/$/;"	v
+bar_height	config.h	/^static const int bar_height              = 0;   \/* 0 means derive from font, >= 1 explicit height *\/$/;"	v
+baralpha	config.def.h	/^static const unsigned int baralpha = 0xd0;$/;"	v
+baralpha	config.h	/^static const unsigned int baralpha = 0xd0;$/;"	v
 barrules	config.def.h	/^static const BarRule barrules[] = {$/;"	v
 barrules	config.h	/^static const BarRule barrules[] = {$/;"	v
 bartabcalculate	patch/bar_tabgroups.c	/^bartabcalculate($/;"	f
 bartabclick	patch/bar_tabgroups.c	/^bartabclick(Monitor *m, Client *c, int passx, int x, int w, int unused, Arg *arg, BarArg *barg)$/;"	f
 bartabdraw	patch/bar_tabgroups.c	/^bartabdraw(Monitor *m, Client *c, int unused, int x, int w, int groupactive, Arg *arg, BarArg *barg)$/;"	f
+bartabmonfns	config.def.h	/^static void (*bartabmonfns[])(Monitor *) = { NULL \/* , customlayoutfn *\/ };$/;"	v
+bartabmonfns	config.def.h	/^static void (*bartabmonfns[])(Monitor *) = { monocle \/* , customlayoutfn *\/ };$/;"	v
+bartabmonfns	config.h	/^static void (*bartabmonfns[])(Monitor *) = { NULL \/* , customlayoutfn *\/ };$/;"	v
+bartabmonfns	config.h	/^static void (*bartabmonfns[])(Monitor *) = { monocle \/* , customlayoutfn *\/ };$/;"	v
 baseh	dwm.c	/^	int basew, baseh, incw, inch, maxw, maxh, minw, minh;$/;"	m	struct:Client	file:
 basew	dwm.c	/^	int basew, baseh, incw, inch, maxw, maxh, minw, minh;$/;"	m	struct:Client	file:
+beingmoved	dwm.c	/^	int beingmoved;$/;"	m	struct:Client	file:
 bh	dwm.c	/^	int bx, by, bw, bh; \/* bar geometry *\/$/;"	m	struct:Bar	file:
 bh	dwm.c	/^static int bh;               \/* bar geometry *\/$/;"	v	file:
-borderalpha	config.def.h	/^static const unsigned int 	borderalpha	= OPAQUE; \/* COMPILER MACRO see dwm.c *\/$/;"	v
-borderalpha	config.h	/^static const unsigned int 	borderalpha	= OPAQUE; \/* COMPILER MACRO see dwm.c *\/$/;"	v
-borderpx	config.def.h	/^static const unsigned int	borderpx		= 3;   \/* border pixel of windows *\/$/;"	v
-borderpx	config.h	/^static const unsigned int	borderpx		= 3;   \/* border pixel of windows *\/$/;"	v
+borderalpha	config.def.h	/^static const unsigned int borderalpha = OPAQUE;$/;"	v
+borderalpha	config.h	/^static const unsigned int borderalpha = OPAQUE;$/;"	v
+borderpx	config.def.h	/^static const unsigned int borderpx       = 3;   \/* border pixel of windows *\/$/;"	v
+borderpx	config.h	/^static const unsigned int borderpx       = 3;   \/* border pixel of windows *\/$/;"	v
 borderpx	dwm.c	/^	int borderpx;$/;"	m	struct:Bar	file:
 borderpx	dwm.c	/^	unsigned int borderpx;$/;"	m	struct:Monitor	file:
 borderscheme	dwm.c	/^	int borderscheme;$/;"	m	struct:Bar	file:
@@ -843,7 +926,9 @@ bstack	patch/layout_bstack.c	/^bstack(Monitor *m)$/;"	f	file:
 bstackhoriz	patch/layout_bstackhoriz.c	/^bstackhoriz(Monitor *m)$/;"	f	file:
 buffer	patch/ipc/IPCClient.h	/^  char *buffer;$/;"	m	struct:IPCClient
 buffer_size	patch/ipc/IPCClient.h	/^  uint32_t buffer_size;$/;"	m	struct:IPCClient
-button	dwm.c	/^	unsigned int button;$/;"	m	struct:__anon10	file:
+button	dwm.c	/^	unsigned int button;$/;"	m	struct:__anon13	file:
+buttonbar	config.def.h	/^static const char buttonbar[]            = "<O>";$/;"	v
+buttonbar	config.h	/^static const char buttonbar[]            = "<O>";$/;"	v
 buttonpress	dwm.c	/^buttonpress(XEvent *e)$/;"	f
 buttons	config.def.h	/^static Button buttons[] = {$/;"	v
 buttons	config.h	/^static Button buttons[] = {$/;"	v
@@ -851,6 +936,8 @@ bw	dwm.c	/^	int bw, oldbw;$/;"	m	struct:Client	file:
 bw	dwm.c	/^	int bx, by, bw, bh; \/* bar geometry *\/$/;"	m	struct:Bar	file:
 bx	dwm.c	/^	int bx, by, bw, bh; \/* bar geometry *\/$/;"	m	struct:Bar	file:
 by	dwm.c	/^	int bx, by, bw, bh; \/* bar geometry *\/$/;"	m	struct:Bar	file:
+c000000	config.def.h	/^static char c000000[]                    = "#000000"; \/\/ placeholder value$/;"	v
+c000000	config.h	/^static char c000000[]                    = "#000000"; \/\/ placeholder value$/;"	v
 calc_wintitle_floating	patch/bar_wintitle_floating.c	/^calc_wintitle_floating($/;"	f
 calc_wintitle_hidden	patch/bar_wintitle_hidden.c	/^calc_wintitle_hidden($/;"	f
 calculate_expand	patch/exresize.c	/^calculate_expand(unsigned char mask, unsigned char curmask,$/;"	f
@@ -859,11 +946,11 @@ centeredmaster	patch/layout_centeredmaster.c	/^centeredmaster(Monitor *m)$/;"	f
 cfact	dwm.c	/^	float cfact;$/;"	m	struct:Client	file:
 checkfloatingrules	patch/sizehints_ruled.c	/^checkfloatingrules(Client *c)$/;"	f
 checkotherwm	dwm.c	/^checkotherwm(void)$/;"	f
-class	dwm.c	/^	const char *class;$/;"	m	struct:__anon15	file:
+class	dwm.c	/^	const char *class;$/;"	m	struct:__anon18	file:
 cleanup	dwm.c	/^cleanup(void)$/;"	f
 cleanupmon	dwm.c	/^cleanupmon(Monitor *mon)$/;"	f
 clearcmd	patch/keymodes.c	/^clearcmd(const Arg *arg)$/;"	f
-click	dwm.c	/^	unsigned int click;$/;"	m	struct:__anon10	file:
+click	dwm.c	/^	unsigned int click;$/;"	m	struct:__anon13	file:
 click_awesomebar	patch/bar_awesomebar.c	/^click_awesomebar(Bar *bar, Arg *arg, BarArg *a)$/;"	f
 click_bartabgroups	patch/bar_tabgroups.c	/^click_bartabgroups(Bar *bar, Arg *arg, BarArg *a)$/;"	f
 click_fancybar	patch/bar_fancybar.c	/^click_fancybar(Bar *bar, Arg *arg, BarArg *a)$/;"	f
@@ -883,36 +970,46 @@ click_tags	patch/bar_tags.c	/^click_tags(Bar *bar, Arg *arg, BarArg *a)$/;"	f
 click_wintitle	patch/bar_wintitle.c	/^click_wintitle(Bar *bar, Arg *arg, BarArg *a)$/;"	f
 click_wintitle_floating	patch/bar_wintitle_floating.c	/^click_wintitle_floating(Bar *bar, Arg *arg, BarArg *a)$/;"	f
 click_wintitle_hidden	patch/bar_wintitle_hidden.c	/^click_wintitle_hidden(Bar *bar, Arg *arg, BarArg *a)$/;"	f
-clickfunc	dwm.c	/^	int (*clickfunc)(Bar *bar, Arg *arg, BarArg *a);$/;"	m	struct:__anon9	file:
+clickfunc	dwm.c	/^	int (*clickfunc)(Bar *bar, Arg *arg, BarArg *a);$/;"	m	struct:__anon12	file:
 clientmessage	dwm.c	/^clientmessage(XEvent *e)$/;"	f
 clients	dwm.c	/^	Client *clients;$/;"	m	struct:Monitor	file:
-cmap	drw.h	/^	Colormap cmap;$/;"	m	struct:__anon34
+cmap	drw.h	/^	Colormap cmap;$/;"	m	struct:__anon3
 cmap	patch/bar_alpha.c	/^static Colormap cmap;$/;"	v	file:
-cmd	patch/scratchpad.h	/^       const void *cmd;$/;"	m	struct:__anon23
+cmd	patch/scratchpad.h	/^       const void *cmd;$/;"	m	struct:__anon20
+cmdkeys	config.def.h	/^static Key cmdkeys[] = {$/;"	v
+cmdkeys	config.h	/^static Key cmdkeys[] = {$/;"	v
 cmdkeysym	patch/keymodes.h	/^static KeySym cmdkeysym[4];/;"	v
 cmdmod	patch/keymodes.h	/^static unsigned int cmdmod[4];$/;"	v
 col	patch/layout_columns.c	/^col(Monitor *m)$/;"	f	file:
+color_ptrs	config.def.h	/^static const int color_ptrs[][ColCount] = {$/;"	v
+color_ptrs	config.h	/^static const int color_ptrs[][ColCount] = {$/;"	v
 colors	config.def.h	/^static char *colors[][ColCount] = {$/;"	v
 colors	config.h	/^static char *colors[][ColCount] = {$/;"	v
 combo	patch/combo.c	/^static int combo = 0;$/;"	v	file:
 combotag	patch/combo.c	/^combotag(const Arg *arg)$/;"	f
 comboview	patch/combo.c	/^comboview(const Arg *arg)$/;"	f
+commands	config.def.h	/^static Command commands[] = {$/;"	v
+commands	config.h	/^static Command commands[] = {$/;"	v
 configure	dwm.c	/^configure(Client *c)$/;"	f
 configurenotify	dwm.c	/^configurenotify(XEvent *e)$/;"	f
 configurerequest	dwm.c	/^configurerequest(XEvent *e)$/;"	f
 connect_to_socket	patch/ipc/dwm-msg.c	/^connect_to_socket()$/;"	f	file:
 copyvalidchars	patch/bar_statuscmd.c	/^copyvalidchars(char *text, char *rawtext)$/;"	f
+corner_radius	config.def.h	/^static const int corner_radius           = 10;$/;"	v
+corner_radius	config.h	/^static const int corner_radius           = 10;$/;"	v
 createmon	dwm.c	/^createmon(void)$/;"	f
-cursor	drw.h	/^	Cursor cursor;$/;"	m	struct:__anon32
+cursor	drw.h	/^	Cursor cursor;$/;"	m	struct:__anon1
 cursor	dwm.c	/^static Cur *cursor[CurLast];$/;"	v	file:
 curtag	patch/pertag.c	/^	unsigned int curtag, prevtag; \/* current and previous tag *\/$/;"	m	struct:Pertag	file:
 cyclelayout	patch/cyclelayouts.c	/^cyclelayout(const Arg *arg)$/;"	f
 deck	patch/layout_deck.c	/^deck(Monitor *m)$/;"	f	file:
 decksymbols	patch/layout_flextile-deluxe.c	/^decksymbols(Monitor *m, unsigned int n)$/;"	f	file:
-decorhints	config.def.h	/^static const int decorhints	= 1;    \/* 1 means respect decoration hints *\/$/;"	v
-decorhints	config.h	/^static const int decorhints	= 1;    \/* 1 means respect decoration hints *\/$/;"	v
+decorhints	config.def.h	/^static const int decorhints  = 1;    \/* 1 means respect decoration hints *\/$/;"	v
+decorhints	config.h	/^static const int decorhints  = 1;    \/* 1 means respect decoration hints *\/$/;"	v
+default_inset	config.def.h	/^static const Inset default_inset = {$/;"	v
+default_inset	config.h	/^static const Inset default_inset = {$/;"	v
 defaultgaps	patch/vanitygaps.c	/^defaultgaps(const Arg *arg)$/;"	f	file:
-depth	drw.h	/^	unsigned int depth;$/;"	m	struct:__anon34
+depth	drw.h	/^	unsigned int depth;$/;"	m	struct:__anon3
 depth	patch/bar_alpha.c	/^static int depth;$/;"	v	file:
 destroynotify	dwm.c	/^destroynotify(XEvent *e)$/;"	f
 detach	dwm.c	/^detach(Client *c)$/;"	f
@@ -921,12 +1018,12 @@ die	util.c	/^die(const char *fmt, ...) {$/;"	f
 dirtomon	dwm.c	/^dirtomon(int dir)$/;"	f
 dmenucmd	config.def.h	/^static const char *dmenucmd[] = {$/;"	v
 dmenucmd	config.h	/^static const char *dmenucmd[] = {$/;"	v
-dmenufont	config.def.h	/^static const char 		dmenufont[]		= "JetBrainsMono Nerd Font:size=8";$/;"	v
-dmenufont	config.h	/^static const char 		dmenufont[]		= "JetBrainsMono Nerd Font:size=8";$/;"	v
+dmenufont	config.def.h	/^static const char dmenufont[]            = "monospace:size=10";$/;"	v
+dmenufont	config.h	/^static const char dmenufont[]            = "monospace:size=10";$/;"	v
 dmenumon	config.def.h	/^static char dmenumon[2] = "0"; \/* component of dmenucmd, manipulated in spawn() *\/$/;"	v
 dmenumon	config.h	/^static char dmenumon[2] = "0"; \/* component of dmenucmd, manipulated in spawn() *\/$/;"	v
 dpy	drw.h	/^	Display *dpy;$/;"	m	struct:Fnt
-dpy	drw.h	/^	Display *dpy;$/;"	m	struct:__anon34
+dpy	drw.h	/^	Display *dpy;$/;"	m	struct:__anon3
 dpy	dwm.c	/^static Display *dpy;$/;"	v	file:
 dpy_fd	patch/ipc.c	/^static int dpy_fd;$/;"	v	file:
 dragcfact	patch/dragcfact.c	/^dragcfact(const Arg *arg)$/;"	f
@@ -950,11 +1047,11 @@ draw_tags	patch/bar_tags.c	/^draw_tags(Bar *bar, BarArg *a)$/;"	f
 draw_wintitle	patch/bar_wintitle.c	/^draw_wintitle(Bar *bar, BarArg *a)$/;"	f
 draw_wintitle_floating	patch/bar_wintitle_floating.c	/^draw_wintitle_floating(Bar *bar, BarArg *a)$/;"	f
 draw_wintitle_hidden	patch/bar_wintitle_hidden.c	/^draw_wintitle_hidden(Bar *bar, BarArg *a)$/;"	f
-drawable	drw.h	/^	Drawable drawable;$/;"	m	struct:__anon34
+drawable	drw.h	/^	Drawable drawable;$/;"	m	struct:__anon3
 drawbar	dwm.c	/^drawbar(Monitor *m)$/;"	f
 drawbars	dwm.c	/^drawbars(void)$/;"	f
 drawbarwin	dwm.c	/^drawbarwin(Bar *bar)$/;"	f
-drawfunc	dwm.c	/^	int (*drawfunc)(Bar *bar, BarArg *a);$/;"	m	struct:__anon9	file:
+drawfunc	dwm.c	/^	int (*drawfunc)(Bar *bar, BarArg *a);$/;"	m	struct:__anon12	file:
 drawindicator	patch/bar_indicators.c	/^drawindicator(Monitor *m, Client *c, unsigned int occ, int x, int y, int w, int h, unsigned int tag, int filled, int invert, int type)$/;"	f
 drawpowerlinestatus	patch/bar_powerline_status.c	/^drawpowerlinestatus(int xpos, char *stext, BarArg *barg)$/;"	f
 drawroundedcorners	patch/roundedcorners.c	/^void drawroundedcorners(Client *c)$/;"	f
@@ -1004,8 +1101,8 @@ dwm_ipc_header_t	patch/ipc/dwm-msg.c	/^} __attribute((packed)) dwm_ipc_header_t;
 dwm_ipc_header_t	patch/ipc/ipc.h	/^} __attribute((packed)) dwm_ipc_header_t;$/;"	t	typeref:struct:dwm_ipc_header
 dwmblockspid	patch/bar_dwmblocks.c	/^pid_t dwmblockspid = 0;$/;"	v
 dwmblockssig	patch/bar_dwmblocks.c	/^static int dwmblockssig;$/;"	v	file:
-dwmdir	config.def.h	/^static const char		dwmdir[]		= "dwm";$/;"	v
-dwmdir	config.h	/^static const char		dwmdir[]		= "dwm";$/;"	v
+dwmdir	config.def.h	/^static const char dwmdir[]               = "dwm";$/;"	v
+dwmdir	config.h	/^static const char dwmdir[]               = "dwm";$/;"	v
 ecalloc	util.c	/^ecalloc(size_t nmemb, size_t size)$/;"	f
 enablegaps	patch/pertag.c	/^	int enablegaps[NUMTAGS + 1];$/;"	m	struct:Pertag	file:
 enablegaps	patch/vanitygaps.c	/^static int enablegaps = 1;$/;"	v	file:
@@ -1027,13 +1124,17 @@ explace	patch/exresize.c	/^explace(const Arg *arg)$/;"	f
 expose	dwm.c	/^expose(XEvent *e)$/;"	f
 exresize	patch/exresize.c	/^exresize(const Arg *arg)$/;"	f
 external	dwm.c	/^	int external;$/;"	m	struct:Bar	file:
-f	dwm.c	/^	float f;$/;"	m	union:__anon7	file:
+f	dwm.c	/^	float f;$/;"	m	union:__anon10	file:
 fake_signal	patch/dwmc.c	/^fake_signal(void)$/;"	f
 fake_signal	patch/fsignal.c	/^fake_signal(void)$/;"	f
+fakefsindicatortype	config.def.h	/^static int fakefsindicatortype           = INDICATOR_PLUS;$/;"	v
+fakefsindicatortype	config.h	/^static int fakefsindicatortype           = INDICATOR_PLUS;$/;"	v
 fakefullscreen	dwm.c	/^	int fakefullscreen;$/;"	m	struct:Client	file:
 fd	patch/ipc/IPCClient.h	/^  int fd;$/;"	m	struct:IPCClient
 fibonacci	patch/layout_fibonacci.c	/^fibonacci(Monitor *m, int s)$/;"	f
 findbefore	patch/zoomswap.c	/^findbefore(Client *c) {$/;"	f
+firefoxcmd	config.def.h	/^static const char* firefoxcmd[] = {"firefox", NULL};$/;"	v
+firefoxcmd	config.h	/^static const char* firefoxcmd[] = {"firefox", NULL};$/;"	v
 flexlayouts	patch/layout_flextile-deluxe.c	/^static const LayoutArranger flexlayouts[] = {$/;"	v	file:
 flextile	patch/layout_flextile-deluxe.c	/^flextile(Monitor *m)$/;"	f	file:
 flextiles	patch/layout_flextile-deluxe.c	/^static const TileArranger flextiles[] = {$/;"	v	file:
@@ -1041,49 +1142,61 @@ flextitlecalculate	patch/bar_flexwintitle.c	/^flextitlecalculate($/;"	f
 flextitleclick	patch/bar_flexwintitle.c	/^flextitleclick(Monitor *m, Client *c, int passx, int x, int w, int unused, Arg *arg, BarArg *barg)$/;"	f
 flextitledraw	patch/bar_flexwintitle.c	/^flextitledraw(Monitor *m, Client *c, int unused, int x, int w, int tabscheme, Arg *arg, BarArg *barg)$/;"	f
 flextitledrawarea	patch/bar_flexwintitle.c	/^flextitledrawarea(Monitor *m, Client *c, int x, int r, int w, int max_clients, int scheme, int draw_tiled, int draw_hidden, int draw_floating,$/;"	f
-floatindicatortype	config.def.h	/^static int 			floatindicatortype	= INDICATOR_TOP_LEFT_SQUARE;$/;"	v
-floatindicatortype	config.h	/^static int 			floatindicatortype	= INDICATOR_TOP_LEFT_SQUARE;$/;"	v
-floatpos	dwm.c	/^	const char *floatpos;$/;"	m	struct:__anon15	file:
+floatfakefsindicatortype	config.def.h	/^static int floatfakefsindicatortype      = INDICATOR_PLUS_AND_LARGER_SQUARE;$/;"	v
+floatfakefsindicatortype	config.h	/^static int floatfakefsindicatortype      = INDICATOR_PLUS_AND_LARGER_SQUARE;$/;"	v
+floatindicatortype	config.def.h	/^static int floatindicatortype            = INDICATOR_TOP_LEFT_SQUARE;$/;"	v
+floatindicatortype	config.h	/^static int floatindicatortype            = INDICATOR_TOP_LEFT_SQUARE;$/;"	v
+floatpos	dwm.c	/^	const char *floatpos;$/;"	m	struct:__anon18	file:
 floatpos	patch/floatpos.c	/^floatpos(const Arg *arg)$/;"	f
+floatposgrid_x	config.def.h	/^static int floatposgrid_x                = 5;  \/* float grid columns *\/$/;"	v
+floatposgrid_x	config.h	/^static int floatposgrid_x                = 5;  \/* float grid columns *\/$/;"	v
+floatposgrid_y	config.def.h	/^static int floatposgrid_y                = 5;  \/* float grid rows *\/$/;"	v
+floatposgrid_y	config.h	/^static int floatposgrid_y                = 5;  \/* float grid rows *\/$/;"	v
 flush_socket_reply	patch/ipc/dwm-msg.c	/^flush_socket_reply()$/;"	f	file:
 focus	dwm.c	/^focus(Client *c)$/;"	f
+focusdir	patch/focusdir.c	/^focusdir(const Arg *arg)$/;"	f
 focusin	dwm.c	/^focusin(XEvent *e)$/;"	f
 focusmaster	patch/focusmaster.c	/^focusmaster(const Arg *arg)$/;"	f
 focusmon	dwm.c	/^focusmon(const Arg *arg)$/;"	f
+focusonwheel	config.def.h	/^static const int focusonwheel            = 0;$/;"	v
+focusonwheel	config.h	/^static const int focusonwheel            = 0;$/;"	v
 focusstack	dwm.c	/^focusstack(const Arg *arg)$/;"	f
 focusstack	patch/stacker.c	/^focusstack(const Arg *arg)$/;"	f
 focusurgent	patch/focusurgent.c	/^focusurgent(const Arg *arg)$/;"	f
-fonts	config.def.h	/^static const char 		*fonts[]		= { "Noto Color Emoji:size=8",$/;"	v
-fonts	config.h	/^static const char 		*fonts[]		= { "Noto Color Emoji:size=8",$/;"	v
-fonts	drw.h	/^	Fnt *fonts;$/;"	m	struct:__anon34
+font	config.def.h	/^static const char font[]                 = "monospace 10";$/;"	v
+font	config.h	/^static const char font[]                 = "monospace 10";$/;"	v
+fonts	config.def.h	/^static const char *fonts[]               = { "serif:size=10",$/;"	v
+fonts	config.h	/^static const char *fonts[]               = { "serif:size=10",$/;"	v
+fonts	drw.h	/^	Fnt *fonts;$/;"	m	struct:__anon3
+force_warp	dwm.c	/^static int force_warp = 0; \/\/ force warp in some situations, e.g. killclient$/;"	v	file:
 fullscreen	patch/fullscreen.c	/^fullscreen(const Arg *arg)$/;"	f
-func	dwm.c	/^	void (*func)(const Arg *);$/;"	m	struct:__anon11	file:
-func	dwm.c	/^	void (*func)(const Arg *arg);$/;"	m	struct:__anon10	file:
-func	patch/dwmc.h	/^	void (*func)(const Arg *);$/;"	m	struct:__anon25
-func	patch/fsignal.h	/^	void (*func)(const Arg *);$/;"	m	struct:__anon29
+func	dwm.c	/^	void (*func)(const Arg *);$/;"	m	struct:__anon14	file:
+func	dwm.c	/^	void (*func)(const Arg *arg);$/;"	m	struct:__anon13	file:
+func	patch/dwmc.h	/^	void (*func)(const Arg *);$/;"	m	struct:__anon27
+func	patch/fsignal.h	/^	void (*func)(const Arg *);$/;"	m	struct:__anon25
 func	patch/ipc/ipc.h	/^  ArgFunction func;$/;"	m	struct:IPCCommand
-func	patch/keymodes.h	/^	void (*func)(const Arg *);$/;"	m	struct:__anon18
+func	patch/keymodes.h	/^	void (*func)(const Arg *);$/;"	m	struct:__anon31
 gaplessgrid	patch/layout_gapplessgrid.c	/^gaplessgrid(Monitor *m)$/;"	f
-gappih	config.def.h	/^static const unsigned int	gappih			= 20;  \/* horiz inner gap between windows *\/$/;"	v
-gappih	config.h	/^static const unsigned int	gappih			= 20;  \/* horiz inner gap between windows *\/$/;"	v
+gappih	config.def.h	/^static const unsigned int gappih         = 20;  \/* horiz inner gap between windows *\/$/;"	v
+gappih	config.h	/^static const unsigned int gappih         = 20;  \/* horiz inner gap between windows *\/$/;"	v
 gappih	dwm.c	/^	int gappih;           \/* horizontal gap between windows *\/$/;"	m	struct:Monitor	file:
-gappiv	config.def.h	/^static const unsigned int	gappiv			= 10;  \/* vert inner gap between windows *\/$/;"	v
-gappiv	config.h	/^static const unsigned int	gappiv			= 10;  \/* vert inner gap between windows *\/$/;"	v
+gappiv	config.def.h	/^static const unsigned int gappiv         = 10;  \/* vert inner gap between windows *\/$/;"	v
+gappiv	config.h	/^static const unsigned int gappiv         = 10;  \/* vert inner gap between windows *\/$/;"	v
 gappiv	dwm.c	/^	int gappiv;           \/* vertical gap between windows *\/$/;"	m	struct:Monitor	file:
-gappoh	config.def.h	/^static const unsigned int	gappoh			= 10;  \/* horiz outer gap between windows and screen edge *\/$/;"	v
-gappoh	config.h	/^static const unsigned int	gappoh			= 10;  \/* horiz outer gap between windows and screen edge *\/$/;"	v
+gappoh	config.def.h	/^static const unsigned int gappoh         = 10;  \/* horiz outer gap between windows and screen edge *\/$/;"	v
+gappoh	config.h	/^static const unsigned int gappoh         = 10;  \/* horiz outer gap between windows and screen edge *\/$/;"	v
 gappoh	dwm.c	/^	int gappoh;           \/* horizontal outer gaps *\/$/;"	m	struct:Monitor	file:
-gappov	config.def.h	/^static const unsigned int	gappov			= 10;  \/* vert outer gap between windows and screen edge *\/$/;"	v
-gappov	config.h	/^static const unsigned int	gappov			= 10;  \/* vert outer gap between windows and screen edge *\/$/;"	v
+gappov	config.def.h	/^static const unsigned int gappov         = 10;  \/* vert outer gap between windows and screen edge *\/$/;"	v
+gappov	config.h	/^static const unsigned int gappov         = 10;  \/* vert outer gap between windows and screen edge *\/$/;"	v
 gappov	dwm.c	/^	int gappov;           \/* vertical outer gaps *\/$/;"	m	struct:Monitor	file:
-gc	drw.h	/^	GC gc;$/;"	m	struct:__anon34
-get_conn	patch/mdpcontrol.c	/^struct mpd_connection *get_conn()$/;"	f
+gc	drw.h	/^	GC gc;$/;"	m	struct:__anon3
+get_conn	patch/mpdcontrol.c	/^struct mpd_connection *get_conn()$/;"	f
 get_dwm_client	patch/ipc/dwm-msg.c	/^get_dwm_client(Window win)$/;"	f	file:
 get_dwm_path	patch/selfrestart.c	/^char *get_dwm_path()$/;"	f
 get_layouts	patch/ipc/dwm-msg.c	/^get_layouts()$/;"	f	file:
 get_luminance	patch/bar_vtcolors.c	/^int get_luminance(char *r)$/;"	f
 get_monitors	patch/ipc/dwm-msg.c	/^get_monitors()$/;"	f	file:
-get_regerror	patch/mdpcontrol.c	/^char *get_regerror(int errcode, regex_t *compiled)$/;"	f
+get_regerror	patch/mpdcontrol.c	/^char *get_regerror(int errcode, regex_t *compiled)$/;"	f
 get_tags	patch/ipc/dwm-msg.c	/^get_tags()$/;"	f	file:
 get_vt_colors	patch/bar_vtcolors.c	/^get_vt_colors(void)$/;"	f
 getatomprop	dwm.c	/^getatomprop(Client *c, Atom prop)$/;"	f
@@ -1103,30 +1216,34 @@ grabdefkeys	dwm.c	/^grabdefkeys(void)$/;"	f
 grabkeys	patch/keymodes.c	/^grabkeys(void)$/;"	f
 grid	patch/layout_grid.c	/^grid(Monitor *m)$/;"	f
 h	drw.h	/^	unsigned int h;$/;"	m	struct:Fnt
-h	drw.h	/^	unsigned int w, h;$/;"	m	struct:__anon34
-h	dwm.c	/^	int h;$/;"	m	struct:__anon14	file:
-h	dwm.c	/^	int h;$/;"	m	struct:__anon8	file:
+h	drw.h	/^	unsigned int w, h;$/;"	m	struct:__anon3
+h	dwm.c	/^	int h;$/;"	m	struct:__anon11	file:
+h	dwm.c	/^	int h;$/;"	m	struct:__anon17	file:
 h	dwm.c	/^	int x, y, w, h;$/;"	m	struct:Client	file:
+h	patch/bar_systray.h	/^	int h;$/;"	m	struct:Systray
 handler	dwm.c	/^static void (*handler[LASTEvent]) (XEvent *) = {$/;"	v	file:
 handlexevent	patch/ipc.c	/^handlexevent(struct epoll_event *ev)$/;"	f
 help	patch/cmdcustomize.c	/^help(void)$/;"	f
-hidalpha	config.def.h	/^static const unsigned int 	hidalpha	= 0x4D; \/* 77 *\/$/;"	v
-hidalpha	config.h	/^static const unsigned int 	hidalpha	= 0x4D; \/* 77 *\/$/;"	v
-hidbgcolor	config.def.h	/^static char			hidbgcolor[]		= "#000000"; \/* Hidden windon background color *\/$/;"	v
-hidbgcolor	config.h	/^static char			hidbgcolor[]		= "#000000"; \/* Hidden windon background color *\/$/;"	v
-hidbordercolor	config.def.h	/^static char			hidbordercolor[]	= "#005577"; \/* UNUSED ?? *\/$/;"	v
-hidbordercolor	config.h	/^static char			hidbordercolor[]	= "#005577"; \/* UNUSED ?? *\/$/;"	v
+hidalpha	config.def.h	/^static const unsigned int hidalpha = 0x4d;$/;"	v
+hidalpha	config.h	/^static const unsigned int hidalpha = 0x4d;$/;"	v
+hidbgcolor	config.def.h	/^static char hidbgcolor[]                 = "#000000";$/;"	v
+hidbgcolor	config.h	/^static char hidbgcolor[]                 = "#000000";$/;"	v
+hidbordercolor	config.def.h	/^static char hidbordercolor[]             = "#005577";$/;"	v
+hidbordercolor	config.h	/^static char hidbordercolor[]             = "#005577";$/;"	v
 hide	patch/bar_wintitleactions.c	/^hide(Client *c) {$/;"	f
-hidfgcolor	config.def.h	/^static char			hidfgcolor[]		= "#226622"; \/* Hidden window text colour *\/$/;"	v
-hidfgcolor	config.h	/^static char			hidfgcolor[]		= "#226622"; \/* Hidden window text colour *\/$/;"	v
-hidfloatcolor	config.def.h	/^static char			hidfloatcolor[]		= "#f76e0c"; \/* UNUSED ?? *\/$/;"	v
-hidfloatcolor	config.h	/^static char			hidfloatcolor[]		= "#f76e0c"; \/* UNUSED ?? *\/$/;"	v
+hidfgcolor	config.def.h	/^static char hidfgcolor[]                 = "#98971a";$/;"	v
+hidfgcolor	config.h	/^static char hidfgcolor[]                 = "#98971a";$/;"	v
+hidfloatcolor	config.def.h	/^static char hidfloatcolor[]              = "#f76e0c";$/;"	v
+hidfloatcolor	config.h	/^static char hidfloatcolor[]              = "#f76e0c";$/;"	v
 holdbar	patch/bar_holdbar.c	/^holdbar(const Arg *arg)$/;"	f
 horizgrid	patch/layout_horizgrid.c	/^horizgrid(Monitor *m) {$/;"	f
-i	dwm.c	/^	long i;$/;"	m	union:__anon7	file:
+horizpadbar	config.def.h	/^static const int horizpadbar             = 2;   \/* horizontal padding for statusbar *\/$/;"	v
+horizpadbar	config.h	/^static const int horizpadbar             = 2;   \/* horizontal padding for statusbar *\/$/;"	v
+i	dwm.c	/^	long i;$/;"	m	union:__anon10	file:
 icons	patch/bar_systray.h	/^	Client *icons;$/;"	m	struct:Systray
 idx	dwm.c	/^	int idx;$/;"	m	struct:Bar	file:
 ignore_reply	patch/ipc/dwm-msg.c	/^static unsigned int ignore_reply = 0;$/;"	v	file:
+ignore_warp	dwm.c	/^static int ignore_warp = 0; \/\/ force skip warp in some situations, e.g. dragmfact, dragcfact$/;"	v	file:
 ignoreconfigurerequests	dwm.c	/^static int ignoreconfigurerequests = 0;$/;"	v	file:
 inch	dwm.c	/^	int basew, baseh, incw, inch, maxw, maxh, minw, minh;$/;"	m	struct:Client	file:
 incnmaster	dwm.c	/^incnmaster(const Arg *arg)$/;"	f
@@ -1143,7 +1260,7 @@ index	dwm.c	/^	int index;$/;"	m	struct:Monitor	file:
 inplacerotate	patch/inplacerotate.c	/^inplacerotate(const Arg *arg)$/;"	f
 insertclient	patch/inplacerotate.c	/^insertclient(Client *item, Client *insertItem, int after)$/;"	f
 inset	dwm.c	/^	Inset inset;$/;"	m	struct:Monitor	file:
-instance	dwm.c	/^	const char *instance;$/;"	m	struct:__anon15	file:
+instance	dwm.c	/^	const char *instance;$/;"	m	struct:__anon18	file:
 ipc_accept_client	patch/ipc/ipc.c	/^ipc_accept_client()$/;"	f
 ipc_cleanup	patch/ipc/ipc.c	/^ipc_cleanup()$/;"	f
 ipc_client_focus_change_event	patch/ipc/ipc.c	/^ipc_client_focus_change_event(int mon_num, Client *old_client,$/;"	f
@@ -1192,28 +1309,33 @@ ipc_tag_change_event	patch/ipc/ipc.c	/^ipc_tag_change_event(int mon_num, TagStat
 ipc_validate_run_command	patch/ipc/ipc.c	/^ipc_validate_run_command(IPCParsedCommand *parsed, const IPCCommand actual)$/;"	f	file:
 ipc_write_client	patch/ipc/ipc.c	/^ipc_write_client(IPCClient *c)$/;"	f
 ipc_write_message	patch/ipc/ipc.c	/^ipc_write_message(int fd, const void *buf, size_t count)$/;"	f	file:
+ipccommands	config.def.h	/^static IPCCommand ipccommands[] = {$/;"	v
+ipccommands	config.h	/^static IPCCommand ipccommands[] = {$/;"	v
+ipcsockpath	config.def.h	/^static const char *ipcsockpath = "\/tmp\/dwm.sock";$/;"	v
+ipcsockpath	config.h	/^static const char *ipcsockpath = "\/tmp\/dwm.sock";$/;"	v
 is_float	patch/ipc/dwm-msg.c	/^is_float(const char *s)$/;"	f	file:
 is_signed_int	patch/ipc/dwm-msg.c	/^is_signed_int(const char *s)$/;"	f	file:
 is_unsigned_int	patch/ipc/dwm-msg.c	/^is_unsigned_int(const char *s)$/;"	f	file:
 iscentered	dwm.c	/^	int iscentered;$/;"	m	struct:Client	file:
-iscentered	dwm.c	/^	int iscentered;$/;"	m	struct:__anon15	file:
+iscentered	dwm.c	/^	int iscentered;$/;"	m	struct:__anon18	file:
 isdescprocess	patch/swallow.c	/^isdescprocess(pid_t p, pid_t c)$/;"	f
-isfakefullscreen	dwm.c	/^	int isfakefullscreen;$/;"	m	struct:__anon15	file:
+isempty	dwm.c	/^static int isempty = 0;$/;"	v	file:
+isfakefullscreen	dwm.c	/^	int isfakefullscreen;$/;"	m	struct:__anon18	file:
 isfixed	dwm.c	/^	int isfixed, isfloating, isurgent, neverfocus, oldstate, isfullscreen;$/;"	m	struct:Client	file:
 isfixed	dwm.c	/^       int isfixed, isfloating, isurgent, neverfocus, oldstate, isfullscreen;$/;"	m	struct:ClientState	file:
 isfloating	dwm.c	/^	int isfixed, isfloating, isurgent, neverfocus, oldstate, isfullscreen;$/;"	m	struct:Client	file:
-isfloating	dwm.c	/^	int isfloating;$/;"	m	struct:__anon15	file:
+isfloating	dwm.c	/^	int isfloating;$/;"	m	struct:__anon18	file:
 isfloating	dwm.c	/^       int isfixed, isfloating, isurgent, neverfocus, oldstate, isfullscreen;$/;"	m	struct:ClientState	file:
 isfullscreen	dwm.c	/^	int isfixed, isfloating, isurgent, neverfocus, oldstate, isfullscreen;$/;"	m	struct:Client	file:
 isfullscreen	dwm.c	/^       int isfixed, isfloating, isurgent, neverfocus, oldstate, isfullscreen;$/;"	m	struct:ClientState	file:
 ismax	dwm.c	/^	int ismax, wasfloating;$/;"	m	struct:Client	file:
 ispermanent	dwm.c	/^	int ispermanent;$/;"	m	struct:Client	file:
-ispermanent	dwm.c	/^	int ispermanent;$/;"	m	struct:__anon15	file:
+ispermanent	dwm.c	/^	int ispermanent;$/;"	m	struct:__anon18	file:
 isprotodel	patch/keymodes.c	/^isprotodel(Client *c)$/;"	f
 issteam	dwm.c	/^	int issteam;$/;"	m	struct:Client	file:
 issticky	dwm.c	/^	int issticky;$/;"	m	struct:Client	file:
 isterminal	dwm.c	/^	int isterminal, noswallow;$/;"	m	struct:Client	file:
-isterminal	dwm.c	/^	int isterminal;$/;"	m	struct:__anon15	file:
+isterminal	dwm.c	/^	int isterminal;$/;"	m	struct:__anon18	file:
 isuniquegeom	dwm.c	/^isuniquegeom(XineramaScreenInfo *unique, size_t n, XineramaScreenInfo *info)$/;"	f	file:
 isurgent	dwm.c	/^	int isfixed, isfloating, isurgent, neverfocus, oldstate, isfullscreen;$/;"	m	struct:Client	file:
 isurgent	dwm.c	/^       int isfixed, isfloating, isurgent, neverfocus, oldstate, isfullscreen;$/;"	m	struct:ClientState	file:
@@ -1224,8 +1346,8 @@ keyrelease	patch/bar_holdbar.c	/^keyrelease(XEvent *e)$/;"	f
 keyrelease	patch/combo.c	/^keyrelease(XEvent *e)$/;"	f
 keys	config.def.h	/^static Key keys[] = {$/;"	v
 keys	config.h	/^static Key keys[] = {$/;"	v
-keysym	dwm.c	/^	KeySym keysym;$/;"	m	struct:__anon11	file:
-keysym	patch/keymodes.h	/^	KeySym keysym[4];$/;"	m	struct:__anon18
+keysym	dwm.c	/^	KeySym keysym;$/;"	m	struct:__anon14	file:
+keysym	patch/keymodes.h	/^	KeySym keysym[4];$/;"	m	struct:__anon31
 killclient	dwm.c	/^killclient(const Arg *arg)$/;"	f
 killunsel	patch/killunsel.c	/^killunsel(const Arg *arg)$/;"	f
 last_layout	patch/fullscreen.c	/^Layout *last_layout;$/;"	v
@@ -1235,8 +1357,8 @@ lastltsymbol	dwm.c	/^	char lastltsymbol[16];$/;"	m	struct:Monitor	file:
 lastsel	dwm.c	/^	Client *lastsel;$/;"	m	struct:Monitor	file:
 lastselmon	patch/ipc.c	/^static Monitor *lastselmon;$/;"	v	file:
 layout	drw.h	/^	PangoLayout *layout;$/;"	m	struct:Fnt
-layout	dwm.c	/^	int layout;$/;"	m	struct:__anon12	file:
-layout	dwm.c	/^	int layout;$/;"	m	struct:__anon16	file:
+layout	dwm.c	/^	int layout;$/;"	m	struct:__anon15	file:
+layout	dwm.c	/^	int layout;$/;"	m	struct:__anon19	file:
 layout_floating_master	patch/layout_flextile-deluxe.c	/^layout_floating_master(Monitor *m, int x, int y, int h, int w, int ih, int iv, int n)$/;"	f	file:
 layout_floating_master_fixed	patch/layout_flextile-deluxe.c	/^layout_floating_master_fixed(Monitor *m, int x, int y, int h, int w, int ih, int iv, int n)$/;"	f	file:
 layout_no_split	patch/layout_flextile-deluxe.c	/^layout_no_split(Monitor *m, int x, int y, int h, int w, int ih, int iv, int n)$/;"	f	file:
@@ -1252,16 +1374,19 @@ layout_split_vertical	patch/layout_flextile-deluxe.c	/^layout_split_vertical(Mon
 layout_split_vertical_dual_stack	patch/layout_flextile-deluxe.c	/^layout_split_vertical_dual_stack(Monitor *m, int x, int y, int h, int w, int ih, int iv, int n)$/;"	f	file:
 layout_split_vertical_dual_stack_fixed	patch/layout_flextile-deluxe.c	/^layout_split_vertical_dual_stack_fixed(Monitor *m, int x, int y, int h, int w, int ih, int iv, int n)$/;"	f	file:
 layout_split_vertical_fixed	patch/layout_flextile-deluxe.c	/^layout_split_vertical_fixed(Monitor *m, int x, int y, int h, int w, int ih, int iv, int n)$/;"	f	file:
+layoutmenu	patch/bar_layoutmenu.c	/^layoutmenu(const Arg *arg) {$/;"	f
+layoutmenu_cmd	config.def.h	/^static const char *layoutmenu_cmd = "layoutmenu.sh";$/;"	v
+layoutmenu_cmd	config.h	/^static const char *layoutmenu_cmd = "layoutmenu.sh";$/;"	v
 layouts	config.def.h	/^static const Layout layouts[] = {$/;"	v
 layouts	config.h	/^static const Layout layouts[] = {$/;"	v
 layoutsymb	patch/layout_flextile-deluxe.h	/^static char layoutsymb[] = {$/;"	v
 limitexceeded	dwm.c	/^struct NumTags { char limitexceeded[NUMTAGS > 30 ? -1 : 1]; };$/;"	m	struct:NumTags	file:
 limitexceeded	dwm.c	/^struct NumTags { char limitexceeded[NUMTAGS > 31 ? -1 : 1]; };$/;"	m	struct:NumTags	file:
 loadxrdb	patch/xrdb.c	/^loadxrdb()$/;"	f
-localshare	config.def.h	/^static const char		localshare[]		= ".local\/share";$/;"	v
-localshare	config.h	/^static const char		localshare[]		= ".local\/share";$/;"	v
-lockcmd	config.def.h	/^static const char *lockcmd[]	= { "slockWrap", NULL};$/;"	v
-lockcmd	config.h	/^static const char *lockcmd[]	= { "slockWrap", NULL};$/;"	v
+localshare	config.def.h	/^static const char localshare[]           = ".local\/share";$/;"	v
+localshare	config.h	/^static const char localshare[]           = ".local\/share";$/;"	v
+lockcmd	config.def.h	/^static const char	*lockcmd[]    = { "slockWrap", NULL};$/;"	v
+lockcmd	config.h	/^static const char	*lockcmd[]    = { "slockWrap", NULL};$/;"	v
 lrpad	dwm.c	/^static int lrpad;            \/* sum of left and right padding for text *\/$/;"	v	file:
 lt	dwm.c	/^	const Layout *lt[2];$/;"	m	struct:Monitor	file:
 ltaxis	dwm.c	/^	int ltaxis[4];$/;"	m	struct:Monitor	file:
@@ -1278,16 +1403,16 @@ manage	dwm.c	/^manage(Window w, XWindowAttributes *wa)$/;"	f
 managealtbar	patch/bar_anybar.c	/^managealtbar(Window win, XWindowAttributes *wa)$/;"	f
 mappingnotify	dwm.c	/^mappingnotify(XEvent *e)$/;"	f
 maprequest	dwm.c	/^maprequest(XEvent *e)$/;"	f
-mask	dwm.c	/^	unsigned int mask;$/;"	m	struct:__anon10	file:
-masteraxis	dwm.c	/^	int masteraxis; \/\/ master stack area$/;"	m	struct:__anon12	file:
+mask	dwm.c	/^	unsigned int mask;$/;"	m	struct:__anon13	file:
+masteraxis	dwm.c	/^	int masteraxis; \/\/ master stack area$/;"	m	struct:__anon15	file:
 maxa	dwm.c	/^	float mina, maxa;$/;"	m	struct:Client	file:
 maxh	dwm.c	/^	int basew, baseh, incw, inch, maxw, maxh, minw, minh;$/;"	m	struct:Client	file:
 maximize	patch/maximize.c	/^maximize(int x, int y, int w, int h)$/;"	f
 maxw	dwm.c	/^	int basew, baseh, incw, inch, maxw, maxh, minw, minh;$/;"	m	struct:Client	file:
-mfact	config.def.h	/^static const float mfact	= 0.55; \/* factor of master area size [0.05..0.95] *\/$/;"	v
-mfact	config.h	/^static const float mfact	= 0.55; \/* factor of master area size [0.05..0.95] *\/$/;"	v
+mfact	config.def.h	/^static const float mfact     = 0.55; \/* factor of master area size [0.05..0.95] *\/$/;"	v
+mfact	config.h	/^static const float mfact     = 0.55; \/* factor of master area size [0.05..0.95] *\/$/;"	v
 mfact	dwm.c	/^	float mfact;$/;"	m	struct:Monitor	file:
-mfact	dwm.c	/^	float mfact;$/;"	m	struct:__anon16	file:
+mfact	dwm.c	/^	float mfact;$/;"	m	struct:__anon19	file:
 mfacts	patch/pertag.c	/^	float mfacts[NUMTAGS + 1]; \/* mfacts per tag *\/$/;"	m	struct:Pertag	file:
 mh	dwm.c	/^	int mx, my, mw, mh;   \/* screen size *\/$/;"	m	struct:Monitor	file:
 mina	dwm.c	/^	float mina, maxa;$/;"	m	struct:Client	file:
@@ -1295,32 +1420,35 @@ minh	dwm.c	/^	int basew, baseh, incw, inch, maxw, maxh, minw, minh;$/;"	m	struct
 minw	dwm.c	/^	int basew, baseh, incw, inch, maxw, maxh, minw, minh;$/;"	m	struct:Client	file:
 mirrorlayout	patch/layout_flextile-deluxe.c	/^mirrorlayout(const Arg *arg)$/;"	f
 mkdirp	patch/ipc/util.c	/^mkdirp(const char *path)$/;"	f
-mod	dwm.c	/^	unsigned int mod;$/;"	m	struct:__anon11	file:
-mod	patch/keymodes.h	/^	unsigned int mod[4];$/;"	m	struct:__anon18
+mod	dwm.c	/^	unsigned int mod;$/;"	m	struct:__anon14	file:
+mod	patch/keymodes.h	/^	unsigned int mod[4];$/;"	m	struct:__anon31
 mon	dwm.c	/^	Monitor *mon;$/;"	m	struct:Bar	file:
 mon	dwm.c	/^	Monitor *mon;$/;"	m	struct:Client	file:
-monitor	dwm.c	/^	int monitor;$/;"	m	struct:__anon15	file:
-monitor	dwm.c	/^	int monitor;$/;"	m	struct:__anon16	file:
-monitor	dwm.c	/^	int monitor;$/;"	m	struct:__anon9	file:
+monitor	dwm.c	/^	int monitor;$/;"	m	struct:__anon12	file:
+monitor	dwm.c	/^	int monitor;$/;"	m	struct:__anon18	file:
+monitor	dwm.c	/^	int monitor;$/;"	m	struct:__anon19	file:
 monocle	patch/layout_monocle.c	/^monocle(Monitor *m)$/;"	f
 monoclesymbols	patch/layout_flextile-deluxe.c	/^monoclesymbols(Monitor *m, unsigned int n)$/;"	f	file:
+monrules	config.def.h	/^static const MonitorRule monrules[] = {$/;"	v
+monrules	config.h	/^static const MonitorRule monrules[] = {$/;"	v
 mons	dwm.c	/^static Monitor *mons, *selmon;$/;"	v	file:
 motifatom	patch/decorationhints.c	/^static Atom motifatom;$/;"	v	file:
 motionnotify	dwm.c	/^motionnotify(XEvent *e)$/;"	f
 movemouse	dwm.c	/^movemouse(const Arg *arg)$/;"	f
+moveorplace	patch/placemouse.c	/^moveorplace(const Arg *arg) {$/;"	f
 moveplace	patch/moveplace.c	/^moveplace(const Arg *arg)$/;"	f
 moveresize	patch/moveresize.c	/^moveresize(const Arg *arg) {$/;"	f
 movestack	patch/movestack.c	/^movestack(const Arg *arg)$/;"	f
-mpdchange	patch/mdpcontrol.c	/^void mpdchange(const Arg *direction)$/;"	f
-mpdcontrol	patch/mdpcontrol.c	/^void mpdcontrol()$/;"	f
+mpdchange	patch/mpdcontrol.c	/^void mpdchange(const Arg *direction)$/;"	f
+mpdcontrol	patch/mpdcontrol.c	/^void mpdcontrol()$/;"	f
 mw	dwm.c	/^	int mx, my, mw, mh;   \/* screen size *\/$/;"	m	struct:Monitor	file:
 mx	dwm.c	/^	int mx, my, mw, mh;   \/* screen size *\/$/;"	m	struct:Monitor	file:
 my	dwm.c	/^	int mx, my, mw, mh;   \/* screen size *\/$/;"	m	struct:Monitor	file:
-name	dwm.c	/^	char *name; \/\/ for debugging$/;"	m	struct:__anon9	file:
+name	dwm.c	/^	char *name; \/\/ for debugging$/;"	m	struct:__anon12	file:
 name	dwm.c	/^	char name[256];$/;"	m	struct:Client	file:
 name	patch/ipc/ipc.h	/^  char *name;$/;"	m	struct:IPCCommand
 name	patch/ipc/ipc.h	/^  char *name;$/;"	m	struct:IPCParsedCommand
-name	patch/scratchpad.h	/^       const char *name;$/;"	m	struct:__anon23
+name	patch/scratchpad.h	/^       const char *name;$/;"	m	struct:__anon20
 needresize	dwm.c	/^	int needresize;$/;"	m	struct:Client	file:
 netatom	dwm.c	/^static Atom wmatom[WMLast], netatom[NetLast], xatom[XLast];$/;"	v	file:
 netatom	dwm.c	/^static Atom wmatom[WMLast], netatom[NetLast];$/;"	v	file:
@@ -1333,26 +1461,52 @@ next	dwm.c	/^	Monitor *next;$/;"	m	struct:Monitor	file:
 next	patch/ipc/IPCClient.h	/^  IPCClient *next;$/;"	m	struct:IPCClient
 nextc	patch/push.c	/^nextc(Client *c, float f)$/;"	f	file:
 nexttiled	dwm.c	/^nexttiled(Client *c)$/;"	f
-nmaster	config.def.h	/^static const int nmaster	= 1;    \/* number of clients in master area *\/$/;"	v
-nmaster	config.h	/^static const int nmaster	= 1;    \/* number of clients in master area *\/$/;"	v
+nmaster	config.def.h	/^static const int nmaster     = 1;    \/* number of clients in master area *\/$/;"	v
+nmaster	config.h	/^static const int nmaster     = 1;    \/* number of clients in master area *\/$/;"	v
 nmaster	dwm.c	/^	int nmaster;$/;"	m	struct:Monitor	file:
-nmaster	dwm.c	/^	int nmaster;$/;"	m	struct:__anon12	file:
-nmaster	dwm.c	/^	int nmaster;$/;"	m	struct:__anon16	file:
+nmaster	dwm.c	/^	int nmaster;$/;"	m	struct:__anon15	file:
+nmaster	dwm.c	/^	int nmaster;$/;"	m	struct:__anon19	file:
 nmasters	patch/pertag.c	/^	int nmasters[NUMTAGS + 1]; \/* number of windows in master area *\/$/;"	m	struct:Pertag	file:
+nomodbuttons	config.def.h	/^static int nomodbuttons                  = 1;   \/* allow client mouse button bindings that have no modifier *\/$/;"	v
+nomodbuttons	config.h	/^static int nomodbuttons                  = 1;   \/* allow client mouse button bindings that have no modifier *\/$/;"	v
+normDWDLbgcolor	config.def.h	/^static char normDWDLbgcolor[]            = "#003333";$/;"	v
+normDWDLbgcolor	config.h	/^static char normDWDLbgcolor[]            = "#003333";$/;"	v
+normGRD1bgcolor	config.def.h	/^static char normGRD1bgcolor[]            = "#003300";$/;"	v
+normGRD1bgcolor	config.h	/^static char normGRD1bgcolor[]            = "#003300";$/;"	v
+normGRD2bgcolor	config.def.h	/^static char normGRD2bgcolor[]            = "#003300";$/;"	v
+normGRD2bgcolor	config.h	/^static char normGRD2bgcolor[]            = "#003300";$/;"	v
+normGRDMbgcolor	config.def.h	/^static char normGRDMbgcolor[]            = "#506600";$/;"	v
+normGRDMbgcolor	config.h	/^static char normGRDMbgcolor[]            = "#506600";$/;"	v
+normGRIDbgcolor	config.def.h	/^static char normGRIDbgcolor[]            = "#003300";$/;"	v
+normGRIDbgcolor	config.h	/^static char normGRIDbgcolor[]            = "#003300";$/;"	v
+normHGRDbgcolor	config.def.h	/^static char normHGRDbgcolor[]            = "#b96600";$/;"	v
+normHGRDbgcolor	config.h	/^static char normHGRDbgcolor[]            = "#b96600";$/;"	v
+normLTRbgcolor	config.def.h	/^static char normLTRbgcolor[]             = "#330033";$/;"	v
+normLTRbgcolor	config.h	/^static char normLTRbgcolor[]             = "#330033";$/;"	v
+normMONObgcolor	config.def.h	/^static char normMONObgcolor[]            = "#000033";$/;"	v
+normMONObgcolor	config.h	/^static char normMONObgcolor[]            = "#000033";$/;"	v
+normSPRLbgcolor	config.def.h	/^static char normSPRLbgcolor[]            = "#333300";$/;"	v
+normSPRLbgcolor	config.h	/^static char normSPRLbgcolor[]            = "#333300";$/;"	v
+normTTBbgcolor	config.def.h	/^static char normTTBbgcolor[]             = "#330000";$/;"	v
+normTTBbgcolor	config.h	/^static char normTTBbgcolor[]             = "#330000";$/;"	v
 normalizepath	patch/ipc/util.c	/^normalizepath(const char *path, char **normal)$/;"	f
-normbgcolor	config.def.h	/^static char 			normbgcolor[]		= "#132613"; \/* Background of status bar *\/$/;"	v
-normbgcolor	config.h	/^static char 			normbgcolor[]		= "#132613"; \/* Background of status bar *\/$/;"	v
-normbordercolor	config.def.h	/^static char 			normbordercolor[]	= "#222222"; \/* Unselected window border colour (also bar border)*\/$/;"	v
-normbordercolor	config.h	/^static char 			normbordercolor[]	= "#222222"; \/* Unselected window border colour (also bar border)*\/$/;"	v
-normfgcolor	config.def.h	/^static char 			normfgcolor[]		= "#BBBBBB"; \/* Foreground of status bar *\/$/;"	v
-normfgcolor	config.h	/^static char 			normfgcolor[]		= "#BBBBBB"; \/* Foreground of status bar *\/$/;"	v
-normfloatcolor	config.def.h	/^static char 			normfloatcolor[]	= "#2D1738"; \/* Unselected floating window border colour*\/$/;"	v
-normfloatcolor	config.h	/^static char 			normfloatcolor[]	= "#2D1738"; \/* Unselected floating window border colour*\/$/;"	v
+normbgcolor	config.def.h	/^static char normbgcolor[]                = "#282828";$/;"	v
+normbgcolor	config.h	/^static char normbgcolor[]                = "#282828";$/;"	v
+normbordercolor	config.def.h	/^static char normbordercolor[]            = "#1d2021";$/;"	v
+normbordercolor	config.h	/^static char normbordercolor[]            = "#1d2021";$/;"	v
+normfgcolor	config.def.h	/^static char normfgcolor[]                = "#ebdbb2";$/;"	v
+normfgcolor	config.h	/^static char normfgcolor[]                = "#ebdbb2";$/;"	v
+normfloatbgcolor	config.def.h	/^static char normfloatbgcolor[]           = "#115577";$/;"	v
+normfloatbgcolor	config.h	/^static char normfloatbgcolor[]           = "#115577";$/;"	v
+normfloatcolor	config.def.h	/^static char normfloatcolor[]             = "#b16286";$/;"	v
+normfloatcolor	config.h	/^static char normfloatcolor[]             = "#b16286";$/;"	v
 noswallow	dwm.c	/^	int isterminal, noswallow;$/;"	m	struct:Client	file:
-noswallow	dwm.c	/^	int noswallow;$/;"	m	struct:__anon15	file:
+noswallow	dwm.c	/^	int noswallow;$/;"	m	struct:__anon18	file:
 nrowgrid	patch/layout_nrowgrid.c	/^nrowgrid(Monitor *m)$/;"	f
+nstack	config.def.h	/^static const int nstack      = 0;    \/* number of clients in primary stack area *\/$/;"	v
+nstack	config.h	/^static const int nstack      = 0;    \/* number of clients in primary stack area *\/$/;"	v
 nstack	dwm.c	/^	int nstack;$/;"	m	struct:Monitor	file:
-nstack	dwm.c	/^	int nstack;$/;"	m	struct:__anon12	file:
+nstack	dwm.c	/^	int nstack;$/;"	m	struct:__anon15	file:
 nstacks	patch/pertag.c	/^	int nstacks[NUMTAGS + 1]; \/* number of windows in primary stack area *\/$/;"	m	struct:Pertag	file:
 nullterminate	patch/ipc/util.c	/^nullterminate(char **str, size_t *len)$/;"	f
 num	dwm.c	/^	int num;$/;"	m	struct:Monitor	file:
@@ -1365,14 +1519,17 @@ oldstate	dwm.c	/^       int isfixed, isfloating, isurgent, neverfocus, oldstate,
 oldw	dwm.c	/^	int oldx, oldy, oldw, oldh;$/;"	m	struct:Client	file:
 oldx	dwm.c	/^	int oldx, oldy, oldw, oldh;$/;"	m	struct:Client	file:
 oldy	dwm.c	/^	int oldx, oldy, oldw, oldh;$/;"	m	struct:Client	file:
+on_empty_keys	config.def.h	/^static Key on_empty_keys[] = {$/;"	v
+on_empty_keys	config.h	/^static Key on_empty_keys[] = {$/;"	v
 onlyclient	patch/keymodes.c	/^onlyclient(const Arg *arg)$/;"	f
 parentdir	patch/ipc/util.c	/^parentdir(const char *path, char **parent)$/;"	f
 pattern	drw.h	/^	FcPattern *pattern;$/;"	m	struct:Fnt
 pertag	dwm.c	/^	Pertag *pertag;$/;"	m	struct:Monitor	file:
 pertagview	patch/pertag.c	/^pertagview(const Arg *arg)$/;"	f
 pid	dwm.c	/^	pid_t pid;$/;"	m	struct:Client	file:
+placemouse	patch/placemouse.c	/^placemouse(const Arg *arg)$/;"	f
 pop	dwm.c	/^pop(Client *c)$/;"	f
-preset	dwm.c	/^	LayoutPreset preset;$/;"	m	struct:__anon13	file:
+preset	dwm.c	/^	LayoutPreset preset;$/;"	m	struct:__anon16	file:
 prev	patch/ipc/IPCClient.h	/^  IPCClient *prev;$/;"	m	struct:IPCClient
 prevc	patch/push.c	/^prevc(Client *c, float f)$/;"	f	file:
 prevclient	patch/pertag.c	/^	Client *prevclient[NUMTAGS + 1];$/;"	m	struct:Pertag	file:
@@ -1391,26 +1548,41 @@ pushstack	patch/stacker.c	/^pushstack(const Arg *arg)$/;"	f
 pushup	patch/push.c	/^pushup(const Arg *arg)$/;"	f	file:
 pushup	patch/push_no_master.c	/^pushup(const Arg *arg)$/;"	f
 quit	dwm.c	/^quit(const Arg *arg)$/;"	f
-rangercmd	config.def.h	/^static const char *rangercmd[]	= {"st", "-e", "ranger", NULL};$/;"	v
-rangercmd	config.h	/^static const char *rangercmd[]	= {"st", "-e", "ranger", NULL};$/;"	v
+quit_empty_window_count	config.def.h	/^static const int quit_empty_window_count = 2;   \/* only allow dwm to quit if no windows are open, value here represents number of deamons *\/$/;"	v
+quit_empty_window_count	config.h	/^static const int quit_empty_window_count = 2;   \/* only allow dwm to quit if no windows are open, value here represents number of deamons *\/$/;"	v
+rangercmd	config.def.h	/^static const char	*rangercmd[]  = {"st", "-e", "ranger", NULL};$/;"	v
+rangercmd	config.h	/^static const char	*rangercmd[]  = {"st", "-e", "ranger", NULL};$/;"	v
 rawestext	dwm.c	/^static char rawestext[1024];$/;"	v	file:
 rawstext	dwm.c	/^static char rawstext[1024];$/;"	v	file:
 rawstext	dwm.c	/^static char rawstext[512];$/;"	v	file:
 read_socket	patch/ipc/dwm-msg.c	/^read_socket(IPCMessageType *msg_type, uint32_t *msg_size, char **msg)$/;"	f	file:
+recttoclient	patch/placemouse.c	/^recttoclient(int x, int y, int w, int h)$/;"	f
 recttomon	dwm.c	/^recttomon(int x, int y, int w, int h)$/;"	f
 recv_message	patch/ipc/dwm-msg.c	/^recv_message(uint8_t *msg_type, uint32_t *reply_size, uint8_t **reply)$/;"	f	file:
+removescratch	patch/scratchpad.c	/^removescratch(const Arg *arg)$/;"	f
 removesystrayicon	patch/bar_systray.c	/^removesystrayicon(Client *i)$/;"	f
 reorganizetags	patch/reorganizetags.c	/^reorganizetags(const Arg *arg)$/;"	f
 resize	dwm.c	/^resize(Client *c, int x, int y, int w, int h, int interact)$/;"	f
 resizeclient	dwm.c	/^resizeclient(Client *c, int x, int y, int w, int h)$/;"	f
-resizehints	config.def.h	/^static const int resizehints	= 1;    \/* 1 means respect size hints in tiled resizals *\/$/;"	v
-resizehints	config.h	/^static const int resizehints	= 1;    \/* 1 means respect size hints in tiled resizals *\/$/;"	v
+resizehints	config.def.h	/^static const int resizehints = 1;    \/* 1 means respect size hints in tiled resizals *\/$/;"	v
+resizehints	config.h	/^static const int resizehints = 1;    \/* 1 means respect size hints in tiled resizals *\/$/;"	v
 resizemouse	dwm.c	/^resizemouse(const Arg *arg)$/;"	f
 resizerequest	patch/bar_systray.c	/^resizerequest(XEvent *e)$/;"	f
 restack	dwm.c	/^restack(Monitor *m)$/;"	f
 restart	patch/restartsig.c	/^static int restart = 0;$/;"	v	file:
-role	dwm.c	/^	const char *role;$/;"	m	struct:__anon15	file:
-root	drw.h	/^	Window root;$/;"	m	struct:__anon34
+riodimensions	dwm.c	/^static int riodimensions[4] = { -1, -1, -1, -1 };$/;"	v	file:
+riodraw	patch/riodraw.c	/^riodraw(Client *c, const char slopstyle[])$/;"	f
+riodraw_borders	config.def.h	/^static const int riodraw_borders         = 0;  \/* 0 or 1, indicates whether the area drawn using slop includes the window borders *\/$/;"	v
+riodraw_borders	config.h	/^static const int riodraw_borders         = 0;  \/* 0 or 1, indicates whether the area drawn using slop includes the window borders *\/$/;"	v
+riodraw_matchpid	config.def.h	/^static const int riodraw_matchpid        = 1;  \/* 0 or 1, indicates whether to match the PID of the client that was spawned with riospawn *\/$/;"	v
+riodraw_matchpid	config.h	/^static const int riodraw_matchpid        = 1;  \/* 0 or 1, indicates whether to match the PID of the client that was spawned with riospawn *\/$/;"	v
+riopid	dwm.c	/^static pid_t riopid = 0;$/;"	v	file:
+rioposition	patch/riodraw.c	/^rioposition(Client *c, int x, int y, int w, int h)$/;"	f
+rioresize	patch/riodraw.c	/^rioresize(const Arg *arg)$/;"	f
+riospawn	patch/riodraw.c	/^riospawn(const Arg *arg)$/;"	f
+riospawnsync	patch/riodraw.c	/^riospawnsync(const Arg *arg)$/;"	f
+role	dwm.c	/^	const char *role;$/;"	m	struct:__anon18	file:
+root	drw.h	/^	Window root;$/;"	m	struct:__anon3
 root	dwm.c	/^static Window root, wmcheckwin;$/;"	v	file:
 rotatelayoutaxis	patch/layout_flextile-deluxe.c	/^rotatelayoutaxis(const Arg *arg)$/;"	f
 rotatestack	patch/rotatestack.c	/^rotatestack(const Arg *arg)$/;"	f
@@ -1422,7 +1594,7 @@ runautostart	patch/autostart.c	/^runautostart(void)$/;"	f
 running	dwm.c	/^static int running = 1;$/;"	v	file:
 scan	dwm.c	/^scan(void)$/;"	f
 scanner	patch/swallow.c	/^static int scanner;$/;"	v	file:
-scheme	drw.h	/^	Clr *scheme;$/;"	m	struct:__anon34
+scheme	drw.h	/^	Clr *scheme;$/;"	m	struct:__anon3
 scheme	dwm.c	/^static Clr **scheme;$/;"	v	file:
 scratchpad_hide	patch/scratchpad_alt_1.c	/^static void scratchpad_hide ()$/;"	f	file:
 scratchpad_last_showed	patch/scratchpad_alt_1.c	/^static Client * scratchpad_last_showed = NULL;$/;"	v	file:
@@ -1433,19 +1605,41 @@ scratchpad_show_client	patch/scratchpad_alt_1.c	/^static void scratchpad_show_cl
 scratchpad_show_first	patch/scratchpad_alt_1.c	/^static void scratchpad_show_first (void)$/;"	f	file:
 scratchpads	config.def.h	/^static Sp scratchpads[] = {$/;"	v
 scratchpads	config.h	/^static Sp scratchpads[] = {$/;"	v
-screen	drw.h	/^	int screen;$/;"	m	struct:__anon34
+screen	drw.h	/^	int screen;$/;"	m	struct:__anon3
 screen	dwm.c	/^static int screen;$/;"	v	file:
 sel	dwm.c	/^	Client *sel;$/;"	m	struct:Monitor	file:
-selbgcolor	config.def.h	/^static char			selbgcolor[]		= "#007722"; \/* Dmenu Selected item Background *\/$/;"	v
-selbgcolor	config.h	/^static char			selbgcolor[]		= "#007722"; \/* Dmenu Selected item Background *\/$/;"	v
-selbordercolor	config.def.h	/^static char			selbordercolor[]	= "#CC549C"; \/* Selected window border colour *\/$/;"	v
-selbordercolor	config.h	/^static char			selbordercolor[]	= "#CC549C"; \/* Selected window border colour *\/$/;"	v
+selDWDLbgcolor	config.def.h	/^static char selDWDLbgcolor[]             = "#005555";$/;"	v
+selDWDLbgcolor	config.h	/^static char selDWDLbgcolor[]             = "#005555";$/;"	v
+selGRD1bgcolor	config.def.h	/^static char selGRD1bgcolor[]             = "#005500";$/;"	v
+selGRD1bgcolor	config.h	/^static char selGRD1bgcolor[]             = "#005500";$/;"	v
+selGRD2bgcolor	config.def.h	/^static char selGRD2bgcolor[]             = "#005500";$/;"	v
+selGRD2bgcolor	config.h	/^static char selGRD2bgcolor[]             = "#005500";$/;"	v
+selGRDMbgcolor	config.def.h	/^static char selGRDMbgcolor[]             = "#508822";$/;"	v
+selGRDMbgcolor	config.h	/^static char selGRDMbgcolor[]             = "#508822";$/;"	v
+selGRIDbgcolor	config.def.h	/^static char selGRIDbgcolor[]             = "#005500";$/;"	v
+selGRIDbgcolor	config.h	/^static char selGRIDbgcolor[]             = "#005500";$/;"	v
+selHGRDbgcolor	config.def.h	/^static char selHGRDbgcolor[]             = "#b98822";$/;"	v
+selHGRDbgcolor	config.h	/^static char selHGRDbgcolor[]             = "#b98822";$/;"	v
+selLTRbgcolor	config.def.h	/^static char selLTRbgcolor[]              = "#550055";$/;"	v
+selLTRbgcolor	config.h	/^static char selLTRbgcolor[]              = "#550055";$/;"	v
+selMONObgcolor	config.def.h	/^static char selMONObgcolor[]             = "#212171";$/;"	v
+selMONObgcolor	config.h	/^static char selMONObgcolor[]             = "#212171";$/;"	v
+selSPRLbgcolor	config.def.h	/^static char selSPRLbgcolor[]             = "#555500";$/;"	v
+selSPRLbgcolor	config.h	/^static char selSPRLbgcolor[]             = "#555500";$/;"	v
+selTTBbgcolor	config.def.h	/^static char selTTBbgcolor[]              = "#550000";$/;"	v
+selTTBbgcolor	config.h	/^static char selTTBbgcolor[]              = "#550000";$/;"	v
+selbgcolor	config.def.h	/^static char selbgcolor[]                 = "#d5c4a1";$/;"	v
+selbgcolor	config.h	/^static char selbgcolor[]                 = "#d5c4a1";$/;"	v
+selbordercolor	config.def.h	/^static char selbordercolor[]             = "#b8bb26";$/;"	v
+selbordercolor	config.h	/^static char selbordercolor[]             = "#b8bb26";$/;"	v
 selected	dwm.c	/^       int selected;$/;"	m	struct:TagState	file:
 self_restart	patch/selfrestart.c	/^void self_restart(const Arg *arg)$/;"	f
-selfgcolor	config.def.h	/^static char			selfgcolor[]		= "#EEEEEE"; \/* Dmenu Selected item colour *\/$/;"	v
-selfgcolor	config.h	/^static char			selfgcolor[]		= "#EEEEEE"; \/* Dmenu Selected item colour *\/$/;"	v
-selfloatcolor	config.def.h	/^static char			selfloatcolor[]		= "#cc55cc"; \/* Selected floating window border colour *\/$/;"	v
-selfloatcolor	config.h	/^static char			selfloatcolor[]		= "#cc55cc"; \/* Selected floating window border colour *\/$/;"	v
+selfgcolor	config.def.h	/^static char selfgcolor[]                 = "#282828";$/;"	v
+selfgcolor	config.h	/^static char selfgcolor[]                 = "#282828";$/;"	v
+selfloatbgcolor	config.def.h	/^static char selfloatbgcolor[]            = "#117799";$/;"	v
+selfloatbgcolor	config.h	/^static char selfloatbgcolor[]            = "#117799";$/;"	v
+selfloatcolor	config.def.h	/^static char selfloatcolor[]              = "#d3869b";$/;"	v
+selfloatcolor	config.h	/^static char selfloatcolor[]              = "#d3869b";$/;"	v
 sellt	dwm.c	/^	unsigned int sellt;$/;"	m	struct:Monitor	file:
 sellts	patch/pertag.c	/^	unsigned int sellts[NUMTAGS + 1]; \/* selected layouts *\/$/;"	m	struct:Pertag	file:
 selmon	dwm.c	/^static Monitor *mons, *selmon;$/;"	v	file:
@@ -1459,6 +1653,7 @@ setclientstate	dwm.c	/^setclientstate(Client *c, long state)$/;"	f
 setcurrentdesktop	patch/bar_ewmhtags.c	/^setcurrentdesktop(void)$/;"	f
 setdesktopnames	patch/bar_ewmhtags.c	/^setdesktopnames(void)$/;"	f
 setflexsymbols	patch/layout_flextile-deluxe.c	/^setflexsymbols(Monitor *m, unsigned int n)$/;"	f	file:
+setfloatinghint	patch/bar_ewmhtags.c	/^setfloatinghint(Client *c)$/;"	f
 setfloatpos	patch/floatpos.c	/^setfloatpos(Client *c, const char *floatpos)$/;"	f
 setfocus	dwm.c	/^setfocus(Client *c)$/;"	f
 setfullscreen	dwm.c	/^setfullscreen(Client *c, int fullscreen)$/;"	f
@@ -1472,6 +1667,7 @@ setlayoutex	patch/dwmc.c	/^setlayoutex(const Arg *arg)$/;"	f
 setlayoutsafe	patch/ipc.c	/^setlayoutsafe(const Arg *arg)$/;"	f
 setmfact	dwm.c	/^setmfact(const Arg *arg)$/;"	f
 setnumdesktops	patch/bar_ewmhtags.c	/^setnumdesktops(void)$/;"	f
+setscratch	patch/scratchpad.c	/^setscratch(const Arg *arg)$/;"	f
 setstatus	patch/ipc.c	/^setstatus(const Arg *arg)$/;"	f
 setup	dwm.c	/^setup(void)$/;"	f
 setupepoll	patch/ipc.c	/^setupepoll(void)$/;"	f
@@ -1485,30 +1681,40 @@ sh	dwm.c	/^static int sw, sh;           \/* X display screen geometry width, hei
 shiftview	patch/shiftview.c	/^shiftview(const Arg *arg)$/;"	f
 shiftviewclients	patch/shiftviewclients.c	/^shiftviewclients(const Arg *arg)$/;"	f
 show	patch/bar_wintitleactions.c	/^show(Client *c)$/;"	f
-showbar	config.def.h	/^static const int		showbar			= 1;   \/* 0 means no bar *\/$/;"	v
-showbar	config.h	/^static const int		showbar			= 1;   \/* 0 means no bar *\/$/;"	v
+showbar	config.def.h	/^static const int showbar                 = 0;   \/* 0 means no bar *\/$/;"	v
+showbar	config.def.h	/^static const int showbar                 = 1;   \/* 0 means no bar *\/$/;"	v
+showbar	config.h	/^static const int showbar                 = 0;   \/* 0 means no bar *\/$/;"	v
+showbar	config.h	/^static const int showbar                 = 1;   \/* 0 means no bar *\/$/;"	v
 showbar	dwm.c	/^	int showbar;$/;"	m	struct:Bar	file:
 showbar	dwm.c	/^	int showbar;$/;"	m	struct:Monitor	file:
-showbar	dwm.c	/^	int showbar;$/;"	m	struct:__anon16	file:
+showbar	dwm.c	/^	int showbar;$/;"	m	struct:__anon19	file:
 showbars	patch/pertag.c	/^	int showbars[NUMTAGS + 1]; \/* display bar for the current tag *\/$/;"	m	struct:Pertag	file:
 showhide	dwm.c	/^showhide(Client *c)$/;"	f
 showhideclient	patch/bar_wintitleactions.c	/^showhideclient(const Arg *arg)$/;"	f
-showsystray	config.def.h	/^static const int		showsystray		= 1;   \/* 0 means no systray *\/$/;"	v
-showsystray	config.h	/^static const int		showsystray		= 1;   \/* 0 means no systray *\/$/;"	v
-sig	patch/dwmc.h	/^	const char * sig;$/;"	m	struct:__anon25
+showsystray	config.def.h	/^static const int showsystray             = 1;   \/* 0 means no systray *\/$/;"	v
+showsystray	config.h	/^static const int showsystray             = 1;   \/* 0 means no systray *\/$/;"	v
+sidepad	config.def.h	/^static const int sidepad                 = 10;  \/* horizontal padding of bar *\/$/;"	v
+sidepad	config.h	/^static const int sidepad                 = 10;  \/* horizontal padding of bar *\/$/;"	v
+sig	patch/dwmc.h	/^	const char * sig;$/;"	m	struct:__anon27
 sigchld	dwm.c	/^sigchld(int unused)$/;"	f
 sigdwmblocks	patch/bar_dwmblocks.c	/^sigdwmblocks(const Arg *arg)$/;"	f
 sighup	patch/restartsig.c	/^sighup(int unused)$/;"	f
 signal	patch/dwmc	/^signal() {$/;"	f
-signum	patch/fsignal.h	/^	unsigned int signum;$/;"	m	struct:__anon29
+signals	config.def.h	/^static Signal signals[] = {$/;"	v
+signals	config.h	/^static Signal signals[] = {$/;"	v
+signum	patch/fsignal.h	/^	unsigned int signum;$/;"	m	struct:__anon25
 sigterm	patch/restartsig.c	/^sigterm(int unused)$/;"	f
 single_param	patch/ipc/ipc.h	/^  void (*single_param)(const Arg *);$/;"	m	union:ArgFunction
 size	patch/ipc/dwm-msg.c	/^  uint32_t size;$/;"	m	struct:dwm_ipc_header	file:
 size	patch/ipc/ipc.h	/^  uint32_t size;$/;"	m	struct:dwm_ipc_header
-smartgaps	config.def.h	/^static int			smartgaps		= 1;   \/* 1 means no outer gap when there is only one window *\/$/;"	v
-smartgaps	config.h	/^static int			smartgaps		= 1;   \/* 1 means no outer gap when there is only one window *\/$/;"	v
-snap	config.def.h	/^static const unsigned int	snap			= 32;  \/* snap pixel *\/$/;"	v
-snap	config.h	/^static const unsigned int	snap			= 32;  \/* snap pixel *\/$/;"	v
+slopresizestyle	config.def.h	/^static const char slopresizestyle[]      = "-t 0 -c 0.92,0.85,0.69,0.3"; \/* do NOT define -f (format) here *\/$/;"	v
+slopresizestyle	config.h	/^static const char slopresizestyle[]      = "-t 0 -c 0.92,0.85,0.69,0.3"; \/* do NOT define -f (format) here *\/$/;"	v
+slopspawnstyle	config.def.h	/^static const char slopspawnstyle[]       = "-t 0 -c 0.92,0.85,0.69,0.3 -o"; \/* do NOT define -f (format) here *\/$/;"	v
+slopspawnstyle	config.h	/^static const char slopspawnstyle[]       = "-t 0 -c 0.92,0.85,0.69,0.3 -o"; \/* do NOT define -f (format) here *\/$/;"	v
+smartgaps	config.def.h	/^static const int smartgaps               = 0;   \/* 1 means no outer gap when there is only one window *\/$/;"	v
+smartgaps	config.h	/^static const int smartgaps               = 0;   \/* 1 means no outer gap when there is only one window *\/$/;"	v
+snap	config.def.h	/^static const unsigned int snap           = 32;  \/* snap pixel *\/$/;"	v
+snap	config.h	/^static const unsigned int snap           = 32;  \/* snap pixel *\/$/;"	v
 snext	dwm.c	/^	Client *snext;$/;"	m	struct:Client	file:
 sock_epoll_event	patch/ipc/ipc.c	/^static struct epoll_event sock_epoll_event;$/;"	v	typeref:struct:epoll_event	file:
 sock_fd	patch/ipc/dwm-msg.c	/^static int sock_fd = -1;$/;"	v	file:
@@ -1517,51 +1723,59 @@ sockaddr	patch/ipc/ipc.c	/^static struct sockaddr_un sockaddr;$/;"	v	typeref:str
 sortscreens	patch/sortscreens.c	/^sortscreens(XineramaScreenInfo *screens, int n)$/;"	f
 spawn	dwm.c	/^spawn(const Arg *arg)$/;"	f
 spawnbar	patch/bar_anybar.c	/^spawnbar()$/;"	f
-spcmd1	config.def.h	/^	const char *spcmd1[] = {"st", "-n", "spterm",	"-g", "120x34", 			NULL };$/;"	v
-spcmd1	config.h	/^	const char *spcmd1[] = {"st", "-n", "spterm",	"-g", "120x34", 			NULL };$/;"	v
-spcmd2	config.def.h	/^	const char *spcmd2[] = {"st", "-n", "spfm",	"-g", "144x41", "-e", "ranger", 	NULL };$/;"	v
-spcmd2	config.h	/^	const char *spcmd2[] = {"st", "-n", "spfm",	"-g", "144x41", "-e", "ranger", 	NULL };$/;"	v
-spcmd3	config.def.h	/^	const char *spcmd3[] = {"st", "-n", "spmocp",	"-g", "140x20", "-e", "mocp", 		NULL };$/;"	v
-spcmd3	config.h	/^	const char *spcmd3[] = {"st", "-n", "spmocp",	"-g", "140x20", "-e", "mocp", 		NULL };$/;"	v
-spcmd4	config.def.h	/^	const char *spcmd4[] = {"st", "-n", "stMENU",			"-e", "Launcher.sh", 	NULL };$/;"	v
-spcmd4	config.h	/^	const char *spcmd4[] = {"st", "-n", "stMENU",			"-e", "Launcher.sh", 	NULL };$/;"	v
-spcmd5	config.def.h	/^	const char *spcmd5[] = {"st", "-n", "stMAIL",	"-g", "200x50",	"-e", "neomutt", 	NULL };$/;"	v
-spcmd5	config.h	/^	const char *spcmd5[] = {"st", "-n", "stMAIL",	"-g", "200x50",	"-e", "neomutt", 	NULL };$/;"	v
+spawncmd	dwm.c	/^spawncmd(const Arg *arg)$/;"	f
+spcmd1	config.def.h	/^const char *spcmd1[] = {"st", "-n", "spterm", "-g", "120x34",                       NULL };$/;"	v
+spcmd1	config.h	/^const char *spcmd1[] = {"st", "-n", "spterm", "-g", "120x34",                       NULL };$/;"	v
+spcmd2	config.def.h	/^const char *spcmd2[] = {"st", "-n", "spfm",   "-g", "144x41", "-e", "ranger",       NULL };$/;"	v
+spcmd2	config.h	/^const char *spcmd2[] = {"st", "-n", "spfm",   "-g", "144x41", "-e", "ranger",       NULL };$/;"	v
+spcmd3	config.def.h	/^const char *spcmd3[] = {"st", "-n", "spmocp", "-g", "140x20", "-e", "mocp",         NULL };$/;"	v
+spcmd3	config.h	/^const char *spcmd3[] = {"st", "-n", "spmocp", "-g", "140x20", "-e", "mocp",         NULL };$/;"	v
+spcmd4	config.def.h	/^const char *spcmd4[] = {"st", "-n", "stMENU",                 "-e", "Launcher.sh",  NULL };$/;"	v
+spcmd4	config.h	/^const char *spcmd4[] = {"st", "-n", "stMENU",                 "-e", "Launcher.sh",  NULL };$/;"	v
+spcmd5	config.def.h	/^const char *spcmd5[] = {"st", "-n", "stMAIL", "-g", "200x50", "-e", "neomutt",      NULL };$/;"	v
+spcmd5	config.h	/^const char *spcmd5[] = {"st", "-n", "stMAIL", "-g", "200x50", "-e", "neomutt",      NULL };$/;"	v
 spiral	patch/layout_fibonacci.c	/^spiral(Monitor *m)$/;"	f	file:
 stack	dwm.c	/^	Client *stack;$/;"	m	struct:Monitor	file:
-stack1axis	dwm.c	/^	int stack1axis; \/\/ primary stack area$/;"	m	struct:__anon12	file:
-stack2axis	dwm.c	/^	int stack2axis; \/\/ secondary stack area, e.g. centered master$/;"	m	struct:__anon12	file:
+stack1axis	dwm.c	/^	int stack1axis; \/\/ primary stack area$/;"	m	struct:__anon15	file:
+stack2axis	dwm.c	/^	int stack2axis; \/\/ secondary stack area, e.g. centered master$/;"	m	struct:__anon15	file:
 stackpos	patch/stacker.c	/^stackpos(const Arg *arg)$/;"	f
 status2dtextlength	patch/bar_status2d.c	/^status2dtextlength(char* stext)$/;"	f
+statuscmd	config.def.h	/^static char *statuscmd[] = { "\/bin\/sh", "-c", NULL, NULL };$/;"	v
+statuscmd	config.h	/^static char *statuscmd[] = { "\/bin\/sh", "-c", NULL, NULL };$/;"	v
 statuscmdn	patch/bar_statuscmd.c	/^static int statuscmdn;$/;"	v	file:
+statuscmds	config.def.h	/^static const char *statuscmds[] = { "notify-send Mouse$BUTTON" };$/;"	v
+statuscmds	config.h	/^static const char *statuscmds[] = { "notify-send Mouse$BUTTON" };$/;"	v
+statuscolors	config.def.h	/^static char *statuscolors[][ColCount] = {$/;"	v
+statuscolors	config.h	/^static char *statuscolors[][ColCount] = {$/;"	v
 statusexport	patch/bar_statuscmd.c	/^static const char statusexport[] = "export BUTTON=-;";$/;"	v	file:
 statusscheme	patch/bar_powerline_status.c	/^static Clr **statusscheme;$/;"	v	file:
-statussep	config.def.h	/^static const char 		statussep		= ';'; \/* separator between status bars *\/$/;"	v
-statussep	config.h	/^static const char 		statussep		= ';'; \/* separator between status bars *\/$/;"	v
+statussep	config.def.h	/^static const char statussep              = ';'; \/* separator between status bars *\/$/;"	v
+statussep	config.h	/^static const char statussep              = ';'; \/* separator between status bars *\/$/;"	v
 stext	dwm.c	/^static char stext[1024];$/;"	v	file:
 stext	dwm.c	/^static char stext[512];$/;"	v	file:
 subscribe	patch/ipc/dwm-msg.c	/^subscribe(const char *event)$/;"	f	file:
 subscriptions	patch/ipc/IPCClient.h	/^  int subscriptions;$/;"	m	struct:IPCClient
 sw	dwm.c	/^static int sw, sh;           \/* X display screen geometry width, height *\/$/;"	v	file:
 swallow	patch/swallow.c	/^swallow(Client *p, Client *c)$/;"	f
-swallowfloating	config.def.h	/^static const int		swallowfloating		= 0;   \/* 1 means swallow floating windows by default *\/$/;"	v
-swallowfloating	config.h	/^static const int		swallowfloating		= 0;   \/* 1 means swallow floating windows by default *\/$/;"	v
+swallowfloating	config.def.h	/^static const int swallowfloating         = 0;   \/* 1 means swallow floating windows by default *\/$/;"	v
+swallowfloating	config.h	/^static const int swallowfloating         = 0;   \/* 1 means swallow floating windows by default *\/$/;"	v
 swallowing	dwm.c	/^	Client *swallowing;$/;"	m	struct:Client	file:
 swallowingclient	patch/swallow.c	/^swallowingclient(Window w)$/;"	f
 swapfocus	patch/swapfocus.c	/^swapfocus(const Arg *arg)$/;"	f
 swaptags	patch/swaptags.c	/^swaptags(const Arg *arg)$/;"	f
-switchcmd	config.h	/^static const char *switchcmd[]	= { "rofi", "-show", "window", "-icon-theme", "Breeze", "-show-icons", NULL};$/;"	v
+switchcmd	config.def.h	/^static const char	*switchcmd[]  = { "rofi", "-show", "window", "-icon-theme", "Breeze", "-show-icons", NULL};$/;"	v
+switchcmd	config.h	/^static const char	*switchcmd[]  = { "rofi", "-show", "window", "-icon-theme", "Breeze", "-show-icons", NULL};$/;"	v
 switchcol	patch/switchcol.c	/^switchcol(const Arg *arg)$/;"	f
-switchtag	dwm.c	/^	int switchtag;$/;"	m	struct:__anon15	file:
+switchtag	dwm.c	/^	int switchtag;$/;"	m	struct:__anon18	file:
 switchtag	dwm.c	/^	unsigned int switchtag;$/;"	m	struct:Client	file:
 switchtag	patch/bar_taggrid.c	/^switchtag(const Arg *arg)$/;"	f
-symbol	dwm.c	/^	const char *symbol;$/;"	m	struct:__anon13	file:
-symbolfunc	dwm.c	/^	void (*symbolfunc)(Monitor *, unsigned int);$/;"	m	struct:__anon12	file:
+symbol	dwm.c	/^	const char *symbol;$/;"	m	struct:__anon16	file:
+symbolfunc	dwm.c	/^	void (*symbolfunc)(Monitor *, unsigned int);$/;"	m	struct:__anon15	file:
 systray	patch/bar_systray.c	/^static Systray *systray = NULL;$/;"	v	file:
 systrayorientation	patch/bar_systray.c	/^static unsigned long systrayorientation = _NET_SYSTEM_TRAY_ORIENTATION_HORZ;$/;"	v	file:
-systrayspacing	config.def.h	/^static const unsigned int	systrayspacing		= 0;   \/* systray spacing *\/$/;"	v
-systrayspacing	config.h	/^static const unsigned int	systrayspacing		= 0;   \/* systray spacing *\/$/;"	v
-tag	dwm.c	/^	int tag;$/;"	m	struct:__anon16	file:
+systrayspacing	config.def.h	/^static const unsigned int systrayspacing = 0;   \/* systray spacing *\/$/;"	v
+systrayspacing	config.h	/^static const unsigned int systrayspacing = 0;   \/* systray spacing *\/$/;"	v
+tag	dwm.c	/^	int tag;$/;"	m	struct:__anon19	file:
 tag	dwm.c	/^tag(const Arg *arg)$/;"	f
 tagall	patch/tagall.c	/^tagall(const Arg *arg)$/;"	f
 tagallex	patch/dwmc.c	/^tagallex(const Arg *arg)$/;"	f
@@ -1572,39 +1786,43 @@ tagex	patch/dwmc.c	/^tagex(const Arg *arg)$/;"	f
 tagicon	patch/bar_tagicons.c	/^tagicon(Monitor *m, int tag)$/;"	f
 tagicons	config.def.h	/^static char *tagicons[][NUMTAGS] = {$/;"	v
 tagicons	config.h	/^static char *tagicons[][NUMTAGS] = {$/;"	v
-tagindicatortype	config.def.h	/^static int 			tagindicatortype	= INDICATOR_CLIENT_DOTS;$/;"	v
-tagindicatortype	config.h	/^static int 			tagindicatortype	= INDICATOR_CLIENT_DOTS;$/;"	v
+tagindicatortype	config.def.h	/^static int tagindicatortype              = INDICATOR_CLIENT_DOTS;$/;"	v
+tagindicatortype	config.h	/^static int tagindicatortype              = INDICATOR_CLIENT_DOTS;$/;"	v
 tagmon	dwm.c	/^tagmon(const Arg *arg)$/;"	f
 tagnextmon	patch/tagothermonitor.c	/^tagnextmon(const Arg *arg)$/;"	f
 tagnextmonex	patch/tagothermonitor.c	/^tagnextmonex(const Arg *arg)$/;"	f
 tagothermon	patch/tagothermonitor.c	/^tagothermon(const Arg *arg, int dir)$/;"	f
 tagprevmon	patch/tagothermonitor.c	/^tagprevmon(const Arg *arg)$/;"	f
 tagprevmonex	patch/tagothermonitor.c	/^tagprevmonex(const Arg *arg)$/;"	f
+tagrows	config.def.h	/^static const int tagrows = 2;$/;"	v
+tagrows	config.h	/^static const int tagrows = 2;$/;"	v
 tags	dwm.c	/^	unsigned int tags;$/;"	m	struct:Client	file:
-tags	dwm.c	/^	unsigned int tags;$/;"	m	struct:__anon15	file:
+tags	dwm.c	/^	unsigned int tags;$/;"	m	struct:__anon18	file:
 tagset	dwm.c	/^	unsigned int tagset[2];$/;"	m	struct:Monitor	file:
-tagsnormbgcolor	config.def.h	/^static char			tagsnormbgcolor[]	= "#222222"; \/* Tag unselected background colour *\/$/;"	v
-tagsnormbgcolor	config.h	/^static char			tagsnormbgcolor[]	= "#222222"; \/* Tag unselected background colour *\/$/;"	v
-tagsnormbordercolor	config.def.h	/^static char			tagsnormbordercolor[]	= "#FFFFFF"; \/* UNUSED ?? *\/$/;"	v
-tagsnormbordercolor	config.h	/^static char			tagsnormbordercolor[]	= "#FFFFFF"; \/* UNUSED ?? *\/$/;"	v
-tagsnormfgcolor	config.def.h	/^static char			tagsnormfgcolor[]	= "#BBBBBB"; \/* Tag unselected text colour *\/$/;"	v
-tagsnormfgcolor	config.h	/^static char			tagsnormfgcolor[]	= "#BBBBBB"; \/* Tag unselected text colour *\/$/;"	v
-tagsnormfloatcolor	config.def.h	/^static char			tagsnormfloatcolor[]	= "#FFFFFF"; \/* UNUSED ?? *\/$/;"	v
-tagsnormfloatcolor	config.h	/^static char			tagsnormfloatcolor[]	= "#FFFFFF"; \/* UNUSED ?? *\/$/;"	v
-tagsselbgcolor	config.def.h	/^static char			tagsselbgcolor[]	= "#007722"; \/* Tag selected background colour *\/$/;"	v
-tagsselbgcolor	config.h	/^static char			tagsselbgcolor[]	= "#007722"; \/* Tag selected background colour *\/$/;"	v
-tagsselbordercolor	config.def.h	/^static char			tagsselbordercolor[]	= "#FFFFFF"; \/* UNUSED ?? *\/$/;"	v
-tagsselbordercolor	config.h	/^static char			tagsselbordercolor[]	= "#FFFFFF"; \/* UNUSED ?? *\/$/;"	v
-tagsselfgcolor	config.def.h	/^static char			tagsselfgcolor[]	= "#EEEEEE"; \/* Tag selected tect colour *\/$/;"	v
-tagsselfgcolor	config.h	/^static char			tagsselfgcolor[]	= "#EEEEEE"; \/* Tag selected tect colour *\/$/;"	v
-tagsselfloatcolor	config.def.h	/^static char			tagsselfloatcolor[]	= "#FFFFFF"; \/* UNUSED ?? *\/$/;"	v
-tagsselfloatcolor	config.h	/^static char			tagsselfloatcolor[]	= "#FFFFFF"; \/* UNUSED ?? *\/$/;"	v
+tagsnormbgcolor	config.def.h	/^static char tagsnormbgcolor[]            = "#504945";$/;"	v
+tagsnormbgcolor	config.h	/^static char tagsnormbgcolor[]            = "#504945";$/;"	v
+tagsnormbordercolor	config.def.h	/^static char tagsnormbordercolor[]        = "#ffffff";$/;"	v
+tagsnormbordercolor	config.h	/^static char tagsnormbordercolor[]        = "#ffffff";$/;"	v
+tagsnormfgcolor	config.def.h	/^static char tagsnormfgcolor[]            = "#d5c4a1";$/;"	v
+tagsnormfgcolor	config.h	/^static char tagsnormfgcolor[]            = "#d5c4a1";$/;"	v
+tagsnormfloatcolor	config.def.h	/^static char tagsnormfloatcolor[]         = "#ffffff";$/;"	v
+tagsnormfloatcolor	config.h	/^static char tagsnormfloatcolor[]         = "#ffffff";$/;"	v
+tagsselbgcolor	config.def.h	/^static char tagsselbgcolor[]             = "#98971a";$/;"	v
+tagsselbgcolor	config.h	/^static char tagsselbgcolor[]             = "#98971a";$/;"	v
+tagsselbordercolor	config.def.h	/^static char tagsselbordercolor[]         = "#ffffff";$/;"	v
+tagsselbordercolor	config.h	/^static char tagsselbordercolor[]         = "#ffffff";$/;"	v
+tagsselfgcolor	config.def.h	/^static char tagsselfgcolor[]             = "#ebdbb2";$/;"	v
+tagsselfgcolor	config.h	/^static char tagsselfgcolor[]             = "#ebdbb2";$/;"	v
+tagsselfloatcolor	config.def.h	/^static char tagsselfloatcolor[]          = "#ffffff";$/;"	v
+tagsselfloatcolor	config.h	/^static char tagsselfloatcolor[]          = "#ffffff";$/;"	v
 tagstate	dwm.c	/^	TagState tagstate;$/;"	m	struct:Monitor	file:
 tagswapmon	patch/tagswapmon.c	/^tagswapmon(const Arg *arg)$/;"	f
 tagtoleft	patch/focusadjacenttag.c	/^tagtoleft(const Arg *arg)$/;"	f
 tagtoright	patch/focusadjacenttag.c	/^tagtoright(const Arg *arg)$/;"	f
-termcmd	config.def.h	/^static const char *termcmd[]	= { "st", NULL };$/;"	v
-termcmd	config.h	/^static const char *termcmd[]	= { "st", NULL };$/;"	v
+tasktuicmd	config.def.h	/^static const char *tasktuicmd[] = {"st", "-e", "taskwarrior-tui", NULL};$/;"	v
+tasktuicmd	config.h	/^static const char *tasktuicmd[] = {"st", "-e", "taskwarrior-tui", NULL};$/;"	v
+termcmd	config.def.h	/^static const char *termcmd[]  = { "st", NULL };$/;"	v
+termcmd	config.h	/^static const char *termcmd[]  = { "st", NULL };$/;"	v
 termcol0	patch/bar_status2d.c	/^static char termcol0[]  = "#000000"; \/* black   *\/$/;"	v	file:
 termcol1	patch/bar_status2d.c	/^static char termcol1[]  = "#ff0000"; \/* red     *\/$/;"	v	file:
 termcol10	patch/bar_status2d.c	/^static char termcol10[] = "#33ff00"; \/* green   *\/$/;"	v	file:
@@ -1625,24 +1843,30 @@ termcolor	patch/bar_status2d.c	/^static char *termcolor[] = {$/;"	v	file:
 termforwin	patch/swallow.c	/^termforwin(const Client *w)$/;"	f
 textw_wosc	patch/bar_statuscolors.c	/^textw_wosc(char *s)$/;"	f
 tile	patch/layout_tile.c	/^tile(Monitor *m)$/;"	f	file:
+tiledindicatortype	config.def.h	/^static int tiledindicatortype            = INDICATOR_NONE;$/;"	v
+tiledindicatortype	config.h	/^static int tiledindicatortype            = INDICATOR_NONE;$/;"	v
 tilesymb	patch/layout_flextile-deluxe.h	/^static char tilesymb[] = {$/;"	v
-title	dwm.c	/^	const char *title;$/;"	m	struct:__anon15	file:
-titlenormbgcolor	config.def.h	/^static char			titlenormbgcolor[]	= "#132613"; \/* Background of unselected window title *\/$/;"	v
-titlenormbgcolor	config.h	/^static char			titlenormbgcolor[]	= "#132613"; \/* Background of unselected window title *\/$/;"	v
-titlenormbordercolor	config.def.h	/^static char			titlenormbordercolor[]	= "#ffffff"; \/* UNUSED ?? *\/$/;"	v
-titlenormbordercolor	config.h	/^static char			titlenormbordercolor[]	= "#ffffff"; \/* UNUSED ?? *\/$/;"	v
-titlenormfgcolor	config.def.h	/^static char			titlenormfgcolor[]	= "#EEEEEE"; \/* Foreground of unselected window title *\/$/;"	v
-titlenormfgcolor	config.h	/^static char			titlenormfgcolor[]	= "#EEEEEE"; \/* Foreground of unselected window title *\/$/;"	v
-titlenormfloatcolor	config.def.h	/^static char			titlenormfloatcolor[]	= "#ffffff"; \/* UNUSED ?? *\/$/;"	v
-titlenormfloatcolor	config.h	/^static char			titlenormfloatcolor[]	= "#ffffff"; \/* UNUSED ?? *\/$/;"	v
-titleselbgcolor	config.def.h	/^static char			titleselbgcolor[]	= "#007722"; \/* Backgroud of selected window title *\/$/;"	v
-titleselbgcolor	config.h	/^static char			titleselbgcolor[]	= "#007722"; \/* Backgroud of selected window title *\/$/;"	v
-titleselbordercolor	config.def.h	/^static char			titleselbordercolor[]	= "#FFFFFF"; \/* UNUSED ?? *\/$/;"	v
-titleselbordercolor	config.h	/^static char			titleselbordercolor[]	= "#FFFFFF"; \/* UNUSED ?? *\/$/;"	v
-titleselfgcolor	config.def.h	/^static char			titleselfgcolor[]	= "#EEEEEE"; \/* Foreground of selected window title *\/$/;"	v
-titleselfgcolor	config.h	/^static char			titleselfgcolor[]	= "#EEEEEE"; \/* Foreground of selected window title *\/$/;"	v
-titleselfloatcolor	config.def.h	/^static char			titleselfloatcolor[]	= "#FFFFFF"; \/* UNUSED ?? *\/$/;"	v
-titleselfloatcolor	config.h	/^static char			titleselfloatcolor[]	= "#FFFFFF"; \/* UNUSED ?? *\/$/;"	v
+title	dwm.c	/^	const char *title;$/;"	m	struct:__anon18	file:
+title_bg_dark	config.def.h	/^static const char title_bg_dark[]   = "#303030";$/;"	v
+title_bg_dark	config.h	/^static const char title_bg_dark[]   = "#303030";$/;"	v
+title_bg_light	config.def.h	/^static const char title_bg_light[]  = "#fdfdfd";$/;"	v
+title_bg_light	config.h	/^static const char title_bg_light[]  = "#fdfdfd";$/;"	v
+titlenormbgcolor	config.def.h	/^static char titlenormbgcolor[]           = "#282828";$/;"	v
+titlenormbgcolor	config.h	/^static char titlenormbgcolor[]           = "#282828";$/;"	v
+titlenormbordercolor	config.def.h	/^static char titlenormbordercolor[]       = "#ffffff";$/;"	v
+titlenormbordercolor	config.h	/^static char titlenormbordercolor[]       = "#ffffff";$/;"	v
+titlenormfgcolor	config.def.h	/^static char titlenormfgcolor[]           = "#ebdbb2";$/;"	v
+titlenormfgcolor	config.h	/^static char titlenormfgcolor[]           = "#ebdbb2";$/;"	v
+titlenormfloatcolor	config.def.h	/^static char titlenormfloatcolor[]        = "#ffffff";$/;"	v
+titlenormfloatcolor	config.h	/^static char titlenormfloatcolor[]        = "#ffffff";$/;"	v
+titleselbgcolor	config.def.h	/^static char titleselbgcolor[]            = "#d5c4a1";$/;"	v
+titleselbgcolor	config.h	/^static char titleselbgcolor[]            = "#d5c4a1";$/;"	v
+titleselbordercolor	config.def.h	/^static char titleselbordercolor[]        = "#ffffff";$/;"	v
+titleselbordercolor	config.h	/^static char titleselbordercolor[]        = "#ffffff";$/;"	v
+titleselfgcolor	config.def.h	/^static char titleselfgcolor[]            = "#282828";$/;"	v
+titleselfgcolor	config.h	/^static char titleselfgcolor[]            = "#282828";$/;"	v
+titleselfloatcolor	config.def.h	/^static char titleselfloatcolor[]         = "#ffffff";$/;"	v
+titleselfloatcolor	config.h	/^static char titleselfloatcolor[]         = "#ffffff";$/;"	v
 togglealttag	patch/bar_alternativetags.c	/^togglealttag()$/;"	f
 togglebar	dwm.c	/^togglebar(const Arg *arg)$/;"	f
 togglefakefullscreen	patch/fakefullscreenclient.c	/^togglefakefullscreen(const Arg *arg)$/;"	f
@@ -1663,16 +1887,16 @@ toggleverticalmax	patch/maximize.c	/^toggleverticalmax(const Arg *arg)$/;"	f
 toggleview	dwm.c	/^toggleview(const Arg *arg)$/;"	f
 toggleviewex	patch/dwmc.c	/^toggleviewex(const Arg *arg)$/;"	f
 togglewin	patch/bar_wintitleactions.c	/^togglewin(const Arg *arg)$/;"	f
-topbar	config.def.h	/^static const int		topbar			= 1;   \/* 0 means bottom bar *\/$/;"	v
-topbar	config.h	/^static const int		topbar			= 1;   \/* 0 means bottom bar *\/$/;"	v
+topbar	config.def.h	/^static const int topbar                  = 1;   \/* 0 means bottom bar *\/$/;"	v
+topbar	config.h	/^static const int topbar                  = 1;   \/* 0 means bottom bar *\/$/;"	v
 topbar	dwm.c	/^	int topbar;$/;"	m	struct:Bar	file:
-topbar	dwm.c	/^	int topbar;$/;"	m	struct:__anon16	file:
+topbar	dwm.c	/^	int topbar;$/;"	m	struct:__anon19	file:
 transcheme	drw.c	/^Clr transcheme[3];$/;"	v
 transfer	patch/transfer.c	/^transfer(const Arg *arg)$/;"	f
 transferall	patch/transferall.c	/^transferall(const Arg *arg)$/;"	f
 type	patch/ipc/dwm-msg.c	/^  uint8_t type;$/;"	m	struct:dwm_ipc_header	file:
 type	patch/ipc/ipc.h	/^  uint8_t type;$/;"	m	struct:dwm_ipc_header
-ui	dwm.c	/^	unsigned long ui;$/;"	m	union:__anon7	file:
+ui	dwm.c	/^	unsigned long ui;$/;"	m	union:__anon10	file:
 unfloatvisible	patch/unfloatvisible.c	/^unfloatvisible(const Arg *arg)$/;"	f
 unfocus	dwm.c	/^unfocus(Client *c, int setfocus, Client *nextfocus)$/;"	f
 unmanage	dwm.c	/^unmanage(Client *c, int destroyed)$/;"	f
@@ -1693,16 +1917,18 @@ updatesystrayicongeom	patch/bar_systray.c	/^updatesystrayicongeom(Client *i, int
 updatesystrayiconstate	patch/bar_systray.c	/^updatesystrayiconstate(Client *i, XPropertyEvent *ev)$/;"	f
 updatetitle	dwm.c	/^updatetitle(Client *c)$/;"	f
 updatewmhints	dwm.c	/^updatewmhints(Client *c)$/;"	f
-urgbgcolor	config.def.h	/^static char			urgbgcolor[]		= "#FF7000"; \/* Urgent Tag Background colour *\/$/;"	v
-urgbgcolor	config.h	/^static char			urgbgcolor[]		= "#FF7000"; \/* Urgent Tag Background colour *\/$/;"	v
-urgbordercolor	config.def.h	/^static char			urgbordercolor[]	= "#FF7000"; \/* urgent window border colour *\/$/;"	v
-urgbordercolor	config.h	/^static char			urgbordercolor[]	= "#FF7000"; \/* urgent window border colour *\/$/;"	v
+urgbgcolor	config.def.h	/^static char urgbgcolor[]                 = "#fe8019";$/;"	v
+urgbgcolor	config.h	/^static char urgbgcolor[]                 = "#fe8019";$/;"	v
+urgbordercolor	config.def.h	/^static char urgbordercolor[]             = "#fe8019";$/;"	v
+urgbordercolor	config.h	/^static char urgbordercolor[]             = "#fe8019";$/;"	v
 urgent	dwm.c	/^       int urgent;$/;"	m	struct:TagState	file:
-urgfgcolor	config.def.h	/^static char			urgfgcolor[]		= "#FFFFFF"; \/* Urgent Tag Foreground colour *\/$/;"	v
-urgfgcolor	config.h	/^static char			urgfgcolor[]		= "#FFFFFF"; \/* Urgent Tag Foreground colour *\/$/;"	v
-urgfloatcolor	config.def.h	/^static char			urgfloatcolor[]		= "#FF7070"; \/* urgent FLOATING window border colour *\/$/;"	v
-urgfloatcolor	config.h	/^static char			urgfloatcolor[]		= "#FF7070"; \/* urgent FLOATING window border colour *\/$/;"	v
+urgfgcolor	config.def.h	/^static char urgfgcolor[]                 = "#ffffff";$/;"	v
+urgfgcolor	config.h	/^static char urgfgcolor[]                 = "#ffffff";$/;"	v
+urgfloatcolor	config.def.h	/^static char urgfloatcolor[]              = "#d65d0e";$/;"	v
+urgfloatcolor	config.h	/^static char urgfloatcolor[]              = "#d65d0e";$/;"	v
 usage_error	patch/ipc/dwm-msg.c	/^usage_error(const char *prog_name, const char *format, ...)$/;"	f	file:
+usealtbar	config.def.h	/^static const int usealtbar               = 1;        \/* 1 means use non-dwm status bar *\/$/;"	v
+usealtbar	config.h	/^static const int usealtbar               = 1;        \/* 1 means use non-dwm status bar *\/$/;"	v
 useargb	patch/bar_alpha.c	/^static int useargb = 0;$/;"	v	file:
 utf8decode	drw.c	/^utf8decode(const char *c, long *u, size_t clen)$/;"	f	file:
 utf8decodebyte	drw.c	/^utf8decodebyte(const char c, size_t *i)$/;"	f	file:
@@ -1711,19 +1937,23 @@ utfbyte	drw.c	/^static const unsigned char utfbyte[UTF_SIZ + 1] = {0x80,    0, 0
 utfmask	drw.c	/^static const unsigned char utfmask[UTF_SIZ + 1] = {0xC0, 0x80, 0xE0, 0xF0, 0xF8};$/;"	v	file:
 utfmax	drw.c	/^static const long utfmax[UTF_SIZ + 1] = {0x10FFFF, 0x7F, 0x7FF, 0xFFFF, 0x10FFFF};$/;"	v	file:
 utfmin	drw.c	/^static const long utfmin[UTF_SIZ + 1] = {       0,    0,  0x80,  0x800,  0x10000};$/;"	v	file:
-v	dwm.c	/^	const void *v;$/;"	m	union:__anon7	file:
+v	dwm.c	/^	const void *v;$/;"	m	union:__anon10	file:
+vertpad	config.def.h	/^static const int vertpad                 = 10;  \/* vertical padding of bar *\/$/;"	v
+vertpad	config.h	/^static const int vertpad                 = 10;  \/* vertical padding of bar *\/$/;"	v
+vertpadbar	config.def.h	/^static const int vertpadbar              = 0;   \/* vertical padding for statusbar *\/$/;"	v
+vertpadbar	config.h	/^static const int vertpadbar              = 0;   \/* vertical padding for statusbar *\/$/;"	v
 view	dwm.c	/^view(const Arg *arg)$/;"	f
 viewallex	patch/dwmc.c	/^viewallex(const Arg *arg)$/;"	f
 viewex	patch/dwmc.c	/^viewex(const Arg *arg)$/;"	f
 viewtoleft	patch/focusadjacenttag.c	/^viewtoleft(const Arg *arg)$/;"	f
 viewtoright	patch/focusadjacenttag.c	/^viewtoright(const Arg *arg)$/;"	f
-visual	drw.h	/^	Visual *visual;$/;"	m	struct:__anon34
+visual	drw.h	/^	Visual *visual;$/;"	m	struct:__anon3
 visual	patch/bar_alpha.c	/^static Visual *visual;$/;"	v	file:
-w	drw.h	/^	unsigned int w, h;$/;"	m	struct:__anon34
-w	dwm.c	/^	int w;$/;"	m	struct:__anon14	file:
-w	dwm.c	/^	int w;$/;"	m	struct:__anon8	file:
+w	drw.h	/^	unsigned int w, h;$/;"	m	struct:__anon3
+w	dwm.c	/^	int w;$/;"	m	struct:__anon11	file:
+w	dwm.c	/^	int w;$/;"	m	struct:__anon17	file:
 w	dwm.c	/^	int w[BARRULES]; \/\/ width, array length == barrules, then use r index for lookup purposes$/;"	m	struct:Bar	file:
-w	dwm.c	/^	int x, w; \/\/ position, width for internal use$/;"	m	struct:__anon9	file:
+w	dwm.c	/^	int x, w; \/\/ position, width for internal use$/;"	m	struct:__anon12	file:
 w	dwm.c	/^	int x, y, w, h;$/;"	m	struct:Client	file:
 warp	patch/warp.c	/^warp(const Client *c)$/;"	f
 wasfloating	dwm.c	/^	int ismax, wasfloating;$/;"	m	struct:Client	file:
@@ -1748,7 +1978,7 @@ width_tags	patch/bar_tags.c	/^width_tags(Bar *bar, BarArg *a)$/;"	f
 width_wintitle	patch/bar_wintitle.c	/^width_wintitle(Bar *bar, BarArg *a)$/;"	f
 width_wintitle_floating	patch/bar_wintitle_floating.c	/^width_wintitle_floating(Bar *bar, BarArg *a)$/;"	f
 width_wintitle_hidden	patch/bar_wintitle_hidden.c	/^width_wintitle_hidden(Bar *bar, BarArg *a)$/;"	f
-widthfunc	dwm.c	/^	int (*widthfunc)(Bar *bar, BarArg *a);$/;"	m	struct:__anon9	file:
+widthfunc	dwm.c	/^	int (*widthfunc)(Bar *bar, BarArg *a);$/;"	m	struct:__anon12	file:
 widthpowerlinestatus	patch/bar_powerline_status.c	/^widthpowerlinestatus(char *stext)$/;"	f
 win	dwm.c	/^	Window win;$/;"	m	struct:Bar	file:
 win	dwm.c	/^	Window win;$/;"	m	struct:Client	file:
@@ -1757,7 +1987,7 @@ winpid	patch/swallow.c	/^winpid(Window w)$/;"	f
 wintoclient	dwm.c	/^wintoclient(Window w)$/;"	f
 wintomon	dwm.c	/^wintomon(Window w)$/;"	f
 wintosystrayicon	patch/bar_systray.c	/^wintosystrayicon(Window w)$/;"	f
-wintype	dwm.c	/^	const char *wintype;$/;"	m	struct:__anon15	file:
+wintype	dwm.c	/^	const char *wintype;$/;"	m	struct:__anon18	file:
 winview	patch/winview.c	/^winview(const Arg* arg)$/;"	f
 wmatom	dwm.c	/^static Atom wmatom[WMLast], netatom[NetLast], xatom[XLast];$/;"	v	file:
 wmatom	dwm.c	/^static Atom wmatom[WMLast], netatom[NetLast];$/;"	v	file:
@@ -1767,10 +1997,10 @@ write_socket	patch/ipc/dwm-msg.c	/^write_socket(const void *buf, size_t count)$/
 ww	dwm.c	/^	int wx, wy, ww, wh;   \/* window area  *\/$/;"	m	struct:Monitor	file:
 wx	dwm.c	/^	int wx, wy, ww, wh;   \/* window area  *\/$/;"	m	struct:Monitor	file:
 wy	dwm.c	/^	int wx, wy, ww, wh;   \/* window area  *\/$/;"	m	struct:Monitor	file:
-x	dwm.c	/^	int x, w; \/\/ position, width for internal use$/;"	m	struct:__anon9	file:
+x	dwm.c	/^	int x, w; \/\/ position, width for internal use$/;"	m	struct:__anon12	file:
 x	dwm.c	/^	int x, y, w, h;$/;"	m	struct:Client	file:
-x	dwm.c	/^	int x;$/;"	m	struct:__anon14	file:
-x	dwm.c	/^	int x;$/;"	m	struct:__anon8	file:
+x	dwm.c	/^	int x;$/;"	m	struct:__anon11	file:
+x	dwm.c	/^	int x;$/;"	m	struct:__anon17	file:
 x	dwm.c	/^	int x[BARRULES]; \/\/ x position, array length == ^$/;"	m	struct:Bar	file:
 xatom	dwm.c	/^static Atom wmatom[WMLast], netatom[NetLast], xatom[XLast];$/;"	v	file:
 xcon	patch/swallow.c	/^static xcb_connection_t *xcon;$/;"	v	file:
@@ -1785,6 +2015,6 @@ xfont_free	drw.c	/^xfont_free(Fnt *font)$/;"	f	file:
 xinitvisual	patch/bar_alpha.c	/^xinitvisual()$/;"	f
 xrdb	patch/xrdb.c	/^xrdb(const Arg *arg)$/;"	f
 y	dwm.c	/^	int x, y, w, h;$/;"	m	struct:Client	file:
-y	dwm.c	/^	int y;$/;"	m	struct:__anon14	file:
-y	dwm.c	/^	int y;$/;"	m	struct:__anon8	file:
+y	dwm.c	/^	int y;$/;"	m	struct:__anon11	file:
+y	dwm.c	/^	int y;$/;"	m	struct:__anon17	file:
 zoom	dwm.c	/^zoom(const Arg *arg)$/;"	f
