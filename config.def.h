@@ -410,7 +410,7 @@ static const Rule rules[] = {
   RULE(.wintype = WTYPE "SPLASH"	FLOATING)
 
   RULE(.class = "Gimp",			.tags = 1 << 4 )
-  RULE(.class = "st-256color"		TERMINAL)
+  RULE(.class = "st-256color"		TERMINAL NOSWALLOW)
   RULE(.class = "Google-chrome",	.tags = 1 << 1 )
   RULE(.class = "discord",		.tags = 1 << 6 )
   RULE(.class = "qBittorrent",	.tags = 1 << 8 )
