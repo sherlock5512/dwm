@@ -2,7 +2,7 @@
 
 /* appearance */
 #if ROUNDED_CORNERS_PATCH
-static const unsigned int borderpx       = 3;   /* border pixel of windows */
+static const unsigned int borderpx       = 1;   /* border pixel of windows */
 static const int corner_radius           = 10;
 #else
 static const unsigned int borderpx       = 3;   /* border pixel of windows */
@@ -412,6 +412,7 @@ static const Rule rules[] = {
   RULE(.class = "Gimp",			.tags = 1 << 4 )
   RULE(.class = "st-256color"		TERMINAL NOSWALLOW)
   RULE(.class = "Google-chrome",	.tags = 1 << 1 )
+  RULE(.class = "Microsoft-edge-dev",	.tags = 1 << 1 )
   RULE(.class = "discord",		.tags = 1 << 6 )
   RULE(.class = "qBittorrent",	.tags = 1 << 8 )
   RULE(.class = "Tor Browser",	.tags = 1 << 1 )
@@ -781,7 +782,6 @@ static Key on_empty_keys[] = {
 };
 #endif // ON_EMPTY_KEYS_PATCH
 
-#include <X11/XF86keysym.h>
 static Key keys[] = {
   /* modifier                     key            function                argument */
 #if KEYMODES_PATCH
@@ -1135,17 +1135,17 @@ static Key keys[] = {
     { MODKEY,                       XK_F2,         mpdchange,              {.i = +1} },
     { MODKEY,                       XK_Escape,     mpdcontrol,             {0} },
 #endif // MPDCONTROL_PATCH 
-    { Mod4Mask,                     XK_l,         spawn,                   {.v = lockcmd } },
-    { Mod4Mask,                     XK_period,    spawn,                   SHCMD("dmenuunicode") },
-    { MODKEY,                       XK_r,         spawn,                   {.v = rangercmd}},
-    { Mod4Mask,                     XK_v,         spawn,                   SHCMD("videoDownload") },
-    { MODKEY,                       XK_slash,     spawn,                   SHCMD("dmenuman") },
-    { MODKEY,                       XK_e,         spawn,                   SHCMD("deopkg") },
-    { 0,                            XK_Print,     spawn,                   SHCMD("PrtScrn FullScreen")},
-    { ShiftMask,                    XK_Print,     spawn,                   SHCMD("PrtScrn Sel")},
-    { MODKEY,                       XK_Print,     spawn,                   SHCMD("PrtScrn CurWinNow")},
-    { ControlMask,                  XK_Print,     spawn,                   SHCMD("PrtScrn CurWin")},
-    { Mod4Mask,                     XK_t,         spawn,                   {.v = tasktuicmd}},
+    //{ Mod4Mask,                     XK_l,         spawn,                   {.v = lockcmd } },
+    //{ Mod4Mask,                     XK_period,    spawn,                   SHCMD("dmenuunicode") },
+    //{ MODKEY,                       XK_r,         spawn,                   {.v = rangercmd}},
+    //{ Mod4Mask,                     XK_v,         spawn,                   SHCMD("videoDownload") },
+    //{ MODKEY,                       XK_slash,     spawn,                   SHCMD("dmenuman") },
+    //{ MODKEY,                       XK_e,         spawn,                   SHCMD("deopkg") },
+    //{ 0,                            XK_Print,     spawn,                   SHCMD("PrtScrn FullScreen")},
+    //{ ShiftMask,                    XK_Print,     spawn,                   SHCMD("PrtScrn Sel")},
+    //{ MODKEY,                       XK_Print,     spawn,                   SHCMD("PrtScrn CurWinNow")},
+    //{ ControlMask,                  XK_Print,     spawn,                   SHCMD("PrtScrn CurWin")},
+    //{ Mod4Mask,                     XK_t,         spawn,                   {.v = tasktuicmd}},
     TAGKEYS(                        XK_1,                                  0)
     TAGKEYS(                        XK_2,                                  1)
     TAGKEYS(                        XK_3,                                  2)
@@ -1159,13 +1159,13 @@ static Key keys[] = {
     
     /* XF86XK bindings */
     /*    KEY                       FUNC      ARGS*/
-    { 0,  XF86XK_AudioMute,         spawn,    SHCMD("pamixer -t; kill -44 $(pidof dwmblocks)") },
-    { 0,  XF86XK_AudioRaiseVolume,  spawn,    SHCMD("pamixer --allow-boost -i 1; kill -44 $(pidof dwmblocks)")},
-    { 0,  XF86XK_AudioLowerVolume,  spawn,    SHCMD("pamixer --allow-boost -d 1; kill -44 $(pidof dwmblocks)")},
-    { 0,  XF86XK_MonBrightnessDown, spawn,    SHCMD("xbacklight -dec 5")},
-    { 0,  XF86XK_MonBrightnessUp,   spawn,    SHCMD("xbacklight -inc 5")},
-    { 0,  XF86XK_Display,           spawn,    SHCMD("displayselect") },
-    { 0,  XF86XK_LaunchA,           spawn,    SHCMD("sysact")},
+    //{ 0,  XF86XK_AudioMute,         spawn,    SHCMD("pamixer -t; kill -44 $(pidof dwmblocks)") },
+    //{ 0,  XF86XK_AudioRaiseVolume,  spawn,    SHCMD("pamixer --allow-boost -i 1; kill -44 $(pidof dwmblocks)")},
+    //{ 0,  XF86XK_AudioLowerVolume,  spawn,    SHCMD("pamixer --allow-boost -d 1; kill -44 $(pidof dwmblocks)")},
+    //{ 0,  XF86XK_MonBrightnessDown, spawn,    SHCMD("xbacklight -dec 5")},
+    //{ 0,  XF86XK_MonBrightnessUp,   spawn,    SHCMD("xbacklight -inc 5")},
+    //{ 0,  XF86XK_Display,           spawn,    SHCMD("displayselect") },
+    //{ 0,  XF86XK_LaunchA,           spawn,    SHCMD("sysact")},
      /*TODO: ADD MUSIC SUPPORT (USE SCRIPT TO ALLOW FOR ALL EVENTUALITIES (MAYBE ALSO MPRIS))*/
 };
 
