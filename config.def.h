@@ -320,7 +320,7 @@ static const char *const autostart[] = {
 #endif // COOL_AUTOSTART_PATCH
 
 #if SCRATCHPADS_PATCH
-const char *spcmd1[] = {"st", "-n", "spterm", "-g", "120x34",                       NULL };
+const char *spcmd1[] = {"st", "-n", "spterm", "-g", "120x34", "-e", "scratchmux",   NULL };
 const char *spcmd2[] = {"st", "-n", "spfm",   "-g", "144x41", "-e", "ranger",       NULL };
 const char *spcmd3[] = {"st", "-n", "stMAIL", "-g", "200x50", "-e", "neomutt",      NULL };
 
@@ -414,8 +414,10 @@ static const Rule rules[] = {
   RULE(.class = "Google-chrome",	.tags = 1 << 1 )
   RULE(.class = "Microsoft-edge-dev",	.tags = 1 << 1 )
   RULE(.class = "discord",		.tags = 1 << 6 )
-  RULE(.class = "qBittorrent",	.tags = 1 << 8 )
-  RULE(.class = "Tor Browser",	.tags = 1 << 1 )
+  RULE(.class = "Element",              .tags = 1 << 6 )
+  RULE(.class = "Spotify",              .tags = 1 << 7 )
+  RULE(.class = "qBittorrent",	        .tags = 1 << 8 )
+  RULE(.class = "Tor Browser",	        .tags = 1 << 1 )
 
   RULE(.instance = "SoulseekQt",	.tags = 1 << 8)
 #if SCRATCHPADS_PATCH
